@@ -32,11 +32,17 @@ module TwitchPraise
       !stream_data['stream'].nil?
     end
 
-    def get_top3(channel_name)
+    def get_top3_of_channel(channel_name)
       twitch_url = twitch_api_path('/clips/top?channel=' + channel_name + '&limit=3')
       streamer_data = call_twitch_url(twitch_url).parse
       # TODO: check data is valid or not.
       3.times { |i| puts streamer_data['clips'][i]['url'] }
+    end
+
+    def get_top3_of_game(game_name)
+      twitch_url = twitch_api_path('search/streams?query=' + game_name)
+      streams_data = call_twitch_url(twitch_url).parse
+      3.times { |i| puts streams_data['streams'][i]['channel']['url'] }
     end
 
     private
