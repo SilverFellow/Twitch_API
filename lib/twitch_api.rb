@@ -1,8 +1,8 @@
-# frozen_string_literal: false
-
 require 'http'
+require_relative 'clip.rb'
+require_relative 'game.rb'
 
-module TwitchPraise
+module Twitch
   # Library for Twitch API
   class TwitchAPI
     module Errors
@@ -20,29 +20,40 @@ module TwitchPraise
       @cache = cache
     end
 
-    def live?(channel_name)
-      twitch_url = twitch_api_path('users?login=' + channel_name)
-      streamer_data = call_twitch_url(twitch_url).parse
-      # TODO: check data is valid or not.
-      id = streamer_data['users'][0]['_id']
+    def user_exist?(name)
+      twitch_url = twitch_api_path('users?login=' + name)
+      temp_data = call_twitch_url(twitch_url).parse
+      temp_data['_total'] > 0
+    end
 
+    def live?(name)
+      twitch_url = twitch_api_path('users?login=' + name)
+      streamer_data = call_twitch_url(twitch_url).parse
+      if streamer_data['_total'].zero?
+        # raise ArgumentError.new("User does not exist!")
+        puts 'User does not exist!'
+        return
+      end
+
+      id = streamer_data['users'][0]['_id']
       twitch_url = twitch_api_path('streams/' + id)
       stream_data = call_twitch_url(twitch_url).parse
 
       !stream_data['stream'].nil?
     end
 
-    def get_top3_of_channel(channel_name)
-      twitch_url = twitch_api_path('/clips/top?channel=' + channel_name + '&limit=3')
+    def clip(channel_name)
+      twitch_url = twitch_api_path('/clips/top?channel=' + channel_name)
       streamer_data = call_twitch_url(twitch_url).parse
-      # TODO: check data is valid or not.
-      3.times { |i| puts streamer_data['clips'][i]['url'] }
+
+      Clip.new(streamer_data, self)
     end
 
-    def get_top3_of_game(game_name)
+    def game(game_name)
       twitch_url = twitch_api_path('search/streams?query=' + game_name)
       streams_data = call_twitch_url(twitch_url).parse
-      3.times { |i| puts streams_data['streams'][i]['channel']['url'] }
+
+      Game.new(streams_data, self)
     end
 
     private
