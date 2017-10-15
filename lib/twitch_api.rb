@@ -1,6 +1,7 @@
 require 'http'
 require_relative 'clip.rb'
 require_relative 'game.rb'
+require 'yaml'
 
 module Twitch
   # Library for Twitch API
@@ -8,9 +9,11 @@ module Twitch
     module Errors
       class NotFound < StandardError; end
       class Unauthorized < StandardError; end
+      class BadRequest < StandardError; end
     end
 
     HTTP_ERROR = {
+      400 => Errors::BadRequest,
       401 => Errors::Unauthorized,
       404 => Errors::NotFound
     }.freeze
