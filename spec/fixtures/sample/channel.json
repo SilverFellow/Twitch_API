@@ -1,0 +1,44 @@
+{
+    "stream": {
+        "_id": 26510985808,
+        "game": "Counter-Strike: Global Offensive",
+        "broadcast_platform": "live",
+        "community_id": "",
+        "community_ids": [],
+        "viewers": 2707,
+        "video_height": 720,
+        "average_fps": 60.0315955766,
+        "delay": 0,
+        "created_at": "2017-10-18T03:33:37Z",
+        "is_playlist": false,
+        "stream_type": "live",
+        "preview": {
+            "small": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jasonr-80x45.jpg",
+            "medium": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jasonr-320x180.jpg",
+            "large": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jasonr-640x360.jpg",
+            "template": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jasonr-{width}x{height}.jpg"
+        },
+        "channel": {
+            "mature": true,
+            "status": "@JasonRuchelski || LAST DAY FOR HALF OFF SUBS! ",
+            "broadcaster_language": "en",
+            "display_name": "JASONR",
+            "game": "Counter-Strike: Global Offensive",
+            "language": "en",
+            "_id": 103262684,
+            "name": "jasonr",
+            "created_at": "2015-09-29T06:06:05.814442Z",
+            "updated_at": "2017-10-18T08:03:15.715425Z",
+            "partner": true,
+            "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/jasonr-profile_image-5750a68af87ce465-300x300.png",
+            "video_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/369feb892f40e7de-channel_offline_image-1920x1080.png",
+            "profile_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/jasonr-profile_banner-cf177336229c31fe-480.png",
+            "profile_banner_background_color": "",
+            "url": "https://www.twitch.tv/jasonr",
+            "views": 7009683,
+            "followers": 296870,
+            "broadcaster_type": "",
+            "description": "pro csgo player sometimes"
+        }
+    }
+}

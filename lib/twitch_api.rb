@@ -64,6 +64,7 @@ module Twitch
     end
 
     def game(name)
+      name = correct_game_name(name).split(' ').join('%20')
       twitch_url = TwitchAPI.path('search/streams?query=' + name)
       data = call_twitch_url(twitch_url).parse
 
@@ -78,7 +79,12 @@ module Twitch
       Clip.new(query_item, data, self)
     end
 
-    # TODO: search game
+    def correct_game_name(name)
+      twitch_url = TwitchAPI.path('search/games?query=' + name)
+      data = call_twitch_url(twitch_url).parse
+
+      data['games'][0]['name']
+    end
 
     def top_game
       twitch_url = TwitchAPI.path('games/top')

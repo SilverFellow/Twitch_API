@@ -1,0 +1,385 @@
+{
+    "clips": [
+        {
+            "slug": "TameAltruisticChoughDatSheffy",
+            "tracking_id": "139801320",
+            "url": "https://clips.twitch.tv/TameAltruisticChoughDatSheffy?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=TameAltruisticChoughDatSheffy&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=TameAltruisticChoughDatSheffy&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "36340781",
+                "name": "tarik",
+                "display_name": "tarik",
+                "channel_url": "https://www.twitch.tv/tarik",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f2d1013ce3b2797-profile_image-150x150.jpeg"
+            },
+            "curator": {
+                "id": "39171985",
+                "name": "aeonsavvy",
+                "display_name": "aeonsavvy",
+                "channel_url": "https://www.twitch.tv/aeonsavvy",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/aaa29cd1745460c8-profile_image-150x150.jpeg"
+            },
+            "vod": {
+                "id": "182849212",
+                "url": "https://www.twitch.tv/videos/182849212?t=6h13m35s",
+                "offset": 22415
+            },
+            "broadcast_id": "26503667744",
+            "game": "Counter-Strike: Global Offensive",
+            "language": "en",
+            "title": "NA",
+            "views": 21015,
+            "duration": 29.216667,
+            "created_at": "2017-10-17T09:26:57Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/26503667744-offset-22440-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/26503667744-offset-22440-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/26503667744-offset-22440-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "CoweringAttractiveTurtleMrDestructoid",
+            "tracking_id": "140124531",
+            "url": "https://clips.twitch.tv/CoweringAttractiveTurtleMrDestructoid?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=CoweringAttractiveTurtleMrDestructoid&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=CoweringAttractiveTurtleMrDestructoid&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "36340781",
+                "name": "tarik",
+                "display_name": "tarik",
+                "channel_url": "https://www.twitch.tv/tarik",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f2d1013ce3b2797-profile_image-150x150.jpeg"
+            },
+            "curator": {
+                "id": "128837994",
+                "name": "xrexevan",
+                "display_name": "xrexevan",
+                "channel_url": "https://www.twitch.tv/xrexevan",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/73645834ed01755b-profile_image-150x150.png"
+            },
+            "vod": {
+                "id": "183097206",
+                "url": "https://www.twitch.tv/videos/183097206?t=1h42m52s",
+                "offset": 6172
+            },
+            "broadcast_id": "26511018992",
+            "game": "Counter-Strike: Global Offensive",
+            "language": "en",
+            "title": "Bang Bang // youtube.com/tarik",
+            "views": 439,
+            "duration": 29.566667,
+            "created_at": "2017-10-18T05:24:07Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/26511018992-offset-6196-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/26511018992-offset-6196-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/26511018992-offset-6196-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "OddSolidChickenFunRun",
+            "tracking_id": "140125685",
+            "url": "https://clips.twitch.tv/OddSolidChickenFunRun?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=OddSolidChickenFunRun&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=OddSolidChickenFunRun&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "36340781",
+                "name": "tarik",
+                "display_name": "tarik",
+                "channel_url": "https://www.twitch.tv/tarik",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f2d1013ce3b2797-profile_image-150x150.jpeg"
+            },
+            "curator": {
+                "id": "73573772",
+                "name": "trial321",
+                "display_name": "Trial321",
+                "channel_url": "https://www.twitch.tv/trial321",
+                "logo": null
+            },
+            "vod": {
+                "id": "183097206",
+                "url": "https://www.twitch.tv/videos/183097206?t=1h48m55s",
+                "offset": 6535
+            },
+            "broadcast_id": "26511018992",
+            "game": "Counter-Strike: Global Offensive",
+            "language": "en",
+            "title": "\"Fixed\"",
+            "views": 163,
+            "duration": 8.833984,
+            "created_at": "2017-10-18T05:30:00Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/140125685-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/140125685-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/140125685-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "MiniatureLachrymoseShallotCharlietheUnicorn",
+            "tracking_id": "140127236",
+            "url": "https://clips.twitch.tv/MiniatureLachrymoseShallotCharlietheUnicorn?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=MiniatureLachrymoseShallotCharlietheUnicorn&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=MiniatureLachrymoseShallotCharlietheUnicorn&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "36340781",
+                "name": "tarik",
+                "display_name": "tarik",
+                "channel_url": "https://www.twitch.tv/tarik",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f2d1013ce3b2797-profile_image-150x150.jpeg"
+            },
+            "curator": {
+                "id": "102291100",
+                "name": "sadaha001",
+                "display_name": "Sadaha001",
+                "channel_url": "https://www.twitch.tv/sadaha001",
+                "logo": null
+            },
+            "vod": {
+                "id": "183097206",
+                "url": "https://www.twitch.tv/videos/183097206?t=1h57m12s",
+                "offset": 7032
+            },
+            "broadcast_id": "26511018992",
+            "game": "Counter-Strike: Global Offensive",
+            "language": "en",
+            "title": "JASONR is a 5-7er",
+            "views": 78,
+            "duration": 21.333984,
+            "created_at": "2017-10-18T05:38:30Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/140127236-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/140127236-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/140127236-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "LittleWonderfulBeefStrawBeary",
+            "tracking_id": "140141331",
+            "url": "https://clips.twitch.tv/LittleWonderfulBeefStrawBeary?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=LittleWonderfulBeefStrawBeary&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=LittleWonderfulBeefStrawBeary&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "36340781",
+                "name": "tarik",
+                "display_name": "tarik",
+                "channel_url": "https://www.twitch.tv/tarik",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f2d1013ce3b2797-profile_image-150x150.jpeg"
+            },
+            "curator": {
+                "id": "169547152",
+                "name": "tom_tvv",
+                "display_name": "ToM_tvv",
+                "channel_url": "https://www.twitch.tv/tom_tvv",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/574e688d8b3c08a6-profile_image-150x150.jpeg"
+            },
+            "vod": {
+                "id": "183097206",
+                "url": "https://www.twitch.tv/videos/183097206?t=3h23m49s",
+                "offset": 12229
+            },
+            "broadcast_id": "26511018992",
+            "game": "Counter-Strike: Global Offensive",
+            "language": "en",
+            "title": "Tarik watches Moe rage in slowmoe",
+            "views": 55,
+            "duration": 29.999667,
+            "created_at": "2017-10-18T07:05:01Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/26511018992-offset-12254-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/26511018992-offset-12254-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/26511018992-offset-12254-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "TastyAntsyYakinikuUnSane",
+            "tracking_id": "139777106",
+            "url": "https://clips.twitch.tv/TastyAntsyYakinikuUnSane?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=TastyAntsyYakinikuUnSane&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=TastyAntsyYakinikuUnSane&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "36340781",
+                "name": "tarik",
+                "display_name": "tarik",
+                "channel_url": "https://www.twitch.tv/tarik",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f2d1013ce3b2797-profile_image-150x150.jpeg"
+            },
+            "curator": {
+                "id": "27094456",
+                "name": "career",
+                "display_name": "Career",
+                "channel_url": "https://www.twitch.tv/career",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/career-profile_image-f57418099cf27982-150x150.jpeg"
+            },
+            "vod": {
+                "id": "182849212",
+                "url": "https://www.twitch.tv/videos/182849212?t=3h4m53s",
+                "offset": 11093
+            },
+            "broadcast_id": "26503667744",
+            "game": "Counter-Strike: Global Offensive",
+            "language": "en",
+            "title": "ada",
+            "views": 52,
+            "duration": 29.733667,
+            "created_at": "2017-10-17T06:18:16Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/26503667744-offset-11118-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/26503667744-offset-11118-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/26503667744-offset-11118-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "RefinedCuriousBoarFUNgineer",
+            "tracking_id": "140125735",
+            "url": "https://clips.twitch.tv/RefinedCuriousBoarFUNgineer?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=RefinedCuriousBoarFUNgineer&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=RefinedCuriousBoarFUNgineer&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "36340781",
+                "name": "tarik",
+                "display_name": "tarik",
+                "channel_url": "https://www.twitch.tv/tarik",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f2d1013ce3b2797-profile_image-150x150.jpeg"
+            },
+            "curator": {
+                "id": "27146066",
+                "name": "lnxa",
+                "display_name": "Lnxa",
+                "channel_url": "https://www.twitch.tv/lnxa",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/lnxa-profile_image-478a5ff8cc85ef7a-150x150.png"
+            },
+            "vod": {
+                "id": "183097206",
+                "url": "https://www.twitch.tv/videos/183097206?t=1h48m50s",
+                "offset": 6530
+            },
+            "broadcast_id": "26511018992",
+            "game": "Counter-Strike: Global Offensive",
+            "language": "en",
+            "title": "\"fixed\"",
+            "views": 38,
+            "duration": 12.933984,
+            "created_at": "2017-10-18T05:30:19Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/140125735-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/140125735-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/140125735-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "SmoothRamshackleMoonPanicBasket",
+            "tracking_id": "139788565",
+            "url": "https://clips.twitch.tv/SmoothRamshackleMoonPanicBasket?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=SmoothRamshackleMoonPanicBasket&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=SmoothRamshackleMoonPanicBasket&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "36340781",
+                "name": "tarik",
+                "display_name": "tarik",
+                "channel_url": "https://www.twitch.tv/tarik",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f2d1013ce3b2797-profile_image-150x150.jpeg"
+            },
+            "curator": {
+                "id": "45628554",
+                "name": "draqe99",
+                "display_name": "draqe99",
+                "channel_url": "https://www.twitch.tv/draqe99",
+                "logo": null
+            },
+            "vod": {
+                "id": "182849212",
+                "url": "https://www.twitch.tv/videos/182849212?t=4h29m36s",
+                "offset": 16176
+            },
+            "broadcast_id": "26503667744",
+            "game": "Counter-Strike: Global Offensive",
+            "language": "en",
+            "title": "xd",
+            "views": 33,
+            "duration": 28.75,
+            "created_at": "2017-10-17T07:43:00Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/139788565-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/139788565-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/139788565-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "TsundereRealLatteMikeHogu",
+            "tracking_id": "140141596",
+            "url": "https://clips.twitch.tv/TsundereRealLatteMikeHogu?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=TsundereRealLatteMikeHogu&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=TsundereRealLatteMikeHogu&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "36340781",
+                "name": "tarik",
+                "display_name": "tarik",
+                "channel_url": "https://www.twitch.tv/tarik",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f2d1013ce3b2797-profile_image-150x150.jpeg"
+            },
+            "curator": {
+                "id": "39078706",
+                "name": "dynastymagna213",
+                "display_name": "dynastymagna213",
+                "channel_url": "https://www.twitch.tv/dynastymagna213",
+                "logo": null
+            },
+            "vod": {
+                "id": "183097206",
+                "url": "https://www.twitch.tv/videos/183097206?t=3h25m15s",
+                "offset": 12315
+            },
+            "broadcast_id": "26511018992",
+            "game": "Counter-Strike: Global Offensive",
+            "language": "en",
+            "title": "Bang Bang // youtube.com/tarik",
+            "views": 29,
+            "duration": 29.999667,
+            "created_at": "2017-10-18T07:06:32Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/26511018992-offset-12340-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/26511018992-offset-12340-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/26511018992-offset-12340-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "DoubtfulLongDillStinkyCheese",
+            "tracking_id": "140124516",
+            "url": "https://clips.twitch.tv/DoubtfulLongDillStinkyCheese?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=DoubtfulLongDillStinkyCheese&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=DoubtfulLongDillStinkyCheese&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "36340781",
+                "name": "tarik",
+                "display_name": "tarik",
+                "channel_url": "https://www.twitch.tv/tarik",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f2d1013ce3b2797-profile_image-150x150.jpeg"
+            },
+            "curator": {
+                "id": "85277436",
+                "name": "shoctordohls",
+                "display_name": "ShoctorDohls",
+                "channel_url": "https://www.twitch.tv/shoctordohls",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/shoctordohls-profile_image-d07057f8b636ea12-150x150.jpeg"
+            },
+            "vod": {
+                "id": "183097206",
+                "url": "https://www.twitch.tv/videos/183097206?t=1h42m52s",
+                "offset": 6172
+            },
+            "broadcast_id": "26511018992",
+            "game": "Counter-Strike: Global Offensive",
+            "language": "en",
+            "title": "IM ON 1920 BROOOO",
+            "views": 26,
+            "duration": 29.566667,
+            "created_at": "2017-10-18T05:24:02Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/26511018992-offset-6196-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/26511018992-offset-6196-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/26511018992-offset-6196-preview-86x45.jpg"
+            }
+        }
+    ],
+    "_cursor": "MTA="
+}
