@@ -3,6 +3,8 @@
 module Twitch
   # Model for channel
   class Channel
+    attr_reader :name
+
     def initialize(name, channel_data, data_source)
       @name = name
       @channel_data = channel_data
@@ -13,13 +15,27 @@ module Twitch
       !@channel_data['stream'].nil?
     end
 
-    def data
-      @channel_data
+    def title
+      live? ? @channel_data['stream']['channel']['status'] : offline_message
+    end
+
+    def game
+      live? ? @channel_data['stream']['game'] : offline_message
+    end
+
+    def viewer
+      live? ? @channel_data['stream']['viewers'] : offline_message
     end
 
     # return most popular clips of this channel
     def clip
       @data_source.clip('channel', @name).top_clips
+    end
+
+    private
+
+    def offline_message
+      "#{name} is currently offline"
     end
   end
 end

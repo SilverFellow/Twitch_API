@@ -11,13 +11,11 @@ module Twitch
       @data_source = data_source
     end
 
-    def data
-      @streams_data
-    end
-
-    def size
+    def num
       @streams_data['_total']
     end
+
+    # TODO: popularity
 
     # return the most popular clips of specific game
     def clips

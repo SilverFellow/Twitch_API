@@ -47,7 +47,15 @@ module Twitch
       temp_data['_total'].positive?
     end
 
+    def get_user_id(name)
+      twitch_url = TwitchAPI.path('users?login=' + name)
+      streamer_data = call_twitch_url(twitch_url).parse
+
+      streamer_data['users'][0]['_id']
+    end
+
     def channel(name)
+      return 'User doesn\'t exist!' unless user_exist?
       id = get_user_id(name)
       twitch_url = TwitchAPI.path('streams/' + id)
       data = call_twitch_url(twitch_url).parse
@@ -70,12 +78,7 @@ module Twitch
       Clip.new(query_item, data, self)
     end
 
-    def get_user_id(name)
-      twitch_url = TwitchAPI.path('users?login=' + name)
-      streamer_data = call_twitch_url(twitch_url).parse
-
-      streamer_data['users'][0]['_id']
-    end
+    # TODO: search game
 
     def top_game
       twitch_url = TwitchAPI.path('games/top')

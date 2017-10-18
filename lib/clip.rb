@@ -9,12 +9,8 @@ module Twitch
       @data_source = data_source
     end
 
-    def size
+    def num
       @clips_data['clips'].count
-    end
-
-    def data
-      @clips_data
     end
 
     def top_clips(num = 3)
