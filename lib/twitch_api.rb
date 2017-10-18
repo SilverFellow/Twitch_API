@@ -1,85 +1,101 @@
+# frozen_string_literal: true
+
 require 'http'
 require_relative 'clip.rb'
 require_relative 'game.rb'
+require_relative 'channel.rb'
 require 'yaml'
 
 module Twitch
   # Library for Twitch API
+  module Errors
+    class NotFound < StandardError; end
+    class Unauthorized < StandardError; end
+    class BadRequest < StandardError; end
+  end
+
+  # Library for Twitch Web API
   class TwitchAPI
-    module Errors
-      class NotFound < StandardError; end
-      class Unauthorized < StandardError; end
-      class BadRequest < StandardError; end
+    # Encapsulates API response success and errors
+    class Response
+      HTTP_ERROR = {
+        400 => Errors::BadRequest,
+        401 => Errors::Unauthorized,
+        404 => Errors::NotFound
+      }.freeze
+
+      def initialize(response)
+        @response = response
+      end
+
+      def successful?
+        HTTP_ERROR.keys.include?(@response.code) ? false : true
+      end
+
+      def response_or_error
+        successful? ? @response : raise(HTTP_ERROR[@response.code])
+      end
     end
 
-    HTTP_ERROR = {
-      400 => Errors::BadRequest,
-      401 => Errors::Unauthorized,
-      404 => Errors::NotFound
-    }.freeze
-
-    def initialize(token, cache: {})
+    def initialize(token)
       @tw_token = token
-      @cache = cache
     end
 
     def user_exist?(name)
-      twitch_url = twitch_api_path('users?login=' + name)
+      twitch_url = TwitchAPI.path('users?login=' + name)
       temp_data = call_twitch_url(twitch_url).parse
-      temp_data['_total'] > 0
+      temp_data['_total'].positive?
     end
 
-    def live?(name)
-      twitch_url = twitch_api_path('users?login=' + name)
+    def channel(name)
+      id = get_user_id(name)
+      twitch_url = TwitchAPI.path('streams/' + id)
+      data = call_twitch_url(twitch_url).parse
+
+      Channel.new(name, data, self)
+    end
+
+    def game(name)
+      twitch_url = TwitchAPI.path('search/streams?query=' + name)
+      data = call_twitch_url(twitch_url).parse
+
+      Game.new(name, data, self)
+    end
+
+    # query_item: game, channel, language, trending ...
+    def clip(query_item, name)
+      twitch_url = TwitchAPI.path("/clips/top?#{query_item}=" + name)
+      data = call_twitch_url(twitch_url).parse
+
+      Clip.new(query_item, data, self)
+    end
+
+    def get_user_id(name)
+      twitch_url = TwitchAPI.path('users?login=' + name)
       streamer_data = call_twitch_url(twitch_url).parse
-      if streamer_data['_total'].zero?
-        # raise ArgumentError.new("User does not exist!")
-        puts 'User does not exist!'
-        return
-      end
 
-      id = streamer_data['users'][0]['_id']
-      twitch_url = twitch_api_path('streams/' + id)
-      stream_data = call_twitch_url(twitch_url).parse
-
-      !stream_data['stream'].nil?
+      streamer_data['users'][0]['_id']
     end
 
-    def clip(channel_name)
-      twitch_url = twitch_api_path('/clips/top?channel=' + channel_name)
-      streamer_data = call_twitch_url(twitch_url).parse
+    def top_game
+      twitch_url = TwitchAPI.path('games/top')
+      data = call_twitch_url(twitch_url).parse
 
-      Clip.new(streamer_data, self)
+      top_games = []
+      10.times { |i| top_games << data['top'][i]['game']['name'] }
+      top_games
     end
 
-    def game(game_name)
-      twitch_url = twitch_api_path('search/streams?query=' + game_name)
-      streams_data = call_twitch_url(twitch_url).parse
-
-      Game.new(streams_data, self)
+    def self.path(path)
+      'https://api.twitch.tv/kraken/' + path
     end
 
     private
 
-    def twitch_api_path(path)
-      'https://api.twitch.tv/kraken/' + path
-    end
-
     def call_twitch_url(url)
-      result = @cache.fetch(url) do
-        HTTP.headers('Accept' => 'application/vnd.twitchtv.v5+json',
-                     'Client-ID' => @tw_token).get(url)
-      end
-
-      successful?(result) ? result : raise_error(result)
-    end
-
-    def successful?(result)
-      HTTP_ERROR.keys.include?(result.code) ? false : true
-    end
-
-    def raise_error(result)
-      raise(HTTP_ERROR[result.code])
+      response = HTTP.headers('Accept' => 'application/vnd.twitchtv.v5+json',
+                              'Client-ID' => @tw_token).get(url)
+      Response.new(response).response_or_error
     end
   end
 end

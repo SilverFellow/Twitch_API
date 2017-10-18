@@ -1,25 +1,27 @@
+# frozen_string_literal: true
+
 module Twitch
   # Model for Clip
   class Clip
-    def initialize(streamer_data, data_source)
-      @streamer_data = streamer_data
+    def initialize(query_item, clips_data, data_source)
+      @query_item = query_item
+      @clips_data = clips_data
       @data_source = data_source
     end
 
-    def data
-      @streamer_data
-    end
-
     def size
-      @streamer_data['clips'].count
+      @clips_data['clips'].count
     end
 
-    def get_top(num = 3)
-      clips = Hash.new
+    def data
+      @clips_data
+    end
+
+    def top_clips(num = 3)
+      clips = {}
       num.times do |i|
-        title = @streamer_data['clips'][i]['title']
-        url = @streamer_data['clips'][i]['url']
-        clips[title] = url
+        iter = @clips_data['clips'][i]
+        clips[iter['title']] = iter['url']
       end
       clips
     end

@@ -1,7 +1,12 @@
+# frozen_string_literal: true
+
 module Twitch
   # Model for Game
   class Game
-    def initialize(streams_data, data_source)
+    attr_reader :name
+
+    def initialize(name, streams_data, data_source)
+      @name = name
       @streams_data = streams_data
       @data_source = data_source
     end
@@ -14,12 +19,16 @@ module Twitch
       @streams_data['_total']
     end
 
-    def get_top(num = 3)
-      streamers = Hash.new
+    # return the most popular clips of specific game
+    def clips
+      @data_source.clip('game', @name).top_clips
+    end
+
+    def top_streamers(num = 3)
+      streamers = {}
       num.times do |i|
-        name = @streams_data['streams'][i]['channel']['display_name']
-        url = @streams_data['streams'][i]['channel']['url']
-        streamers[name] = url
+        iter = @streams_data['streams'][i]['channel']
+        streamers[iter['display_name']] = iter['url']
       end
       streamers
     end
