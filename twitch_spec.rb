@@ -4,15 +4,15 @@ require 'minitest/autorun'
 require 'minitest/rg'
 require 'json'
 require 'yaml'
-require_relative '../lib/twitch_api.rb'
+require_relative '../Twitch_API/lib/twitch_api.rb'
 
 describe 'Tests Twitch library' do
   CHANNELNAME = 'shroud'.freeze
   GAMENAME = 'CSGO'.freeze
-  CONFIG = YAML.safe_load(File.read('../config/secret.yml'))
+  CONFIG = YAML.safe_load(File.read('./config/secret.yml'))
   TOKEN = CONFIG['token']
   #CLIP = JSON.parse(File.read('fixtures/clip.json'))
-  GAME = JSON.parse(File.read('../spec/fixtures/sample/game.json'))
+  GAME = JSON.parse(File.read('spec/fixtures/sample/game.json'))
 
   # describe 'Clip information' do
     # it 'HAPPY: should provide correct clip attributes' do
