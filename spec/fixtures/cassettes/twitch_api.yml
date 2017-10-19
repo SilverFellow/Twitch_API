@@ -1,0 +1,204 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/search/games?query=CSGO
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - 1c84b54f378d36ad76a88359978b7993
+      X-Ctxlog-Logid:
+      - 1-59e8d583-37e04bf27a839b846f0c4229
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Thu, 19 Oct 2017 16:40:35 GMT
+      Content-Length:
+      - '1005'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"games":[{"name":"Counter-Strike: Global Offensive","popularity":35856,"_id":32399,"giantbomb_id":36113,"box":{"large":"https://static-cdn.jtvnw.net/ttv-boxart/Counter-Strike:%20Global%20Offensive-272x380.jpg","medium":"https://static-cdn.jtvnw.net/ttv-boxart/Counter-Strike:%20Global%20Offensive-136x190.jpg","small":"https://static-cdn.jtvnw.net/ttv-boxart/Counter-Strike:%20Global%20Offensive-52x72.jpg","template":"https://static-cdn.jtvnw.net/ttv-boxart/Counter-Strike:%20Global%20Offensive-{width}x{height}.jpg"},"logo":{"large":"https://static-cdn.jtvnw.net/ttv-logoart/Counter-Strike:%20Global%20Offensive-240x144.jpg","medium":"https://static-cdn.jtvnw.net/ttv-logoart/Counter-Strike:%20Global%20Offensive-120x72.jpg","small":"https://static-cdn.jtvnw.net/ttv-logoart/Counter-Strike:%20Global%20Offensive-60x36.jpg","template":"https://static-cdn.jtvnw.net/ttv-logoart/Counter-Strike:%20Global%20Offensive-{width}x{height}.jpg"},"localized_name":"Counter-Strike:
+        Global Offensive","locale":""}]}'
+    http_version: 
+  recorded_at: Thu, 19 Oct 2017 16:40:35 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/search/streams?query=Counter-Strike:%20Global%20Offensive
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - 0eb11debd402a66b9215bb65ebdaab17
+      X-Ctxlog-Logid:
+      - 1-59e8d583-10c4419b16cde94f42fe8894
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Thu, 19 Oct 2017 16:40:36 GMT
+      Content-Length:
+      - '16152'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: "{\"_total\":1229,\"streams\":[{\"_id\":26521767904,\"game\":\"Counter-Strike:
+        Global Offensive\",\"broadcast_platform\":\"live\",\"community_id\":\"\",\"community_ids\":[],\"viewers\":6993,\"video_height\":1080,\"average_fps\":60,\"delay\":0,\"created_at\":\"2017-10-19T15:37:49Z\",\"is_playlist\":false,\"stream_type\":\"live\",\"preview\":{\"small\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_wesg_csgo-80x45.jpg\",\"medium\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_wesg_csgo-320x180.jpg\",\"large\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_wesg_csgo-640x360.jpg\",\"template\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_wesg_csgo-{width}x{height}.jpg\"},\"channel\":{\"mature\":false,\"status\":\"CS:GO
+        EU Qualifiers Sweden: Fnatic vs Japaleno | Casters: @BurntSanctuary \\u0026
+        @SwitchJamie\",\"broadcaster_language\":\"en\",\"display_name\":\"wesg_csgo\",\"game\":\"Counter-Strike:
+        Global Offensive\",\"language\":\"en\",\"_id\":171219430,\"name\":\"wesg_csgo\",\"created_at\":\"2017-08-24T13:28:41.767662Z\",\"updated_at\":\"2017-10-19T16:35:00.786946Z\",\"partner\":false,\"logo\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/1fb910b385168d2f-profile_image-300x300.jpeg\",\"video_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/c96beb00113f9e86-channel_offline_image-1920x1080.jpeg\",\"profile_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/70b33c6f5389df50-profile_banner-480.jpeg\",\"profile_banner_background_color\":\"\",\"url\":\"https://www.twitch.tv/wesg_csgo\",\"views\":138569,\"followers\":1728,\"broadcaster_type\":\"\",\"description\":\"\"}},{\"_id\":26521798896,\"game\":\"Counter-Strike:
+        Global Offensive\",\"broadcast_platform\":\"live\",\"community_id\":\"\",\"community_ids\":[],\"viewers\":4450,\"video_height\":1080,\"average_fps\":60.0176522507,\"delay\":0,\"created_at\":\"2017-10-19T15:43:20Z\",\"is_playlist\":false,\"stream_type\":\"live\",\"preview\":{\"small\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_nvidiageforcepl-80x45.jpg\",\"medium\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_nvidiageforcepl-320x180.jpg\",\"large\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_nvidiageforcepl-640x360.jpg\",\"template\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_nvidiageforcepl-{width}x{height}.jpg\"},\"channel\":{\"mature\":false,\"status\":\"[WESG]
+        POLSKIE KWALIFIKACJE | Komentuje: Olek vuzzey Kłos\",\"broadcaster_language\":\"pl\",\"display_name\":\"NVIDIAGeForcePL\",\"game\":\"Counter-Strike:
+        Global Offensive\",\"language\":\"pl\",\"_id\":93141680,\"name\":\"nvidiageforcepl\",\"created_at\":\"2015-06-10T06:50:08.761614Z\",\"updated_at\":\"2017-10-19T16:35:44.968286Z\",\"partner\":false,\"logo\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/nvidiageforcepl-profile_image-fecc1664bf59135c-300x300.png\",\"video_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/nvidiageforcepl-channel_offline_image-7d0b3b63120ca77d-1920x1080.jpeg\",\"profile_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/nvidiageforcepl-profile_banner-a9e9f93d5b79dfdd-480.jpeg\",\"profile_banner_background_color\":\"\",\"url\":\"https://www.twitch.tv/nvidiageforcepl\",\"views\":9942400,\"followers\":144913,\"broadcaster_type\":\"\",\"description\":\"\"}},{\"_id\":26521616432,\"game\":\"Counter-Strike:
+        Global Offensive\",\"broadcast_platform\":\"live\",\"community_id\":\"\",\"community_ids\":[],\"viewers\":3083,\"video_height\":1080,\"average_fps\":30,\"delay\":0,\"created_at\":\"2017-10-19T15:09:43Z\",\"is_playlist\":false,\"stream_type\":\"live\",\"preview\":{\"small\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_gladiatorpwnz-80x45.jpg\",\"medium\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_gladiatorpwnz-320x180.jpg\",\"large\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_gladiatorpwnz-640x360.jpg\",\"template\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_gladiatorpwnz-{width}x{height}.jpg\"},\"channel\":{\"mature\":true,\"status\":\"Глад
+        Валакас - СТАРТАНУЛ НА PENTAWAR 2.0 by skincoin\",\"broadcaster_language\":\"ru\",\"display_name\":\"GLADIATORPWNZ\",\"game\":\"Counter-Strike:
+        Global Offensive\",\"language\":\"ru\",\"_id\":54740008,\"name\":\"gladiatorpwnz\",\"created_at\":\"2014-01-10T17:59:06.924687Z\",\"updated_at\":\"2017-10-19T16:35:46.906463Z\",\"partner\":false,\"logo\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/gladiatorpwnz-profile_image-69634ab3bc5edbd1-300x300.jpeg\",\"video_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/gladiatorpwnz-channel_offline_image-9ead35ca951d79aa-1920x1080.jpeg\",\"profile_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/gladiatorpwnz-profile_banner-2f553697c296bfa7-480.jpeg\",\"profile_banner_background_color\":\"#af02db\",\"url\":\"https://www.twitch.tv/gladiatorpwnz\",\"views\":13069125,\"followers\":177476,\"broadcaster_type\":\"\",\"description\":\"Великий
+        Дуалист по кличке Валакас (Глад Валакас)\"}},{\"_id\":26521635936,\"game\":\"Counter-Strike:
+        Global Offensive\",\"broadcast_platform\":\"live\",\"community_id\":\"\",\"community_ids\":[],\"viewers\":2497,\"video_height\":1080,\"average_fps\":60,\"delay\":0,\"created_at\":\"2017-10-19T15:13:27Z\",\"is_playlist\":false,\"stream_type\":\"live\",\"preview\":{\"small\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_bratishkinoff-80x45.jpg\",\"medium\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_bratishkinoff-320x180.jpg\",\"large\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_bratishkinoff-640x360.jpg\",\"template\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_bratishkinoff-{width}x{height}.jpg\"},\"channel\":{\"mature\":false,\"status\":\"\U0001F534
+        СМОТРИМ ВИДОСИКИ | Дегустирую новую мышь\",\"broadcaster_language\":\"ru\",\"display_name\":\"bratishkinoff\",\"game\":\"Counter-Strike:
+        Global Offensive\",\"language\":\"ru\",\"_id\":99899949,\"name\":\"bratishkinoff\",\"created_at\":\"2015-08-20T12:13:27.726344Z\",\"updated_at\":\"2017-10-19T16:35:10.61457Z\",\"partner\":false,\"logo\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/bratishkinoff-profile_image-f53ebc3a048b8cb5-300x300.png\",\"video_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/bratishkinoff-channel_offline_image-9eec6694023a5c9e-1920x1080.png\",\"profile_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/5bbd42f8e85da454-profile_banner-480.png\",\"profile_banner_background_color\":\"\",\"url\":\"https://www.twitch.tv/bratishkinoff\",\"views\":5795796,\"followers\":141083,\"broadcaster_type\":\"\",\"description\":\"Меня
+        зовут Вова, мне 18 лет. Живу в Москве.Занимаюсь стримами, в основном по CS:GO,
+        иногда стримлю хорроры и разные понравившиеся мне игрушки. Дизморалю команду.Любимые
+        цитаты: \\\"CS важнее друзей.\\\"Мой отчим создал майнкампф.\"}},{\"_id\":26521640192,\"game\":\"Counter-Strike:
+        Global Offensive\",\"broadcast_platform\":\"live\",\"community_id\":\"\",\"community_ids\":[],\"viewers\":1858,\"video_height\":720,\"average_fps\":62.0052770449,\"delay\":0,\"created_at\":\"2017-10-19T15:14:11Z\",\"is_playlist\":false,\"stream_type\":\"live\",\"preview\":{\"small\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_resttpowered-80x45.jpg\",\"medium\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_resttpowered-320x180.jpg\",\"large\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_resttpowered-640x360.jpg\",\"template\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_resttpowered-{width}x{height}.jpg\"},\"channel\":{\"mature\":false,\"status\":\"cz/sk
+        - Gamez\",\"broadcaster_language\":\"sk\",\"display_name\":\"resttpowered\",\"game\":\"Counter-Strike:
+        Global Offensive\",\"language\":\"en-gb\",\"_id\":50063424,\"name\":\"resttpowered\",\"created_at\":\"2013-10-12T11:37:27.185416Z\",\"updated_at\":\"2017-10-19T16:35:32.463598Z\",\"partner\":false,\"logo\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/resttpowered-profile_image-7fbb35f4ae94fd33-300x300.jpeg\",\"video_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/resttpowered-channel_offline_image-704a10a1f5b45ca3-1920x1080.jpeg\",\"profile_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/resttpowered-profile_banner-b11aa7e07ca18bd5-480.jpeg\",\"profile_banner_background_color\":\"#000000\",\"url\":\"https://www.twitch.tv/resttpowered\",\"views\":17809273,\"followers\":158349,\"broadcaster_type\":\"\",\"description\":\"\"}},{\"_id\":26521706352,\"game\":\"Counter-Strike:
+        Global Offensive\",\"broadcast_platform\":\"live\",\"community_id\":\"\",\"community_ids\":[],\"viewers\":1644,\"video_height\":720,\"average_fps\":60,\"delay\":0,\"created_at\":\"2017-10-19T15:26:41Z\",\"is_playlist\":false,\"stream_type\":\"live\",\"preview\":{\"small\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_inetkoxtv-80x45.jpg\",\"medium\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_inetkoxtv-320x180.jpg\",\"large\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_inetkoxtv-640x360.jpg\",\"template\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_inetkoxtv-{width}x{height}.jpg\"},\"channel\":{\"mature\":false,\"status\":\"PROJEKT
+        GO GO CS:GO 2 - DRUGI ETAP!\",\"broadcaster_language\":\"pl\",\"display_name\":\"inetkoxTV\",\"game\":\"Counter-Strike:
+        Global Offensive\",\"language\":\"pl\",\"_id\":80947159,\"name\":\"inetkoxtv\",\"created_at\":\"2015-01-26T09:25:57.261662Z\",\"updated_at\":\"2017-10-19T16:35:50.971173Z\",\"partner\":false,\"logo\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/inetkoxtv-profile_image-a0017eb2aafdb86b-300x300.jpeg\",\"video_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/inetkoxtv-channel_offline_image-efd1738635a61731-1920x1080.png\",\"profile_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/inetkoxtv-profile_banner-14cd45acae105221-480.jpeg\",\"profile_banner_background_color\":\"\",\"url\":\"https://www.twitch.tv/inetkoxtv\",\"views\":20502867,\"followers\":243089,\"broadcaster_type\":\"\",\"description\":\"Patryk
+        \\\"easy\\\" Dzięcioł oraz Paweł \\\"saju\\\" Pawelczak to magiczna dwójka,
+        która prowadzi projekt inetkoxTV. Szukamy talentów na polskiej scenie CS:GO.
+        Oprócz tego gramy również w inne gierki i prowadzimy ciekawe konwersacje na
+        temat życia :) \"}},{\"_id\":26521433904,\"game\":\"Counter-Strike: Global
+        Offensive\",\"broadcast_platform\":\"live\",\"community_id\":\"0b9d06f9-fe5f-4f69-a4c3-2a9ee5604fb7\",\"community_ids\":[\"0b9d06f9-fe5f-4f69-a4c3-2a9ee5604fb7\",\"beeebc16-c96e-4d64-b962-f03c860dadb9\",\"fd0eab99-832a-4d7e-8cc0-04d73deb2e54\"],\"viewers\":1476,\"video_height\":1080,\"average_fps\":60,\"delay\":0,\"created_at\":\"2017-10-19T14:33:58Z\",\"is_playlist\":false,\"stream_type\":\"live\",\"preview\":{\"small\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_ahappytrexx-80x45.jpg\",\"medium\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_ahappytrexx-320x180.jpg\",\"large\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_ahappytrexx-640x360.jpg\",\"template\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_ahappytrexx-{width}x{height}.jpg\"},\"channel\":{\"mature\":true,\"status\":\"T-Rex
+        Plays a game about killing people unrealistically | !Sliver | @madogdan\",\"broadcaster_language\":\"en\",\"display_name\":\"AHappyTRexx\",\"game\":\"Counter-Strike:
+        Global Offensive\",\"language\":\"en-gb\",\"_id\":118733783,\"name\":\"ahappytrexx\",\"created_at\":\"2016-03-14T17:12:11.843169Z\",\"updated_at\":\"2017-10-19T16:35:51.375185Z\",\"partner\":false,\"logo\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/ahappytrexx-profile_image-50f87cce5520b587-300x300.jpeg\",\"video_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/5a6f3e2228eaaf48-channel_offline_image-1920x1080.png\",\"profile_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/a86b00c6cfa159fa-profile_banner-480.png\",\"profile_banner_background_color\":\"\",\"url\":\"https://www.twitch.tv/ahappytrexx\",\"views\":16419,\"followers\":174,\"broadcaster_type\":\"\",\"description\":\"I
+        am a Happy T-Rex RAWR\"}},{\"_id\":26521755472,\"game\":\"Counter-Strike:
+        Global Offensive\",\"broadcast_platform\":\"live\",\"community_id\":\"\",\"community_ids\":[],\"viewers\":1423,\"video_height\":720,\"average_fps\":62.9235237173,\"delay\":0,\"created_at\":\"2017-10-19T15:35:34Z\",\"is_playlist\":false,\"stream_type\":\"live\",\"preview\":{\"small\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_gameagents-80x45.jpg\",\"medium\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_gameagents-320x180.jpg\",\"large\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_gameagents-640x360.jpg\",\"template\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_gameagents-{width}x{height}.jpg\"},\"channel\":{\"mature\":false,\"status\":\"Daddyskins
+        Cup #2\",\"broadcaster_language\":\"en\",\"display_name\":\"gameagents\",\"game\":\"Counter-Strike:
+        Global Offensive\",\"language\":\"en\",\"_id\":130118642,\"name\":\"gameagents\",\"created_at\":\"2016-07-21T14:39:57.932971Z\",\"updated_at\":\"2017-10-19T16:35:06.630243Z\",\"partner\":false,\"logo\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/gameagents-profile_image-8b150d0ae63da41f-300x300.png\",\"video_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/dcfecb49c4107227-channel_offline_image-1920x1080.png\",\"profile_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/46927e388e90a08e-profile_banner-480.jpeg\",\"profile_banner_background_color\":\"\",\"url\":\"https://www.twitch.tv/gameagents\",\"views\":810152,\"followers\":3018,\"broadcaster_type\":\"\",\"description\":\"\"}},{\"_id\":26522054960,\"game\":\"Counter-Strike:
+        Global Offensive\",\"broadcast_platform\":\"live\",\"community_id\":\"\",\"community_ids\":[],\"viewers\":1308,\"video_height\":1080,\"average_fps\":60,\"delay\":0,\"created_at\":\"2017-10-19T16:25:58Z\",\"is_playlist\":false,\"stream_type\":\"live\",\"preview\":{\"small\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_ceh9-80x45.jpg\",\"medium\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_ceh9-320x180.jpg\",\"large\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_ceh9-640x360.jpg\",\"template\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_ceh9-{width}x{height}.jpg\"},\"channel\":{\"mature\":false,\"status\":\"НОВЫЙ
+        ДАСТ2, ИГРАЕМ, ИЗУЧАЕМ + РОЗЫГРЫШ НОЖА\",\"broadcaster_language\":\"ru\",\"display_name\":\"ceh9\",\"game\":\"Counter-Strike:
+        Global Offensive\",\"language\":\"ru\",\"_id\":39176562,\"name\":\"ceh9\",\"created_at\":\"2013-01-09T03:35:12.176291Z\",\"updated_at\":\"2017-10-19T16:35:59.138889Z\",\"partner\":false,\"logo\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/ceh9-profile_image-e0fdbf9505d59164-300x300.png\",\"video_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/ddc67191add76a0a-channel_offline_image-1920x1080.jpeg\",\"profile_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/ceh9-profile_banner-50b185ea2245ebcd-480.jpeg\",\"profile_banner_background_color\":\"\",\"url\":\"https://www.twitch.tv/ceh9\",\"views\":29100467,\"followers\":433111,\"broadcaster_type\":\"\",\"description\":\"If
+        y want to support me and watch my streams more often, please buy a subscribe
+        for 4.99$ per month. Thank you! Or send me some donate via WEBMONEY - Z232800222815
+        (WMZ) or QIWI WALLET - +380630243981 or PayPal - trinaua {at} gmail.com\"}},{\"_id\":26521557584,\"game\":\"Counter-Strike:
+        Global Offensive\",\"broadcast_platform\":\"live\",\"community_id\":\"01d41280-9332-4f54-b77a-a20f577beade\",\"community_ids\":[\"01d41280-9332-4f54-b77a-a20f577beade\",\"4bef9cc9-c81d-4384-a62e-b16cf5e7a45e\",\"b0e7cf13-4131-4f1b-9810-d88087de024b\"],\"viewers\":1188,\"video_height\":1080,\"average_fps\":60.0100857287,\"delay\":0,\"created_at\":\"2017-10-19T14:59:03Z\",\"is_playlist\":false,\"stream_type\":\"live\",\"preview\":{\"small\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_mixigaming-80x45.jpg\",\"medium\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_mixigaming-320x180.jpg\",\"large\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_mixigaming-640x360.jpg\",\"template\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_mixigaming-{width}x{height}.jpg\"},\"channel\":{\"mature\":false,\"status\":\"From
+        MixiGaming With Love.\",\"broadcaster_language\":\"vi\",\"display_name\":\"MixiGaming\",\"game\":\"Counter-Strike:
+        Global Offensive\",\"language\":\"vi\",\"_id\":68699987,\"name\":\"mixigaming\",\"created_at\":\"2014-08-11T07:48:00.565798Z\",\"updated_at\":\"2017-10-19T16:35:21.471909Z\",\"partner\":false,\"logo\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/mixigaming-profile_image-9ded694e2e54e10a-300x300.jpeg\",\"video_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/1bfad396f0a69077-channel_offline_image-1920x1080.jpeg\",\"profile_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/e79354a7ba3e2856-profile_banner-480.jpeg\",\"profile_banner_background_color\":\"\",\"url\":\"https://www.twitch.tv/mixigaming\",\"views\":717356,\"followers\":23895,\"broadcaster_type\":\"\",\"description\":\"\"}}]}"
+    http_version: 
+  recorded_at: Thu, 19 Oct 2017 16:40:36 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/search/games?query=CSGO
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - badtoken
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '76'
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - ee7a043e04a171fe21b807f0bafa75ae
+      X-Ctxlog-Logid:
+      - 1-59e8d584-1b1845022f4d8583237fa009
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Thu, 19 Oct 2017 16:40:36 GMT
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"error":"Bad Request","status":400,"message":"Invalid client id specified"}'
+    http_version: 
+  recorded_at: Thu, 19 Oct 2017 16:40:36 GMT
+recorded_with: VCR 3.0.3
