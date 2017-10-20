@@ -201,4 +201,57 @@ http_interactions:
       string: '{"error":"Bad Request","status":400,"message":"Invalid client id specified"}'
     http_version: 
   recorded_at: Thu, 19 Oct 2017 16:40:36 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/search/games?query=IsntFun
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '14'
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - ae030a45bb7629593eda96cd0f6bbc68
+      X-Ctxlog-Logid:
+      - 1-59e9b562-6046db8055b503e81415ba43
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Fri, 20 Oct 2017 08:35:46 GMT
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"games":null}'
+    http_version: 
+  recorded_at: Fri, 20 Oct 2017 08:35:46 GMT
 recorded_with: VCR 3.0.3
