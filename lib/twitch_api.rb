@@ -55,7 +55,7 @@ module Twitch
     end
 
     def channel(name)
-      return 'User doesn\'t exist!' unless user_exist?
+      return 'User doesn\'t exist!' unless user_exist?(name)
       id = get_user_id(name)
       twitch_url = TwitchAPI.path('streams/' + id)
       data = call_twitch_url(twitch_url).parse
