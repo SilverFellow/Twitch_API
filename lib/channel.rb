@@ -23,12 +23,12 @@ module Twitch
       live? ? @channel_data['stream']['game'] : offline_message
     end
 
-    def viewer
+    def viewers
       live? ? @channel_data['stream']['viewers'] : offline_message
     end
 
     # return most popular clips of this channel
-    def clip
+    def clips
       @data_source.clip('channel', @name).top_clips
     end
 
