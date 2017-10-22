@@ -1,383 +1,383 @@
 {
     "clips": [
         {
-            "slug": "BoldNaiveSandwichFUNgineer",
-            "tracking_id": "138611743",
-            "url": "https://clips.twitch.tv/BoldNaiveSandwichFUNgineer?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=BoldNaiveSandwichFUNgineer&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=BoldNaiveSandwichFUNgineer&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "slug": "CleanOptimisticBadgerBIRB",
+            "tracking_id": "141133184",
+            "url": "https://clips.twitch.tv/CleanOptimisticBadgerBIRB?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=CleanOptimisticBadgerBIRB&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=CleanOptimisticBadgerBIRB&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
             "broadcaster": {
-                "id": "136155138",
-                "name": "pituherranz",
-                "display_name": "PituHerranz",
-                "channel_url": "https://www.twitch.tv/pituherranz",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/5e66e70c0138084d-profile_image-150x150.png"
+                "id": "15310631",
+                "name": "greekgodx",
+                "display_name": "Greekgodx",
+                "channel_url": "https://www.twitch.tv/greekgodx",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/greekgodx-profile_image-b6d4ec2780ff977c-150x150.jpeg"
             },
             "curator": {
-                "id": "53938981",
-                "name": "joshuaaa39",
-                "display_name": "joshuaaa39",
-                "channel_url": "https://www.twitch.tv/joshuaaa39",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/joshuaaa39-profile_image-5b6a4139d0578c30-150x150.jpeg"
+                "id": "54826470",
+                "name": "rammywastaken",
+                "display_name": "RAMMYwastaken",
+                "channel_url": "https://www.twitch.tv/rammywastaken",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/2df34e43-ed25-4cf4-aedc-585479a9b206-profile_image-150x150.png"
             },
             "vod": {
-                "id": "182146012",
-                "url": "https://www.twitch.tv/videos/182146012?t=3h14m30s",
-                "offset": 11670
+                "id": "183735487",
+                "url": "https://www.twitch.tv/videos/183735487?t=1h38m32s",
+                "offset": 5912
             },
-            "broadcast_id": "26481914640",
-            "game": "Counter-Strike: Global Offensive",
-            "language": "es",
-            "title": "Banned for cheating",
-            "views": 279249,
-            "duration": 27.999667,
-            "created_at": "2017-10-14T15:28:02Z",
+            "broadcast_id": "26530924208",
+            "game": "IRL",
+            "language": "en",
+            "title": "Greek meeting Tyler for the first time",
+            "views": 238468,
+            "duration": 29.980011,
+            "created_at": "2017-10-20T21:30:10Z",
             "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/26481914640-offset-11694-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/26481914640-offset-11694-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/26481914640-offset-11694-preview-86x45.jpg"
+                "medium": "https://clips-media-assets.twitch.tv/26530924208-offset-5936-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/26530924208-offset-5936-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/26530924208-offset-5936-preview-86x45.jpg"
             }
         },
         {
-            "slug": "LaconicResoluteKimchiHotPokket",
-            "tracking_id": "138737508",
-            "url": "https://clips.twitch.tv/LaconicResoluteKimchiHotPokket?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=LaconicResoluteKimchiHotPokket&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=LaconicResoluteKimchiHotPokket&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "slug": "SneakyOnerousAirGuitarBibleThump",
+            "tracking_id": "140482952",
+            "url": "https://clips.twitch.tv/SneakyOnerousAirGuitarBibleThump?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=SneakyOnerousAirGuitarBibleThump&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=SneakyOnerousAirGuitarBibleThump&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
             "broadcaster": {
-                "id": "96216939",
-                "name": "csgm_official",
-                "display_name": "CSGM_Official",
-                "channel_url": "https://www.twitch.tv/csgm_official",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/csgm_official-profile_image-139efda69abe2c74-150x150.png"
+                "id": "30890872",
+                "name": "cjayride",
+                "display_name": "CJAYRIDE",
+                "channel_url": "https://www.twitch.tv/cjayride",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/501259f2a0757c13-profile_image-150x150.png"
             },
             "curator": {
-                "id": "61200296",
-                "name": "xhypermega",
-                "display_name": "xHypermega",
-                "channel_url": "https://www.twitch.tv/xhypermega",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/xhypermega-profile_image-3c3a4f06a70b4019-150x150.jpeg"
+                "id": "154567145",
+                "name": "davidd000",
+                "display_name": "davidd000",
+                "channel_url": "https://www.twitch.tv/davidd000",
+                "logo": null
             },
             "vod": {
-                "id": "182208972",
-                "url": "https://www.twitch.tv/videos/182208972?t=2h58m26s",
-                "offset": 10706
+                "id": "183310897",
+                "url": "https://www.twitch.tv/videos/183310897?t=3h34m10s",
+                "offset": 12850
             },
-            "broadcast_id": "26483943040",
-            "game": "Counter-Strike: Global Offensive",
+            "broadcast_id": "26517428560",
+            "game": "IRL",
             "language": "en",
-            "title": "Ban",
-            "views": 193744,
-            "duration": 29.999667,
-            "created_at": "2017-10-14T20:29:53Z",
+            "title": "OPEN MIC",
+            "views": 88338,
+            "duration": 45,
+            "created_at": "2017-10-19T04:38:19Z",
             "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/26483943040-offset-10730-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/26483943040-offset-10730-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/26483943040-offset-10730-preview-86x45.jpg"
+                "medium": "https://clips-media-assets.twitch.tv/140482952-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/140482952-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/140482952-preview-86x45.jpg"
             }
         },
         {
-            "slug": "VainResoluteChinchillaPraiseIt",
-            "tracking_id": "138710876",
-            "url": "https://clips.twitch.tv/VainResoluteChinchillaPraiseIt?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=VainResoluteChinchillaPraiseIt&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=VainResoluteChinchillaPraiseIt&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "slug": "DeliciousSuspiciousPancakePeteZarollTie",
+            "tracking_id": "140218204",
+            "url": "https://clips.twitch.tv/DeliciousSuspiciousPancakePeteZarollTie?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=DeliciousSuspiciousPancakePeteZarollTie&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=DeliciousSuspiciousPancakePeteZarollTie&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
             "broadcaster": {
-                "id": "96216939",
-                "name": "csgm_official",
-                "display_name": "CSGM_Official",
-                "channel_url": "https://www.twitch.tv/csgm_official",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/csgm_official-profile_image-139efda69abe2c74-150x150.png"
+                "id": "9072112",
+                "name": "reckful",
+                "display_name": "Reckful",
+                "channel_url": "https://www.twitch.tv/reckful",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/reckful-profile_image-b22e4d39d3d6e045-150x150.jpeg"
             },
             "curator": {
-                "id": "139149823",
-                "name": "feunnixx",
-                "display_name": "feunnixx",
-                "channel_url": "https://www.twitch.tv/feunnixx",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/feunnixx-profile_image-b23e07a61a78c813-150x150.jpeg"
+                "id": "152775554",
+                "name": "electronicfun",
+                "display_name": "electronicfun",
+                "channel_url": "https://www.twitch.tv/electronicfun",
+                "logo": null
             },
             "vod": {
-                "id": "182208972",
-                "url": "https://www.twitch.tv/videos/182208972?t=1h58m59s",
-                "offset": 7139
+                "id": "183116079",
+                "url": "https://www.twitch.tv/videos/183116079?t=8h23m25s",
+                "offset": 30205
             },
-            "broadcast_id": "26483943040",
-            "game": "Counter-Strike: Global Offensive",
+            "broadcast_id": "26511560288",
+            "game": "IRL",
             "language": "en",
-            "title": "hmmm :thinking:",
-            "views": 121451,
+            "title": "WOAH",
+            "views": 86122,
             "duration": 60,
-            "created_at": "2017-10-14T19:30:56Z",
+            "created_at": "2017-10-18T14:24:54Z",
             "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/138710876-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/138710876-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/138710876-preview-86x45.jpg"
+                "medium": "https://clips-media-assets.twitch.tv/140218204-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/140218204-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/140218204-preview-86x45.jpg"
             }
         },
         {
-            "slug": "DeliciousTiredLettuceOptimizePrime",
-            "tracking_id": "138650087",
-            "url": "https://clips.twitch.tv/DeliciousTiredLettuceOptimizePrime?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=DeliciousTiredLettuceOptimizePrime&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=DeliciousTiredLettuceOptimizePrime&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "slug": "ImpossibleAttractivePlumberJKanStyle",
+            "tracking_id": "140160307",
+            "url": "https://clips.twitch.tv/ImpossibleAttractivePlumberJKanStyle?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=ImpossibleAttractivePlumberJKanStyle&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=ImpossibleAttractivePlumberJKanStyle&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
             "broadcaster": {
-                "id": "72882161",
-                "name": "unikrn",
-                "display_name": "Unikrn",
-                "channel_url": "https://www.twitch.tv/unikrn",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/40ea10d382451c8b-profile_image-150x150.png"
+                "id": "9072112",
+                "name": "reckful",
+                "display_name": "Reckful",
+                "channel_url": "https://www.twitch.tv/reckful",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/reckful-profile_image-b22e4d39d3d6e045-150x150.jpeg"
             },
             "curator": {
-                "id": "50473346",
-                "name": "eneshanerd",
-                "display_name": "Eneshanerd",
-                "channel_url": "https://www.twitch.tv/eneshanerd",
-                "logo": null
+                "id": "47712175",
+                "name": "chrisslol",
+                "display_name": "chrisslol",
+                "channel_url": "https://www.twitch.tv/chrisslol",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/chrisslol-profile_image-3ef06034d1a73c64-150x150.jpeg"
             },
             "vod": {
-                "id": "182128678",
-                "url": "https://www.twitch.tv/videos/182128678?t=7h6m1s",
-                "offset": 25561
+                "id": "183116079",
+                "url": "https://www.twitch.tv/videos/183116079?t=3h26m21s",
+                "offset": 12381
             },
-            "broadcast_id": "26481342176",
-            "game": "Counter-Strike: Global Offensive",
-            "language": "en-gb",
-            "title": "banned",
-            "views": 120262,
+            "broadcast_id": "26511560288",
+            "game": "IRL",
+            "language": "en",
+            "title": "reckful & rin kiss in reflection",
+            "views": 84419,
             "duration": 29.750667,
-            "created_at": "2017-10-14T17:08:06Z",
+            "created_at": "2017-10-18T09:27:15Z",
             "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/26481342176-offset-25586-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/26481342176-offset-25586-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/26481342176-offset-25586-preview-86x45.jpg"
+                "medium": "https://clips-media-assets.twitch.tv/26511560288-offset-12406-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/26511560288-offset-12406-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/26511560288-offset-12406-preview-86x45.jpg"
             }
         },
         {
-            "slug": "BovineBoringDonkeyPMSTwin",
-            "tracking_id": "139036590",
-            "url": "https://clips.twitch.tv/BovineBoringDonkeyPMSTwin?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=BovineBoringDonkeyPMSTwin&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=BovineBoringDonkeyPMSTwin&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "slug": "SneakyPrettiestSashimiAMPEnergyCherry",
+            "tracking_id": "140855184",
+            "url": "https://clips.twitch.tv/SneakyPrettiestSashimiAMPEnergyCherry?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=SneakyPrettiestSashimiAMPEnergyCherry&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=SneakyPrettiestSashimiAMPEnergyCherry&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
             "broadcaster": {
-                "id": "129013664",
-                "name": "asusrog",
-                "display_name": "ASUSROG",
-                "channel_url": "https://www.twitch.tv/asusrog",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/asusrog-profile_image-a1dbccd6ee767752-150x150.jpeg"
+                "id": "6663444",
+                "name": "boneclinks",
+                "display_name": "Boneclinks",
+                "channel_url": "https://www.twitch.tv/boneclinks",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/boneclinks-profile_image-76d516890a1535fa-150x150.png"
             },
             "curator": {
-                "id": "39512501",
-                "name": "xandathar",
-                "display_name": "Xandathar",
-                "channel_url": "https://www.twitch.tv/xandathar",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/095b4734398e59ea-profile_image-150x150.png"
+                "id": "28662476",
+                "name": "mit_epona",
+                "display_name": "MiT_Epona",
+                "channel_url": "https://www.twitch.tv/mit_epona",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/mit_epona-profile_image-eeca7b26c06c00fc-150x150.jpeg"
             },
             "vod": {
-                "id": "182397027",
-                "url": "https://www.twitch.tv/videos/182397027?t=3h25m36s",
-                "offset": 12336
+                "id": "183584621",
+                "url": "https://www.twitch.tv/videos/183584621?t=2h24m59s",
+                "offset": 8699
             },
-            "broadcast_id": "26489825760",
-            "game": "Counter-Strike: Global Offensive",
-            "language": "de",
-            "title": "Oskar insane wallbang",
-            "views": 110567,
-            "duration": 29.579678,
-            "created_at": "2017-10-15T12:58:08Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/26489825760-offset-12360-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/26489825760-offset-12360-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/26489825760-offset-12360-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "JollyBrainyCodRlyTho",
-            "tracking_id": "137533589",
-            "url": "https://clips.twitch.tv/JollyBrainyCodRlyTho?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=JollyBrainyCodRlyTho&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=JollyBrainyCodRlyTho&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "118170488",
-                "name": "epicenter_en1",
-                "display_name": "epicenter_en1",
-                "channel_url": "https://www.twitch.tv/epicenter_en1",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/epicenter_en1-profile_image-08e33d99a5945b3c-150x150.png"
-            },
-            "curator": {
-                "id": "80272249",
-                "name": "j4ck_cs",
-                "display_name": "J4ck_CS",
-                "channel_url": "https://www.twitch.tv/j4ck_cs",
-                "logo": null
-            },
-            "vod": {
-                "id": "181503403",
-                "url": "https://www.twitch.tv/videos/181503403?t=1h45m59s",
-                "offset": 6359
-            },
-            "broadcast_id": "26462445600",
-            "game": "Counter-Strike: Global Offensive",
+            "broadcast_id": "26526340656",
+            "game": "IRL",
             "language": "en",
-            "title": "stewie OW",
-            "views": 107562,
-            "duration": 15.683984,
-            "created_at": "2017-10-11T22:37:38Z",
+            "title": "Not Allowed To Stream The Twitch Party LOOOOL",
+            "views": 83813,
+            "duration": 30.307011,
+            "created_at": "2017-10-20T05:53:21Z",
             "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/137533589-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/137533589-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/137533589-preview-86x45.jpg"
+                "medium": "https://clips-media-assets.twitch.tv/26526340656-offset-8724-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/26526340656-offset-8724-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/26526340656-offset-8724-preview-86x45.jpg"
             }
         },
         {
-            "slug": "ObliqueSlipperyPistachioKreygasm",
-            "tracking_id": "137455048",
-            "url": "https://clips.twitch.tv/ObliqueSlipperyPistachioKreygasm?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=ObliqueSlipperyPistachioKreygasm&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=ObliqueSlipperyPistachioKreygasm&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "slug": "DreamyLazyFrogDxAbomb",
+            "tracking_id": "139762015",
+            "url": "https://clips.twitch.tv/DreamyLazyFrogDxAbomb?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=DreamyLazyFrogDxAbomb&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=DreamyLazyFrogDxAbomb&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
             "broadcaster": {
-                "id": "112435828",
-                "name": "starladder_cs_en2",
-                "display_name": "starladder_cs_en2",
-                "channel_url": "https://www.twitch.tv/starladder_cs_en2",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/dc9b3c9299577b84-profile_image-150x150.jpeg"
+                "id": "71644503",
+                "name": "anisajomha",
+                "display_name": "AnisaJomha",
+                "channel_url": "https://www.twitch.tv/anisajomha",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/anisajomha-profile_image-9a87d8e7e8b985dc-150x150.png"
             },
             "curator": {
-                "id": "87289683",
-                "name": "theelinuel",
-                "display_name": "TheElinuel",
-                "channel_url": "https://www.twitch.tv/theelinuel",
-                "logo": null
+                "id": "152675819",
+                "name": "tomo1ge",
+                "display_name": "tomo1ge",
+                "channel_url": "https://www.twitch.tv/tomo1ge",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/tomo1ge-profile_image-d43993918fe26b9e-150x150.jpeg"
             },
             "vod": {
-                "id": "181432848",
-                "url": "https://www.twitch.tv/videos/181432848?t=3h23m34s",
-                "offset": 12214
+                "id": "182843045",
+                "url": "https://www.twitch.tv/videos/182843045?t=1h58m50s",
+                "offset": 7130
             },
-            "broadcast_id": "26460314240",
-            "game": "Counter-Strike: Global Offensive",
-            "language": "ru",
-            "title": "16-0",
-            "views": 99634,
-            "duration": 29.099667,
-            "created_at": "2017-10-11T18:53:29Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/26460314240-offset-12238-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/26460314240-offset-12238-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/26460314240-offset-12238-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "DarlingAuspiciousAubergineDancingBanana",
-            "tracking_id": "137718537",
-            "url": "https://clips.twitch.tv/DarlingAuspiciousAubergineDancingBanana?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=DarlingAuspiciousAubergineDancingBanana&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=DarlingAuspiciousAubergineDancingBanana&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "68475506",
-                "name": "kiocsgo",
-                "display_name": "kiocsgo",
-                "channel_url": "https://www.twitch.tv/kiocsgo",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/6391c4e97e388dcd-profile_image-150x150.jpeg"
-            },
-            "curator": {
-                "id": "51488482",
-                "name": "bonkeycs",
-                "display_name": "bonkeycs",
-                "channel_url": "https://www.twitch.tv/bonkeycs",
-                "logo": null
-            },
-            "vod": {
-                "id": "181635329",
-                "url": "https://www.twitch.tv/videos/181635329?t=1h12m12s",
-                "offset": 4332
-            },
-            "broadcast_id": "26466374736",
-            "game": "Counter-Strike: Global Offensive",
+            "broadcast_id": "26503493936",
+            "game": "IRL",
             "language": "en",
-            "title": "Kio has seizure after dying in FPL",
-            "views": 81101,
-            "duration": 27.999667,
-            "created_at": "2017-10-12T12:36:46Z",
+            "title": "Idubbbz girlfriend talking about Ice",
+            "views": 72781,
+            "duration": 29.999333,
+            "created_at": "2017-10-17T04:53:43Z",
             "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/26466374736-offset-4356-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/26466374736-offset-4356-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/26466374736-offset-4356-preview-86x45.jpg"
+                "medium": "https://clips-media-assets.twitch.tv/vod-182843045-offset-7158-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/vod-182843045-offset-7158-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/vod-182843045-offset-7158-preview-86x45.jpg"
             }
         },
         {
-            "slug": "OilySleepyMinkDendiFace",
-            "tracking_id": "138734729",
-            "url": "https://clips.twitch.tv/OilySleepyMinkDendiFace?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=OilySleepyMinkDendiFace&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=OilySleepyMinkDendiFace&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "slug": "DepressedObedientDragonfruitKappaClaus",
+            "tracking_id": "139402116",
+            "url": "https://clips.twitch.tv/DepressedObedientDragonfruitKappaClaus?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=DepressedObedientDragonfruitKappaClaus&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=DepressedObedientDragonfruitKappaClaus&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
             "broadcaster": {
-                "id": "96216939",
-                "name": "csgm_official",
-                "display_name": "CSGM_Official",
-                "channel_url": "https://www.twitch.tv/csgm_official",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/csgm_official-profile_image-139efda69abe2c74-150x150.png"
+                "id": "26490481",
+                "name": "summit1g",
+                "display_name": "summit1g",
+                "channel_url": "https://www.twitch.tv/summit1g",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/200cea12142f2384-profile_image-150x150.png"
             },
             "curator": {
-                "id": "82802666",
-                "name": "willbobaggins16",
-                "display_name": "Willbobaggins16",
-                "channel_url": "https://www.twitch.tv/willbobaggins16",
+                "id": "146424489",
+                "name": "arnottts",
+                "display_name": "arnottts",
+                "channel_url": "https://www.twitch.tv/arnottts",
                 "logo": null
             },
             "vod": {
-                "id": "182208972",
-                "url": "https://www.twitch.tv/videos/182208972?t=2h52m26s",
-                "offset": 10346
+                "id": "182496726",
+                "url": "https://www.twitch.tv/videos/182496726?t=12h23m47s",
+                "offset": 44627
             },
-            "broadcast_id": "26483943040",
-            "game": "Counter-Strike: Global Offensive",
+            "broadcast_id": "26493027072",
+            "game": "IRL",
             "language": "en",
-            "title": "GAME SENSE",
-            "views": 81082,
-            "duration": 7.333984,
-            "created_at": "2017-10-14T20:23:40Z",
+            "title": "summit reacts to the worst counter strike tourney footage ever",
+            "views": 60157,
+            "duration": 51.25,
+            "created_at": "2017-10-16T06:47:56Z",
             "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/138734729-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/138734729-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/138734729-preview-86x45.jpg"
+                "medium": "https://clips-media-assets.twitch.tv/139402116-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/139402116-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/139402116-preview-86x45.jpg"
             }
         },
         {
-            "slug": "PluckyPrettySkirretHassaanChop",
-            "tracking_id": "139166802",
-            "url": "https://clips.twitch.tv/PluckyPrettySkirretHassaanChop?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=PluckyPrettySkirretHassaanChop&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=PluckyPrettySkirretHassaanChop&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "slug": "EsteemedManlyGoldfishGingerPower",
+            "tracking_id": "139003424",
+            "url": "https://clips.twitch.tv/EsteemedManlyGoldfishGingerPower?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=EsteemedManlyGoldfishGingerPower&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=EsteemedManlyGoldfishGingerPower&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
             "broadcaster": {
-                "id": "60917582",
-                "name": "s1mpleof",
-                "display_name": "s1mpleof",
-                "channel_url": "https://www.twitch.tv/s1mpleof",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/s1mpleof-profile_image-8ccf124d26c8b25d-150x150.jpeg"
+                "id": "9072112",
+                "name": "reckful",
+                "display_name": "Reckful",
+                "channel_url": "https://www.twitch.tv/reckful",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/reckful-profile_image-b22e4d39d3d6e045-150x150.jpeg"
             },
             "curator": {
-                "id": "106203640",
-                "name": "khaossc",
-                "display_name": "khaosSC",
-                "channel_url": "https://www.twitch.tv/khaossc",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/khaossc-profile_image-685f8558ad706e70-150x150.jpeg"
+                "id": "155103527",
+                "name": "toxicpieceof",
+                "display_name": "ToxicPieceOf",
+                "channel_url": "https://www.twitch.tv/toxicpieceof",
+                "logo": null
             },
             "vod": {
-                "id": "182457769",
-                "url": "https://www.twitch.tv/videos/182457769?t=2h47m48s",
-                "offset": 10068
+                "id": "182387741",
+                "url": "https://www.twitch.tv/videos/182387741?t=2h44m50s",
+                "offset": 9890
             },
-            "broadcast_id": "26491799952",
-            "game": "Counter-Strike: Global Offensive",
-            "language": "ru",
-            "title": "s1mple 5000IQ",
-            "views": 78811,
-            "duration": 25.433984,
-            "created_at": "2017-10-15T18:32:11Z",
+            "broadcast_id": "26489513424",
+            "game": "IRL",
+            "language": "en",
+            "title": "Yeah...Okay",
+            "views": 56538,
+            "duration": 29.600667,
+            "created_at": "2017-10-15T10:51:42Z",
             "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/139166802-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/139166802-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/139166802-preview-86x45.jpg"
+                "medium": "https://clips-media-assets.twitch.tv/26489513424-offset-9914-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/26489513424-offset-9914-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/26489513424-offset-9914-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "DaintyHeartlessWebStrawBeary",
+            "tracking_id": "140060537",
+            "url": "https://clips.twitch.tv/DaintyHeartlessWebStrawBeary?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=DaintyHeartlessWebStrawBeary&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=DaintyHeartlessWebStrawBeary&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "26560695",
+                "name": "shiphtur",
+                "display_name": "Shiphtur",
+                "channel_url": "https://www.twitch.tv/shiphtur",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/shiphtur-profile_image-e1da4894d17f08cd-150x150.jpeg"
+            },
+            "curator": {
+                "id": "31533367",
+                "name": "freexphere",
+                "display_name": "FreeXpHere",
+                "channel_url": "https://www.twitch.tv/freexphere",
+                "logo": null
+            },
+            "vod": {
+                "id": "183010417",
+                "url": "https://www.twitch.tv/videos/183010417?t=2h53m40s",
+                "offset": 10420
+            },
+            "broadcast_id": "26508536896",
+            "game": "IRL",
+            "language": "en",
+            "title": "whaa ??",
+            "views": 53381,
+            "duration": 24.5,
+            "created_at": "2017-10-18T01:06:32Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/140060537-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/140060537-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/140060537-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "BlazingSolidPenguinSwiftRage",
+            "tracking_id": "139491098",
+            "url": "https://clips.twitch.tv/BlazingSolidPenguinSwiftRage?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=BlazingSolidPenguinSwiftRage&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=BlazingSolidPenguinSwiftRage&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "26301881",
+                "name": "sodapoppin",
+                "display_name": "sodapoppin",
+                "channel_url": "https://www.twitch.tv/sodapoppin",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/sodapoppin-profile_image-10049b6200f90c14-150x150.png"
+            },
+            "curator": {
+                "id": "152775554",
+                "name": "electronicfun",
+                "display_name": "electronicfun",
+                "channel_url": "https://www.twitch.tv/electronicfun",
+                "logo": null
+            },
+            "vod": {
+                "id": "182629992",
+                "url": "https://www.twitch.tv/videos/182629992?t=9h37m8s",
+                "offset": 34628
+            },
+            "broadcast_id": "26497064208",
+            "game": "IRL",
+            "language": "en",
+            "title": "MY CHICKEN NOW",
+            "views": 50146,
+            "duration": 31,
+            "created_at": "2017-10-16T15:00:17Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/139491098-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/139491098-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/139491098-preview-86x45.jpg"
             }
         }
     ],

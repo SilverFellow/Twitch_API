@@ -1,0 +1,587 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/search/games?query=IRL
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - badtoken
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '76'
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - 225304c920cfcf314684d909cc99e2a0
+      X-Ctxlog-Logid:
+      - 1-59eb721c-6e5fe0005f10182c0ba7e7ea
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Sat, 21 Oct 2017 16:13:16 GMT
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"error":"Bad Request","status":400,"message":"Invalid client id specified"}'
+    http_version: 
+  recorded_at: Sat, 21 Oct 2017 16:13:16 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/search/games?query=IRL
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - df34f488776add2837c998f77557a98a
+      X-Ctxlog-Logid:
+      - 1-59eb721c-1d8a7c7717ed75f6008bef58
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Sat, 21 Oct 2017 16:13:16 GMT
+      Content-Length:
+      - '680'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"games":[{"name":"IRL","popularity":33735,"_id":494717,"giantbomb_id":0,"box":{"large":"https://static-cdn.jtvnw.net/ttv-boxart/IRL-272x380.jpg","medium":"https://static-cdn.jtvnw.net/ttv-boxart/IRL-136x190.jpg","small":"https://static-cdn.jtvnw.net/ttv-boxart/IRL-52x72.jpg","template":"https://static-cdn.jtvnw.net/ttv-boxart/IRL-{width}x{height}.jpg"},"logo":{"large":"https://static-cdn.jtvnw.net/ttv-logoart/IRL-240x144.jpg","medium":"https://static-cdn.jtvnw.net/ttv-logoart/IRL-120x72.jpg","small":"https://static-cdn.jtvnw.net/ttv-logoart/IRL-60x36.jpg","template":"https://static-cdn.jtvnw.net/ttv-logoart/IRL-{width}x{height}.jpg"},"localized_name":"IRL","locale":""}]}'
+    http_version: 
+  recorded_at: Sat, 21 Oct 2017 16:13:16 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/search/streams?query=IRL
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - 43aefafa520434744739738457f24db1
+      X-Ctxlog-Logid:
+      - 1-59eb721d-20f7835d0744249d0b819213
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Sat, 21 Oct 2017 16:13:17 GMT
+      Content-Length:
+      - '11972'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: "{\"_total\":561,\"streams\":[{\"_id\":26530084192,\"game\":\"IRL\",\"broadcast_platform\":\"live\",\"community_id\":\"\",\"community_ids\":[],\"viewers\":2873,\"video_height\":1080,\"average_fps\":26.6666666667,\"delay\":0,\"created_at\":\"2017-10-20T17:59:14Z\",\"is_playlist\":false,\"stream_type\":\"live\",\"preview\":{\"small\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_redbull-80x45.jpg\",\"medium\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_redbull-320x180.jpg\",\"large\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_redbull-640x360.jpg\",\"template\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_redbull-{width}x{height}.jpg\"},\"channel\":{\"mature\":false,\"status\":\"Red
+        Bull Cliff Diving World Series Marathon\",\"broadcaster_language\":\"en\",\"display_name\":\"RedBull\",\"game\":\"IRL\",\"language\":\"en\",\"_id\":141173718,\"name\":\"redbull\",\"created_at\":\"2016-12-05T22:56:34.246479Z\",\"updated_at\":\"2017-10-21T16:06:25.43443Z\",\"partner\":false,\"logo\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/redbull-profile_image-59e329d8b2c0b595-300x300.jpeg\",\"video_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/278c621b29c70a38-channel_offline_image-1920x1080.jpeg\",\"profile_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/5d5287c121b16263-profile_banner-480.jpeg\",\"profile_banner_background_color\":\"\",\"url\":\"https://www.twitch.tv/redbull\",\"views\":4135414,\"followers\":22470,\"broadcaster_type\":\"\",\"description\":\"Red
+        Bull on Twitch brings you events from the world of Red Bull, including music,
+        sports, and more. Plus keep your eyes open for content marathons fired up
+        by Red Bull TV, and stay tuned for whatever we can think up. Want eSports?
+        Twitch.tv/RedBulleSports\"}},{\"_id\":26536029376,\"game\":\"IRL\",\"broadcast_platform\":\"live\",\"community_id\":\"\",\"community_ids\":[],\"viewers\":2524,\"video_height\":1080,\"average_fps\":60.9233698239,\"delay\":0,\"created_at\":\"2017-10-21T11:13:05Z\",\"is_playlist\":false,\"stream_type\":\"live\",\"preview\":{\"small\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_uzra-80x45.jpg\",\"medium\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_uzra-320x180.jpg\",\"large\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_uzra-640x360.jpg\",\"template\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_uzra-{width}x{height}.jpg\"},\"channel\":{\"mature\":false,\"status\":\"【JT
+        Uzra】我與聊天室的合作冒險?\",\"broadcaster_language\":\"zh\",\"display_name\":\"uzra\",\"game\":\"IRL\",\"language\":\"zh-tw\",\"_id\":11692694,\"name\":\"uzra\",\"created_at\":\"2010-04-08T08:53:40.8877Z\",\"updated_at\":\"2017-10-21T16:06:36.240942Z\",\"partner\":false,\"logo\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/uzra-profile_image-e60ae5576fa3fd8a-300x300.png\",\"video_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/uzra-channel_offline_image-772912c187043d15-1920x1080.png\",\"profile_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/uzra-profile_banner-cb6f3e10d08c0b11-480.png\",\"profile_banner_background_color\":\"\",\"url\":\"https://www.twitch.tv/uzra\",\"views\":17869478,\"followers\":91973,\"broadcaster_type\":\"\",\"description\":\"
+        大家好 我是Uzra 是一個正面能量的實況主\\r各種遊戲都玩 目前主要是玩爐石戰記 歡迎大家來跟我聊一個大的\"}},{\"_id\":26536534784,\"game\":\"IRL\",\"broadcast_platform\":\"live\",\"community_id\":\"66b88afb-5f17-4c28-a193-0b99d9814b13\",\"community_ids\":[\"66b88afb-5f17-4c28-a193-0b99d9814b13\"],\"viewers\":1783,\"video_height\":1080,\"average_fps\":30,\"delay\":0,\"created_at\":\"2017-10-21T12:55:52Z\",\"is_playlist\":false,\"stream_type\":\"live\",\"preview\":{\"small\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_cjayride-80x45.jpg\",\"medium\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_cjayride-320x180.jpg\",\"large\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_cjayride-640x360.jpg\",\"template\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_cjayride-{width}x{height}.jpg\"},\"channel\":{\"mature\":false,\"status\":\"{OMNI}
+        Night Club w/ BabyHsu888, Danny, Cyn, Mappum, and More\",\"broadcaster_language\":\"en\",\"display_name\":\"CJAYRIDE\",\"game\":\"IRL\",\"language\":\"en\",\"_id\":30890872,\"name\":\"cjayride\",\"created_at\":\"2012-05-29T08:00:53.840027Z\",\"updated_at\":\"2017-10-21T16:06:44.243278Z\",\"partner\":false,\"logo\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/501259f2a0757c13-profile_image-300x300.png\",\"video_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/b3e8331cafa3bbef-channel_offline_image-1920x1080.jpeg\",\"profile_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/0f30f225bc3d06d1-profile_banner-480.png\",\"profile_banner_background_color\":\"\",\"url\":\"https://www.twitch.tv/cjayride\",\"views\":1406188,\"followers\":32480,\"broadcaster_type\":\"\",\"description\":\"Let's
+        Ride .:. IRL Taipei\"}},{\"_id\":26536744848,\"game\":\"IRL\",\"broadcast_platform\":\"live\",\"community_id\":\"4cb36321-ccac-4bd6-81b4-b3aba85b819a\",\"community_ids\":[\"4cb36321-ccac-4bd6-81b4-b3aba85b819a\",\"5c5a67db-215f-4c38-82c5-454d9983cfb5\",\"fd0eab99-832a-4d7e-8cc0-04d73deb2e54\"],\"viewers\":1718,\"video_height\":480,\"average_fps\":30.2114803625,\"delay\":0,\"created_at\":\"2017-10-21T13:32:15Z\",\"is_playlist\":false,\"stream_type\":\"live\",\"preview\":{\"small\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_jakenbakelive-80x45.jpg\",\"medium\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_jakenbakelive-320x180.jpg\",\"large\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_jakenbakelive-640x360.jpg\",\"template\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_jakenbakelive-{width}x{height}.jpg\"},\"channel\":{\"mature\":false,\"status\":\"Tokyo,
+        JPN - Saturdays are for the Boys feat. !Will !Tommy and Hamish -  jnbPeek
+        - !friends !discord !wotd\",\"broadcaster_language\":\"en\",\"display_name\":\"JakenbakeLIVE\",\"game\":\"IRL\",\"language\":\"en\",\"_id\":11249217,\"name\":\"jakenbakelive\",\"created_at\":\"2010-03-22T07:22:10.005303Z\",\"updated_at\":\"2017-10-21T16:05:26.785628Z\",\"partner\":false,\"logo\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/jakenbakelive-profile_image-cf0960d3d360b6c9-300x300.png\",\"video_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/40febdcc7632e64c-channel_offline_image-1920x1080.jpeg\",\"profile_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/9224fafab96a61b5-profile_banner-480.jpeg\",\"profile_banner_background_color\":\"#000000\",\"url\":\"https://www.twitch.tv/jakenbakelive\",\"views\":1011306,\"followers\":23739,\"broadcaster_type\":\"\",\"description\":\"I
+        live in Tokyo and I live stream cool stuff in Japan. jnbKappa\"}},{\"_id\":26536741568,\"game\":\"IRL\",\"broadcast_platform\":\"live\",\"community_id\":\"\",\"community_ids\":[],\"viewers\":1529,\"video_height\":1080,\"average_fps\":60,\"delay\":0,\"created_at\":\"2017-10-21T13:31:39Z\",\"is_playlist\":false,\"stream_type\":\"live\",\"preview\":{\"small\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_manyrin-80x45.jpg\",\"medium\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_manyrin-320x180.jpg\",\"large\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_manyrin-640x360.jpg\",\"template\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_manyrin-{width}x{height}.jpg\"},\"channel\":{\"mature\":false,\"status\":\"Всем
+        самых лучших выходных\",\"broadcaster_language\":\"ru\",\"display_name\":\"Manyrin\",\"game\":\"IRL\",\"language\":\"ru\",\"_id\":53999900,\"name\":\"manyrin\",\"created_at\":\"2013-12-28T19:15:37.84291Z\",\"updated_at\":\"2017-10-21T16:06:05.540431Z\",\"partner\":false,\"logo\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/manyrin-profile_image-54956358d6f211d8-300x300.png\",\"video_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/manyrin-channel_offline_image-4bebc4cf3de5463d-1920x1080.jpeg\",\"profile_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/manyrin-profile_banner-5059fefb17636219-480.png\",\"profile_banner_background_color\":\"\",\"url\":\"https://www.twitch.tv/manyrin\",\"views\":10035067,\"followers\":116289,\"broadcaster_type\":\"\",\"description\":\"\"}},{\"_id\":26537692608,\"game\":\"IRL\",\"broadcast_platform\":\"live\",\"community_id\":\"\",\"community_ids\":[],\"viewers\":1319,\"video_height\":1080,\"average_fps\":60.0100857287,\"delay\":0,\"created_at\":\"2017-10-21T15:57:27Z\",\"is_playlist\":false,\"stream_type\":\"live\",\"preview\":{\"small\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_ckkos44444-80x45.jpg\",\"medium\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_ckkos44444-320x180.jpg\",\"large\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_ckkos44444-640x360.jpg\",\"template\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_ckkos44444-{width}x{height}.jpg\"},\"channel\":{\"mature\":true,\"status\":\"【館長】硬舉訓練
+        與十幾萬的地板  2017/10/21\",\"broadcaster_language\":\"zh\",\"display_name\":\"飆悍\",\"game\":\"IRL\",\"language\":\"zh-tw\",\"_id\":152445186,\"name\":\"ckkos44444\",\"created_at\":\"2017-04-05T13:40:33.57502Z\",\"updated_at\":\"2017-10-21T16:06:41.417142Z\",\"partner\":false,\"logo\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/ckkos44444-profile_image-bb664e422f414b87-300x300.jpeg\",\"video_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/29d48608e16aba58-channel_offline_image-1920x1080.jpeg\",\"profile_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/81a5638236bcc1f1-profile_banner-480.jpeg\",\"profile_banner_background_color\":\"\",\"url\":\"https://www.twitch.tv/ckkos44444\",\"views\":4128782,\"followers\":117612,\"broadcaster_type\":\"\",\"description\":\"成吉思汗健身俱樂部執行長進化綜合格鬥中心館長
+        \"}},{\"_id\":26537512800,\"game\":\"IRL\",\"broadcast_platform\":\"live\",\"community_id\":\"\",\"community_ids\":[],\"viewers\":1304,\"video_height\":1080,\"average_fps\":60,\"delay\":0,\"created_at\":\"2017-10-21T15:31:32Z\",\"is_playlist\":false,\"stream_type\":\"live\",\"preview\":{\"small\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_gimper-80x45.jpg\",\"medium\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_gimper-320x180.jpg\",\"large\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_gimper-640x360.jpg\",\"template\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_gimper-{width}x{height}.jpg\"},\"channel\":{\"mature\":false,\"status\":\"ninja
+        stream\",\"broadcaster_language\":\"pl\",\"display_name\":\"Gimper\",\"game\":\"IRL\",\"language\":\"pl\",\"_id\":156943351,\"name\":\"gimper\",\"created_at\":\"2017-05-15T10:24:53.375362Z\",\"updated_at\":\"2017-10-21T16:06:33.51269Z\",\"partner\":false,\"logo\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/d27336491fac07d5-profile_image-300x300.png\",\"video_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/7da362d3bff88a8d-channel_offline_image-1920x1080.jpeg\",\"profile_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/25f6a2a111cf0cad-profile_banner-480.png\",\"profile_banner_background_color\":\"\",\"url\":\"https://www.twitch.tv/gimper\",\"views\":5413451,\"followers\":90717,\"broadcaster_type\":\"\",\"description\":\"\"}},{\"_id\":26537517728,\"game\":\"IRL\",\"broadcast_platform\":\"live\",\"community_id\":\"\",\"community_ids\":[],\"viewers\":1204,\"video_height\":900,\"average_fps\":61.4854894245,\"delay\":0,\"created_at\":\"2017-10-21T15:32:19Z\",\"is_playlist\":false,\"stream_type\":\"live\",\"preview\":{\"small\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_scurrows-80x45.jpg\",\"medium\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_scurrows-320x180.jpg\",\"large\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_scurrows-640x360.jpg\",\"template\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_scurrows-{width}x{height}.jpg\"},\"channel\":{\"mature\":true,\"status\":\"Die
+        Entführung! [kw-com.de]\",\"broadcaster_language\":\"de\",\"display_name\":\"Scurrows\",\"game\":\"IRL\",\"language\":\"de\",\"_id\":126805726,\"name\":\"scurrows\",\"created_at\":\"2016-06-14T19:12:05.311583Z\",\"updated_at\":\"2017-10-21T16:05:39.094477Z\",\"partner\":false,\"logo\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/5f8ded39fee0adb9-profile_image-300x300.jpeg\",\"video_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/f00e58f0edce8dff-channel_offline_image-1920x1080.png\",\"profile_banner\":null,\"profile_banner_background_color\":\"\",\"url\":\"https://www.twitch.tv/scurrows\",\"views\":362142,\"followers\":23226,\"broadcaster_type\":\"\",\"description\":\"Auch
+        bekannt als BILAL AGABEY in GTA.                                                                         Auch
+        bekannt als ÜBERMENSCH in FIFA. \U0001F602\"}}]}"
+    http_version: 
+  recorded_at: Sat, 21 Oct 2017 16:13:17 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken//clips/top?channel=toyzttv
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - dcf6b800f0c8afccbc356d8d15ad48f8
+      X-Ctxlog-Logid:
+      - 1-59eb775f-75eadcee6d021b122fa9a207
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Sat, 21 Oct 2017 16:35:43 GMT
+      Content-Length:
+      - '15454'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"clips":[{"slug":"PopularThankfulShallotNomNom","tracking_id":"140568847","url":"https://clips.twitch.tv/PopularThankfulShallotNomNom?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=PopularThankfulShallotNomNom\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=PopularThankfulShallotNomNom\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"131467146","name":"toyzttv","display_name":"全國最大的遊戲直播中心","channel_url":"https://www.twitch.tv/toyzttv","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"},"curator":{"id":"125445287","name":"ahumi75","display_name":"牛逼放","channel_url":"https://www.twitch.tv/ahumi75","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/bf6795cc-8bdc-4e91-9066-c51ae9a4083c-profile_image-150x150.jpg"},"vod":{"id":"183394809","url":"https://www.twitch.tv/videos/183394809?t=1h2m44s","offset":3764},"broadcast_id":"26520131104","game":"League
+        of Legends","language":"zh-tw","title":"【 Toyz 】直播重新出發　每周二四六晚上 【1019】","views":701,"duration":29.999667,"created_at":"2017-10-19T13:07:33Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/26520131104-offset-3788-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/26520131104-offset-3788-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/26520131104-offset-3788-preview-86x45.jpg"}},{"slug":"ArtisticMoralWaffleCmonBruh","tracking_id":"141421780","url":"https://clips.twitch.tv/ArtisticMoralWaffleCmonBruh?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=ArtisticMoralWaffleCmonBruh\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=ArtisticMoralWaffleCmonBruh\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"131467146","name":"toyzttv","display_name":"全國最大的遊戲直播中心","channel_url":"https://www.twitch.tv/toyzttv","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"},"curator":{"id":"51552366","name":"mii2443","display_name":"mii2443","channel_url":"https://www.twitch.tv/mii2443","logo":null},"vod":{"id":"183924070","url":"https://www.twitch.tv/videos/183924070?t=1h45m18s","offset":6318},"broadcast_id":"26536724512","game":"League
+        of Legends","language":"zh-tw","title":"bebe: 5個toyz們會壞掉? A: 不會我用旋轉門","views":247,"duration":40.5,"created_at":"2017-10-21T15:14:58Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/141421780-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/141421780-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/141421780-preview-86x45.jpg"}},{"slug":"CleanAnimatedNoodleANELE","tracking_id":"140570116","url":"https://clips.twitch.tv/CleanAnimatedNoodleANELE?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=CleanAnimatedNoodleANELE\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=CleanAnimatedNoodleANELE\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"131467146","name":"toyzttv","display_name":"全國最大的遊戲直播中心","channel_url":"https://www.twitch.tv/toyzttv","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"},"curator":{"id":"62513208","name":"alreadygogo","display_name":"AlreadyGOGO","channel_url":"https://www.twitch.tv/alreadygogo","logo":null},"vod":{"id":"183394809","url":"https://www.twitch.tv/videos/183394809?t=1h8m19s","offset":4099},"broadcast_id":"26520131104","game":"League
+        of Legends","language":"zh-tw","title":"嘴統神","views":206,"duration":60,"created_at":"2017-10-19T13:13:37Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/140570116-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/140570116-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/140570116-preview-86x45.jpg"}},{"slug":"LovelyMuddySwallowRitzMitz","tracking_id":"139845621","url":"https://clips.twitch.tv/LovelyMuddySwallowRitzMitz?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=LovelyMuddySwallowRitzMitz\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=LovelyMuddySwallowRitzMitz\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"131467146","name":"toyzttv","display_name":"全國最大的遊戲直播中心","channel_url":"https://www.twitch.tv/toyzttv","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"},"curator":{"id":"69126927","name":"gx778653011","display_name":"桃園先生","channel_url":"https://www.twitch.tv/gx778653011","logo":null},"vod":{"id":"182913292","url":"https://www.twitch.tv/videos/182913292?t=52m48s","offset":3168},"broadcast_id":"26505631664","game":"League
+        of Legends","language":"zh-tw","title":"不找國動當教練原因+老狐狸預測","views":167,"duration":29.933984,"created_at":"2017-10-17T13:46:50Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/139845621-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/139845621-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/139845621-preview-86x45.jpg"}},{"slug":"ApatheticTentativeLyrebirdDogFace","tracking_id":"140569807","url":"https://clips.twitch.tv/ApatheticTentativeLyrebirdDogFace?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=ApatheticTentativeLyrebirdDogFace\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=ApatheticTentativeLyrebirdDogFace\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"131467146","name":"toyzttv","display_name":"全國最大的遊戲直播中心","channel_url":"https://www.twitch.tv/toyzttv","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"},"curator":{"id":"12233445","name":"chillion970","display_name":"齊里恩","channel_url":"https://www.twitch.tv/chillion970","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/700e8d20-b1fc-4dd7-9720-ae9676162114-profile_image-150x150.png"},"vod":{"id":"183394809","url":"https://www.twitch.tv/videos/183394809?t=1h7m28s","offset":4048},"broadcast_id":"26520131104","game":"League
+        of Legends","language":"zh-tw","title":"獨立思考","views":84,"duration":29.999667,"created_at":"2017-10-19T13:12:13Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/26520131104-offset-4072-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/26520131104-offset-4072-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/26520131104-offset-4072-preview-86x45.jpg"}},{"slug":"SleepyPlayfulDogAllenHuhu","tracking_id":"140615887","url":"https://clips.twitch.tv/SleepyPlayfulDogAllenHuhu?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=SleepyPlayfulDogAllenHuhu\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=SleepyPlayfulDogAllenHuhu\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"131467146","name":"toyzttv","display_name":"全國最大的遊戲直播中心","channel_url":"https://www.twitch.tv/toyzttv","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"},"curator":{"id":"115688875","name":"tsenggene52","display_name":"小均爺","channel_url":"https://www.twitch.tv/tsenggene52","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/9950bd64cd3af8b9-profile_image-150x150.jpeg"},"vod":{"id":"183394809","url":"https://www.twitch.tv/videos/183394809?t=4h0m6s","offset":14406},"broadcast_id":"26520131104","game":"League
+        of Legends","language":"zh-tw","title":"大悲熱","views":52,"duration":29.999667,"created_at":"2017-10-19T16:04:50Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/26520131104-offset-14430-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/26520131104-offset-14430-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/26520131104-offset-14430-preview-86x45.jpg"}},{"slug":"ObedientTriangularEndiveOneHand","tracking_id":"140570139","url":"https://clips.twitch.tv/ObedientTriangularEndiveOneHand?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=ObedientTriangularEndiveOneHand\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=ObedientTriangularEndiveOneHand\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"131467146","name":"toyzttv","display_name":"全國最大的遊戲直播中心","channel_url":"https://www.twitch.tv/toyzttv","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"},"curator":{"id":"70574851","name":"shyhs411","display_name":"ShyHS411","channel_url":"https://www.twitch.tv/shyhs411","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/b15ab0626765be99-profile_image-150x150.png"},"vod":{"id":"183394809","url":"https://www.twitch.tv/videos/183394809?t=1h9m2s","offset":4142},"broadcast_id":"26520131104","game":"League
+        of Legends","language":"zh-tw","title":"小氣仔","views":42,"duration":29.999667,"created_at":"2017-10-19T13:13:43Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/26520131104-offset-4166-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/26520131104-offset-4166-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/26520131104-offset-4166-preview-86x45.jpg"}},{"slug":"SillyComfortableConsoleFreakinStinkin","tracking_id":"139938327","url":"https://clips.twitch.tv/SillyComfortableConsoleFreakinStinkin?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=SillyComfortableConsoleFreakinStinkin\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=SillyComfortableConsoleFreakinStinkin\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"131467146","name":"toyzttv","display_name":"全國最大的遊戲直播中心","channel_url":"https://www.twitch.tv/toyzttv","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"},"curator":{"id":"37204569","name":"mark1883","display_name":"Mark1883","channel_url":"https://www.twitch.tv/mark1883","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/mark1883-profile_image-47c378426997c8ef-150x150.jpeg"},"vod":{"id":"182913292","url":"https://www.twitch.tv/videos/182913292?t=5h42m3s","offset":20523},"broadcast_id":"26505631664","game":"League
+        of Legends","language":"zh-tw","title":"世界冠軍","views":34,"duration":31.25,"created_at":"2017-10-17T18:34:42Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/139938327-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/139938327-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/139938327-preview-86x45.jpg"}},{"slug":"YawningThankfulCourgetteCharlietheUnicorn","tracking_id":"140570210","url":"https://clips.twitch.tv/YawningThankfulCourgetteCharlietheUnicorn?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=YawningThankfulCourgetteCharlietheUnicorn\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=YawningThankfulCourgetteCharlietheUnicorn\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"131467146","name":"toyzttv","display_name":"全國最大的遊戲直播中心","channel_url":"https://www.twitch.tv/toyzttv","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"},"curator":{"id":"154736183","name":"permanent1120","display_name":"微小","channel_url":"https://www.twitch.tv/permanent1120","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/4a2df345da5240ad-profile_image-150x150.jpeg"},"vod":{"id":"183394809","url":"https://www.twitch.tv/videos/183394809?t=1h9m22s","offset":4162},"broadcast_id":"26520131104","game":"League
+        of Legends","language":"zh-tw","title":"合理","views":31,"duration":29,"created_at":"2017-10-19T13:14:02Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/140570210-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/140570210-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/140570210-preview-86x45.jpg"}},{"slug":"DarlingEsteemedAlmondFutureMan","tracking_id":"140568808","url":"https://clips.twitch.tv/DarlingEsteemedAlmondFutureMan?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=DarlingEsteemedAlmondFutureMan\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=DarlingEsteemedAlmondFutureMan\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"131467146","name":"toyzttv","display_name":"全國最大的遊戲直播中心","channel_url":"https://www.twitch.tv/toyzttv","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"},"curator":{"id":"49666806","name":"hks_memoryz","display_name":"HKs_MemorYz","channel_url":"https://www.twitch.tv/hks_memoryz","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/hks_memoryz-profile_image-5ff637c149d10bc1-150x150.jpeg"},"vod":{"id":"183394809","url":"https://www.twitch.tv/videos/183394809?t=1h2m40s","offset":3760},"broadcast_id":"26520131104","game":"League
+        of Legends","language":"zh-tw","title":"7777","views":27,"duration":29.999667,"created_at":"2017-10-19T13:07:27Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/26520131104-offset-3784-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/26520131104-offset-3784-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/26520131104-offset-3784-preview-86x45.jpg"}}],"_cursor":"MTA="}'
+    http_version: 
+  recorded_at: Sat, 21 Oct 2017 16:35:43 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken//clips/top?game=IRL
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - 19c200ac858755642a00279a53ab104c
+      X-Ctxlog-Logid:
+      - 1-59eb775f-468d1a2e53a032d1688d04f3
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Sat, 21 Oct 2017 16:35:44 GMT
+      Content-Length:
+      - '14943'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"clips":[{"slug":"CleanOptimisticBadgerBIRB","tracking_id":"141133184","url":"https://clips.twitch.tv/CleanOptimisticBadgerBIRB?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=CleanOptimisticBadgerBIRB\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=CleanOptimisticBadgerBIRB\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"15310631","name":"greekgodx","display_name":"Greekgodx","channel_url":"https://www.twitch.tv/greekgodx","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/greekgodx-profile_image-b6d4ec2780ff977c-150x150.jpeg"},"curator":{"id":"54826470","name":"rammywastaken","display_name":"RAMMYwastaken","channel_url":"https://www.twitch.tv/rammywastaken","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/2df34e43-ed25-4cf4-aedc-585479a9b206-profile_image-150x150.png"},"vod":{"id":"183735487","url":"https://www.twitch.tv/videos/183735487?t=1h38m32s","offset":5912},"broadcast_id":"26530924208","game":"IRL","language":"en","title":"Greek
+        meeting Tyler for the first time","views":240559,"duration":29.980011,"created_at":"2017-10-20T21:30:10Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/26530924208-offset-5936-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/26530924208-offset-5936-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/26530924208-offset-5936-preview-86x45.jpg"}},{"slug":"SneakyOnerousAirGuitarBibleThump","tracking_id":"140482952","url":"https://clips.twitch.tv/SneakyOnerousAirGuitarBibleThump?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=SneakyOnerousAirGuitarBibleThump\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=SneakyOnerousAirGuitarBibleThump\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"30890872","name":"cjayride","display_name":"CJAYRIDE","channel_url":"https://www.twitch.tv/cjayride","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/501259f2a0757c13-profile_image-150x150.png"},"curator":{"id":"154567145","name":"davidd000","display_name":"davidd000","channel_url":"https://www.twitch.tv/davidd000","logo":null},"vod":{"id":"183310897","url":"https://www.twitch.tv/videos/183310897?t=3h34m10s","offset":12850},"broadcast_id":"26517428560","game":"IRL","language":"en","title":"OPEN
+        MIC","views":88424,"duration":45,"created_at":"2017-10-19T04:38:19Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/140482952-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/140482952-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/140482952-preview-86x45.jpg"}},{"slug":"DeliciousSuspiciousPancakePeteZarollTie","tracking_id":"140218204","url":"https://clips.twitch.tv/DeliciousSuspiciousPancakePeteZarollTie?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=DeliciousSuspiciousPancakePeteZarollTie\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=DeliciousSuspiciousPancakePeteZarollTie\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"9072112","name":"reckful","display_name":"Reckful","channel_url":"https://www.twitch.tv/reckful","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/reckful-profile_image-b22e4d39d3d6e045-150x150.jpeg"},"curator":{"id":"152775554","name":"electronicfun","display_name":"electronicfun","channel_url":"https://www.twitch.tv/electronicfun","logo":null},"vod":{"id":"183116079","url":"https://www.twitch.tv/videos/183116079?t=8h23m25s","offset":30205},"broadcast_id":"26511560288","game":"IRL","language":"en","title":"WOAH","views":86738,"duration":60,"created_at":"2017-10-18T14:24:54Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/140218204-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/140218204-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/140218204-preview-86x45.jpg"}},{"slug":"ImpossibleAttractivePlumberJKanStyle","tracking_id":"140160307","url":"https://clips.twitch.tv/ImpossibleAttractivePlumberJKanStyle?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=ImpossibleAttractivePlumberJKanStyle\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=ImpossibleAttractivePlumberJKanStyle\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"9072112","name":"reckful","display_name":"Reckful","channel_url":"https://www.twitch.tv/reckful","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/reckful-profile_image-b22e4d39d3d6e045-150x150.jpeg"},"curator":{"id":"47712175","name":"chrisslol","display_name":"chrisslol","channel_url":"https://www.twitch.tv/chrisslol","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/chrisslol-profile_image-3ef06034d1a73c64-150x150.jpeg"},"vod":{"id":"183116079","url":"https://www.twitch.tv/videos/183116079?t=3h26m21s","offset":12381},"broadcast_id":"26511560288","game":"IRL","language":"en","title":"reckful
+        \u0026 rin kiss in reflection","views":84451,"duration":29.750667,"created_at":"2017-10-18T09:27:15Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/26511560288-offset-12406-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/26511560288-offset-12406-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/26511560288-offset-12406-preview-86x45.jpg"}},{"slug":"SneakyPrettiestSashimiAMPEnergyCherry","tracking_id":"140855184","url":"https://clips.twitch.tv/SneakyPrettiestSashimiAMPEnergyCherry?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=SneakyPrettiestSashimiAMPEnergyCherry\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=SneakyPrettiestSashimiAMPEnergyCherry\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"6663444","name":"boneclinks","display_name":"Boneclinks","channel_url":"https://www.twitch.tv/boneclinks","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/boneclinks-profile_image-76d516890a1535fa-150x150.png"},"curator":{"id":"28662476","name":"mit_epona","display_name":"MiT_Epona","channel_url":"https://www.twitch.tv/mit_epona","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/mit_epona-profile_image-eeca7b26c06c00fc-150x150.jpeg"},"vod":{"id":"183584621","url":"https://www.twitch.tv/videos/183584621?t=2h24m59s","offset":8699},"broadcast_id":"26526340656","game":"IRL","language":"en","title":"Not
+        Allowed To Stream The Twitch Party LOOOOL","views":84004,"duration":30.307011,"created_at":"2017-10-20T05:53:21Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/26526340656-offset-8724-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/26526340656-offset-8724-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/26526340656-offset-8724-preview-86x45.jpg"}},{"slug":"DreamyLazyFrogDxAbomb","tracking_id":"139762015","url":"https://clips.twitch.tv/DreamyLazyFrogDxAbomb?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=DreamyLazyFrogDxAbomb\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=DreamyLazyFrogDxAbomb\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"71644503","name":"anisajomha","display_name":"AnisaJomha","channel_url":"https://www.twitch.tv/anisajomha","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/anisajomha-profile_image-9a87d8e7e8b985dc-150x150.png"},"curator":{"id":"152675819","name":"tomo1ge","display_name":"tomo1ge","channel_url":"https://www.twitch.tv/tomo1ge","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/tomo1ge-profile_image-d43993918fe26b9e-150x150.jpeg"},"vod":{"id":"182843045","url":"https://www.twitch.tv/videos/182843045?t=1h58m50s","offset":7130},"broadcast_id":"26503493936","game":"IRL","language":"en","title":"Idubbbz
+        girlfriend talking about Ice","views":72809,"duration":29.999333,"created_at":"2017-10-17T04:53:43Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/vod-182843045-offset-7158-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/vod-182843045-offset-7158-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/vod-182843045-offset-7158-preview-86x45.jpg"}},{"slug":"DepressedObedientDragonfruitKappaClaus","tracking_id":"139402116","url":"https://clips.twitch.tv/DepressedObedientDragonfruitKappaClaus?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=DepressedObedientDragonfruitKappaClaus\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=DepressedObedientDragonfruitKappaClaus\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"26490481","name":"summit1g","display_name":"summit1g","channel_url":"https://www.twitch.tv/summit1g","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/200cea12142f2384-profile_image-150x150.png"},"curator":{"id":"146424489","name":"arnottts","display_name":"arnottts","channel_url":"https://www.twitch.tv/arnottts","logo":null},"vod":{"id":"182496726","url":"https://www.twitch.tv/videos/182496726?t=12h23m47s","offset":44627},"broadcast_id":"26493027072","game":"IRL","language":"en","title":"summit
+        reacts to the worst counter strike tourney footage ever","views":60182,"duration":51.25,"created_at":"2017-10-16T06:47:56Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/139402116-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/139402116-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/139402116-preview-86x45.jpg"}},{"slug":"EsteemedManlyGoldfishGingerPower","tracking_id":"139003424","url":"https://clips.twitch.tv/EsteemedManlyGoldfishGingerPower?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=EsteemedManlyGoldfishGingerPower\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=EsteemedManlyGoldfishGingerPower\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"9072112","name":"reckful","display_name":"Reckful","channel_url":"https://www.twitch.tv/reckful","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/reckful-profile_image-b22e4d39d3d6e045-150x150.jpeg"},"curator":{"id":"155103527","name":"toxicpieceof","display_name":"ToxicPieceOf","channel_url":"https://www.twitch.tv/toxicpieceof","logo":null},"vod":{"id":"182387741","url":"https://www.twitch.tv/videos/182387741?t=2h44m50s","offset":9890},"broadcast_id":"26489513424","game":"IRL","language":"en","title":"Yeah...Okay","views":56555,"duration":29.600667,"created_at":"2017-10-15T10:51:42Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/26489513424-offset-9914-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/26489513424-offset-9914-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/26489513424-offset-9914-preview-86x45.jpg"}},{"slug":"DaintyHeartlessWebStrawBeary","tracking_id":"140060537","url":"https://clips.twitch.tv/DaintyHeartlessWebStrawBeary?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=DaintyHeartlessWebStrawBeary\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=DaintyHeartlessWebStrawBeary\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"26560695","name":"shiphtur","display_name":"Shiphtur","channel_url":"https://www.twitch.tv/shiphtur","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/shiphtur-profile_image-e1da4894d17f08cd-150x150.jpeg"},"curator":{"id":"31533367","name":"freexphere","display_name":"FreeXpHere","channel_url":"https://www.twitch.tv/freexphere","logo":null},"vod":{"id":"183010417","url":"https://www.twitch.tv/videos/183010417?t=2h53m40s","offset":10420},"broadcast_id":"26508536896","game":"IRL","language":"en","title":"whaa
+        ??","views":53386,"duration":24.5,"created_at":"2017-10-18T01:06:32Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/140060537-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/140060537-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/140060537-preview-86x45.jpg"}},{"slug":"BlazingSolidPenguinSwiftRage","tracking_id":"139491098","url":"https://clips.twitch.tv/BlazingSolidPenguinSwiftRage?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=BlazingSolidPenguinSwiftRage\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=BlazingSolidPenguinSwiftRage\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"26301881","name":"sodapoppin","display_name":"sodapoppin","channel_url":"https://www.twitch.tv/sodapoppin","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/sodapoppin-profile_image-10049b6200f90c14-150x150.png"},"curator":{"id":"152775554","name":"electronicfun","display_name":"electronicfun","channel_url":"https://www.twitch.tv/electronicfun","logo":null},"vod":{"id":"182629992","url":"https://www.twitch.tv/videos/182629992?t=9h37m8s","offset":34628},"broadcast_id":"26497064208","game":"IRL","language":"en","title":"MY
+        CHICKEN NOW","views":50170,"duration":31,"created_at":"2017-10-16T15:00:17Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/139491098-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/139491098-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/139491098-preview-86x45.jpg"}}],"_cursor":"MTA="}'
+    http_version: 
+  recorded_at: Sat, 21 Oct 2017 16:35:44 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/users?login=toyzttv
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - ea733740648458c7a4dde723db9e7e26
+      X-Ctxlog-Logid:
+      - 1-59eb7760-52fcfb2d6d9c90f2761a5210
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Sat, 21 Oct 2017 16:35:44 GMT
+      Content-Length:
+      - '381'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"_total":1,"users":[{"display_name":"全國最大的遊戲直播中心","_id":"131467146","name":"toyzttv","type":"user","bio":"全新的Toyz直播頻道不看也進來逛逛，豪？","created_at":"2016-08-06T05:02:42.473771Z","updated_at":"2017-10-21T16:31:34.241269Z","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-300x300.png"}]}'
+    http_version: 
+  recorded_at: Sat, 21 Oct 2017 16:35:44 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/users?login=toyzttv
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - 42f6678cdb31d77cf51192de8701a68c
+      X-Ctxlog-Logid:
+      - 1-59eb7760-64bc9a536913ba3134fd29d2
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Sat, 21 Oct 2017 16:35:44 GMT
+      Content-Length:
+      - '381'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"_total":1,"users":[{"display_name":"全國最大的遊戲直播中心","_id":"131467146","name":"toyzttv","type":"user","bio":"全新的Toyz直播頻道不看也進來逛逛，豪？","created_at":"2016-08-06T05:02:42.473771Z","updated_at":"2017-10-21T16:31:34.241269Z","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-300x300.png"}]}'
+    http_version: 
+  recorded_at: Sat, 21 Oct 2017 16:35:44 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/streams/131467146
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - dc2676266c87df617c15c8584d4732fb
+      X-Ctxlog-Logid:
+      - 1-59eb7760-77c306385570af037d79f716
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Sat, 21 Oct 2017 16:35:44 GMT
+      Content-Length:
+      - '1533'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"stream":{"_id":26536724512,"game":"League of Legends","broadcast_platform":"live","community_id":"","community_ids":[],"viewers":18047,"video_height":1080,"average_fps":60,"delay":0,"created_at":"2017-10-21T13:28:49Z","is_playlist":false,"stream_type":"live","preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_toyzttv-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_toyzttv-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_toyzttv-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_toyzttv-{width}x{height}.jpg"},"channel":{"mature":false,"status":"【
+        Toyz 】直播重新出發　每周二四六晚上 【1021】","broadcaster_language":"zh","display_name":"全國最大的遊戲直播中心","game":"League
+        of Legends","language":"zh-tw","_id":131467146,"name":"toyzttv","created_at":"2016-08-06T05:02:42.473771Z","updated_at":"2017-10-21T16:32:30.369741Z","partner":true,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-300x300.png","video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-channel_offline_image-a305eb598c1bc4cb-1920x1080.png","profile_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_banner-9861714775ab5ab3-480.png","profile_banner_background_color":"#513f3f","url":"https://www.twitch.tv/toyzttv","views":7283556,"followers":210134,"broadcaster_type":"","description":"全新的Toyz直播頻道不看也進來逛逛，豪？"}}}'
+    http_version: 
+  recorded_at: Sat, 21 Oct 2017 16:35:44 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken//clips/top?channel=toyzttv
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - 0d5d52c47c69adfb1dc4e750c7860ade
+      X-Ctxlog-Logid:
+      - 1-59eb7761-5bf2b0b84098cd4f7619f8d9
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Sat, 21 Oct 2017 16:35:45 GMT
+      Content-Length:
+      - '15454'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"clips":[{"slug":"PopularThankfulShallotNomNom","tracking_id":"140568847","url":"https://clips.twitch.tv/PopularThankfulShallotNomNom?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=PopularThankfulShallotNomNom\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=PopularThankfulShallotNomNom\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"131467146","name":"toyzttv","display_name":"全國最大的遊戲直播中心","channel_url":"https://www.twitch.tv/toyzttv","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"},"curator":{"id":"125445287","name":"ahumi75","display_name":"牛逼放","channel_url":"https://www.twitch.tv/ahumi75","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/bf6795cc-8bdc-4e91-9066-c51ae9a4083c-profile_image-150x150.jpg"},"vod":{"id":"183394809","url":"https://www.twitch.tv/videos/183394809?t=1h2m44s","offset":3764},"broadcast_id":"26520131104","game":"League
+        of Legends","language":"zh-tw","title":"【 Toyz 】直播重新出發　每周二四六晚上 【1019】","views":701,"duration":29.999667,"created_at":"2017-10-19T13:07:33Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/26520131104-offset-3788-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/26520131104-offset-3788-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/26520131104-offset-3788-preview-86x45.jpg"}},{"slug":"ArtisticMoralWaffleCmonBruh","tracking_id":"141421780","url":"https://clips.twitch.tv/ArtisticMoralWaffleCmonBruh?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=ArtisticMoralWaffleCmonBruh\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=ArtisticMoralWaffleCmonBruh\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"131467146","name":"toyzttv","display_name":"全國最大的遊戲直播中心","channel_url":"https://www.twitch.tv/toyzttv","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"},"curator":{"id":"51552366","name":"mii2443","display_name":"mii2443","channel_url":"https://www.twitch.tv/mii2443","logo":null},"vod":{"id":"183924070","url":"https://www.twitch.tv/videos/183924070?t=1h45m18s","offset":6318},"broadcast_id":"26536724512","game":"League
+        of Legends","language":"zh-tw","title":"bebe: 5個toyz們會壞掉? A: 不會我用旋轉門","views":247,"duration":40.5,"created_at":"2017-10-21T15:14:58Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/141421780-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/141421780-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/141421780-preview-86x45.jpg"}},{"slug":"CleanAnimatedNoodleANELE","tracking_id":"140570116","url":"https://clips.twitch.tv/CleanAnimatedNoodleANELE?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=CleanAnimatedNoodleANELE\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=CleanAnimatedNoodleANELE\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"131467146","name":"toyzttv","display_name":"全國最大的遊戲直播中心","channel_url":"https://www.twitch.tv/toyzttv","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"},"curator":{"id":"62513208","name":"alreadygogo","display_name":"AlreadyGOGO","channel_url":"https://www.twitch.tv/alreadygogo","logo":null},"vod":{"id":"183394809","url":"https://www.twitch.tv/videos/183394809?t=1h8m19s","offset":4099},"broadcast_id":"26520131104","game":"League
+        of Legends","language":"zh-tw","title":"嘴統神","views":206,"duration":60,"created_at":"2017-10-19T13:13:37Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/140570116-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/140570116-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/140570116-preview-86x45.jpg"}},{"slug":"LovelyMuddySwallowRitzMitz","tracking_id":"139845621","url":"https://clips.twitch.tv/LovelyMuddySwallowRitzMitz?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=LovelyMuddySwallowRitzMitz\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=LovelyMuddySwallowRitzMitz\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"131467146","name":"toyzttv","display_name":"全國最大的遊戲直播中心","channel_url":"https://www.twitch.tv/toyzttv","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"},"curator":{"id":"69126927","name":"gx778653011","display_name":"桃園先生","channel_url":"https://www.twitch.tv/gx778653011","logo":null},"vod":{"id":"182913292","url":"https://www.twitch.tv/videos/182913292?t=52m48s","offset":3168},"broadcast_id":"26505631664","game":"League
+        of Legends","language":"zh-tw","title":"不找國動當教練原因+老狐狸預測","views":167,"duration":29.933984,"created_at":"2017-10-17T13:46:50Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/139845621-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/139845621-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/139845621-preview-86x45.jpg"}},{"slug":"ApatheticTentativeLyrebirdDogFace","tracking_id":"140569807","url":"https://clips.twitch.tv/ApatheticTentativeLyrebirdDogFace?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=ApatheticTentativeLyrebirdDogFace\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=ApatheticTentativeLyrebirdDogFace\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"131467146","name":"toyzttv","display_name":"全國最大的遊戲直播中心","channel_url":"https://www.twitch.tv/toyzttv","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"},"curator":{"id":"12233445","name":"chillion970","display_name":"齊里恩","channel_url":"https://www.twitch.tv/chillion970","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/700e8d20-b1fc-4dd7-9720-ae9676162114-profile_image-150x150.png"},"vod":{"id":"183394809","url":"https://www.twitch.tv/videos/183394809?t=1h7m28s","offset":4048},"broadcast_id":"26520131104","game":"League
+        of Legends","language":"zh-tw","title":"獨立思考","views":84,"duration":29.999667,"created_at":"2017-10-19T13:12:13Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/26520131104-offset-4072-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/26520131104-offset-4072-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/26520131104-offset-4072-preview-86x45.jpg"}},{"slug":"SleepyPlayfulDogAllenHuhu","tracking_id":"140615887","url":"https://clips.twitch.tv/SleepyPlayfulDogAllenHuhu?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=SleepyPlayfulDogAllenHuhu\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=SleepyPlayfulDogAllenHuhu\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"131467146","name":"toyzttv","display_name":"全國最大的遊戲直播中心","channel_url":"https://www.twitch.tv/toyzttv","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"},"curator":{"id":"115688875","name":"tsenggene52","display_name":"小均爺","channel_url":"https://www.twitch.tv/tsenggene52","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/9950bd64cd3af8b9-profile_image-150x150.jpeg"},"vod":{"id":"183394809","url":"https://www.twitch.tv/videos/183394809?t=4h0m6s","offset":14406},"broadcast_id":"26520131104","game":"League
+        of Legends","language":"zh-tw","title":"大悲熱","views":52,"duration":29.999667,"created_at":"2017-10-19T16:04:50Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/26520131104-offset-14430-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/26520131104-offset-14430-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/26520131104-offset-14430-preview-86x45.jpg"}},{"slug":"ObedientTriangularEndiveOneHand","tracking_id":"140570139","url":"https://clips.twitch.tv/ObedientTriangularEndiveOneHand?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=ObedientTriangularEndiveOneHand\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=ObedientTriangularEndiveOneHand\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"131467146","name":"toyzttv","display_name":"全國最大的遊戲直播中心","channel_url":"https://www.twitch.tv/toyzttv","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"},"curator":{"id":"70574851","name":"shyhs411","display_name":"ShyHS411","channel_url":"https://www.twitch.tv/shyhs411","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/b15ab0626765be99-profile_image-150x150.png"},"vod":{"id":"183394809","url":"https://www.twitch.tv/videos/183394809?t=1h9m2s","offset":4142},"broadcast_id":"26520131104","game":"League
+        of Legends","language":"zh-tw","title":"小氣仔","views":42,"duration":29.999667,"created_at":"2017-10-19T13:13:43Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/26520131104-offset-4166-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/26520131104-offset-4166-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/26520131104-offset-4166-preview-86x45.jpg"}},{"slug":"SillyComfortableConsoleFreakinStinkin","tracking_id":"139938327","url":"https://clips.twitch.tv/SillyComfortableConsoleFreakinStinkin?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=SillyComfortableConsoleFreakinStinkin\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=SillyComfortableConsoleFreakinStinkin\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"131467146","name":"toyzttv","display_name":"全國最大的遊戲直播中心","channel_url":"https://www.twitch.tv/toyzttv","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"},"curator":{"id":"37204569","name":"mark1883","display_name":"Mark1883","channel_url":"https://www.twitch.tv/mark1883","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/mark1883-profile_image-47c378426997c8ef-150x150.jpeg"},"vod":{"id":"182913292","url":"https://www.twitch.tv/videos/182913292?t=5h42m3s","offset":20523},"broadcast_id":"26505631664","game":"League
+        of Legends","language":"zh-tw","title":"世界冠軍","views":34,"duration":31.25,"created_at":"2017-10-17T18:34:42Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/139938327-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/139938327-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/139938327-preview-86x45.jpg"}},{"slug":"YawningThankfulCourgetteCharlietheUnicorn","tracking_id":"140570210","url":"https://clips.twitch.tv/YawningThankfulCourgetteCharlietheUnicorn?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=YawningThankfulCourgetteCharlietheUnicorn\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=YawningThankfulCourgetteCharlietheUnicorn\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"131467146","name":"toyzttv","display_name":"全國最大的遊戲直播中心","channel_url":"https://www.twitch.tv/toyzttv","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"},"curator":{"id":"154736183","name":"permanent1120","display_name":"微小","channel_url":"https://www.twitch.tv/permanent1120","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/4a2df345da5240ad-profile_image-150x150.jpeg"},"vod":{"id":"183394809","url":"https://www.twitch.tv/videos/183394809?t=1h9m22s","offset":4162},"broadcast_id":"26520131104","game":"League
+        of Legends","language":"zh-tw","title":"合理","views":31,"duration":29,"created_at":"2017-10-19T13:14:02Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/140570210-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/140570210-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/140570210-preview-86x45.jpg"}},{"slug":"DarlingEsteemedAlmondFutureMan","tracking_id":"140568808","url":"https://clips.twitch.tv/DarlingEsteemedAlmondFutureMan?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=DarlingEsteemedAlmondFutureMan\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=DarlingEsteemedAlmondFutureMan\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"131467146","name":"toyzttv","display_name":"全國最大的遊戲直播中心","channel_url":"https://www.twitch.tv/toyzttv","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"},"curator":{"id":"49666806","name":"hks_memoryz","display_name":"HKs_MemorYz","channel_url":"https://www.twitch.tv/hks_memoryz","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/hks_memoryz-profile_image-5ff637c149d10bc1-150x150.jpeg"},"vod":{"id":"183394809","url":"https://www.twitch.tv/videos/183394809?t=1h2m40s","offset":3760},"broadcast_id":"26520131104","game":"League
+        of Legends","language":"zh-tw","title":"7777","views":27,"duration":29.999667,"created_at":"2017-10-19T13:07:27Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/26520131104-offset-3784-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/26520131104-offset-3784-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/26520131104-offset-3784-preview-86x45.jpg"}}],"_cursor":"MTA="}'
+    http_version: 
+  recorded_at: Sat, 21 Oct 2017 16:35:45 GMT
+recorded_with: VCR 3.0.3

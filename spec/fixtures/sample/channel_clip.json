@@ -1,383 +1,383 @@
 {
     "clips": [
         {
-            "slug": "TameAltruisticChoughDatSheffy",
-            "tracking_id": "139801320",
-            "url": "https://clips.twitch.tv/TameAltruisticChoughDatSheffy?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=TameAltruisticChoughDatSheffy&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=TameAltruisticChoughDatSheffy&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "slug": "PopularThankfulShallotNomNom",
+            "tracking_id": "140568847",
+            "url": "https://clips.twitch.tv/PopularThankfulShallotNomNom?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=PopularThankfulShallotNomNom&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=PopularThankfulShallotNomNom&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
             "broadcaster": {
-                "id": "36340781",
-                "name": "tarik",
-                "display_name": "tarik",
-                "channel_url": "https://www.twitch.tv/tarik",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f2d1013ce3b2797-profile_image-150x150.jpeg"
+                "id": "131467146",
+                "name": "toyzttv",
+                "display_name": "全國最大的遊戲直播中心",
+                "channel_url": "https://www.twitch.tv/toyzttv",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"
             },
             "curator": {
-                "id": "39171985",
-                "name": "aeonsavvy",
-                "display_name": "aeonsavvy",
-                "channel_url": "https://www.twitch.tv/aeonsavvy",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/aaa29cd1745460c8-profile_image-150x150.jpeg"
+                "id": "125445287",
+                "name": "ahumi75",
+                "display_name": "牛逼放",
+                "channel_url": "https://www.twitch.tv/ahumi75",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/bf6795cc-8bdc-4e91-9066-c51ae9a4083c-profile_image-150x150.jpg"
             },
             "vod": {
-                "id": "182849212",
-                "url": "https://www.twitch.tv/videos/182849212?t=6h13m35s",
-                "offset": 22415
+                "id": "183394809",
+                "url": "https://www.twitch.tv/videos/183394809?t=1h2m44s",
+                "offset": 3764
             },
-            "broadcast_id": "26503667744",
-            "game": "Counter-Strike: Global Offensive",
-            "language": "en",
-            "title": "NA",
-            "views": 21015,
-            "duration": 29.216667,
-            "created_at": "2017-10-17T09:26:57Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/26503667744-offset-22440-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/26503667744-offset-22440-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/26503667744-offset-22440-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "CoweringAttractiveTurtleMrDestructoid",
-            "tracking_id": "140124531",
-            "url": "https://clips.twitch.tv/CoweringAttractiveTurtleMrDestructoid?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=CoweringAttractiveTurtleMrDestructoid&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=CoweringAttractiveTurtleMrDestructoid&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "36340781",
-                "name": "tarik",
-                "display_name": "tarik",
-                "channel_url": "https://www.twitch.tv/tarik",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f2d1013ce3b2797-profile_image-150x150.jpeg"
-            },
-            "curator": {
-                "id": "128837994",
-                "name": "xrexevan",
-                "display_name": "xrexevan",
-                "channel_url": "https://www.twitch.tv/xrexevan",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/73645834ed01755b-profile_image-150x150.png"
-            },
-            "vod": {
-                "id": "183097206",
-                "url": "https://www.twitch.tv/videos/183097206?t=1h42m52s",
-                "offset": 6172
-            },
-            "broadcast_id": "26511018992",
-            "game": "Counter-Strike: Global Offensive",
-            "language": "en",
-            "title": "Bang Bang // youtube.com/tarik",
-            "views": 439,
-            "duration": 29.566667,
-            "created_at": "2017-10-18T05:24:07Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/26511018992-offset-6196-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/26511018992-offset-6196-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/26511018992-offset-6196-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "OddSolidChickenFunRun",
-            "tracking_id": "140125685",
-            "url": "https://clips.twitch.tv/OddSolidChickenFunRun?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=OddSolidChickenFunRun&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=OddSolidChickenFunRun&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "36340781",
-                "name": "tarik",
-                "display_name": "tarik",
-                "channel_url": "https://www.twitch.tv/tarik",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f2d1013ce3b2797-profile_image-150x150.jpeg"
-            },
-            "curator": {
-                "id": "73573772",
-                "name": "trial321",
-                "display_name": "Trial321",
-                "channel_url": "https://www.twitch.tv/trial321",
-                "logo": null
-            },
-            "vod": {
-                "id": "183097206",
-                "url": "https://www.twitch.tv/videos/183097206?t=1h48m55s",
-                "offset": 6535
-            },
-            "broadcast_id": "26511018992",
-            "game": "Counter-Strike: Global Offensive",
-            "language": "en",
-            "title": "\"Fixed\"",
-            "views": 163,
-            "duration": 8.833984,
-            "created_at": "2017-10-18T05:30:00Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/140125685-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/140125685-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/140125685-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "MiniatureLachrymoseShallotCharlietheUnicorn",
-            "tracking_id": "140127236",
-            "url": "https://clips.twitch.tv/MiniatureLachrymoseShallotCharlietheUnicorn?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=MiniatureLachrymoseShallotCharlietheUnicorn&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=MiniatureLachrymoseShallotCharlietheUnicorn&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "36340781",
-                "name": "tarik",
-                "display_name": "tarik",
-                "channel_url": "https://www.twitch.tv/tarik",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f2d1013ce3b2797-profile_image-150x150.jpeg"
-            },
-            "curator": {
-                "id": "102291100",
-                "name": "sadaha001",
-                "display_name": "Sadaha001",
-                "channel_url": "https://www.twitch.tv/sadaha001",
-                "logo": null
-            },
-            "vod": {
-                "id": "183097206",
-                "url": "https://www.twitch.tv/videos/183097206?t=1h57m12s",
-                "offset": 7032
-            },
-            "broadcast_id": "26511018992",
-            "game": "Counter-Strike: Global Offensive",
-            "language": "en",
-            "title": "JASONR is a 5-7er",
-            "views": 78,
-            "duration": 21.333984,
-            "created_at": "2017-10-18T05:38:30Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/140127236-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/140127236-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/140127236-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "LittleWonderfulBeefStrawBeary",
-            "tracking_id": "140141331",
-            "url": "https://clips.twitch.tv/LittleWonderfulBeefStrawBeary?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=LittleWonderfulBeefStrawBeary&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=LittleWonderfulBeefStrawBeary&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "36340781",
-                "name": "tarik",
-                "display_name": "tarik",
-                "channel_url": "https://www.twitch.tv/tarik",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f2d1013ce3b2797-profile_image-150x150.jpeg"
-            },
-            "curator": {
-                "id": "169547152",
-                "name": "tom_tvv",
-                "display_name": "ToM_tvv",
-                "channel_url": "https://www.twitch.tv/tom_tvv",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/574e688d8b3c08a6-profile_image-150x150.jpeg"
-            },
-            "vod": {
-                "id": "183097206",
-                "url": "https://www.twitch.tv/videos/183097206?t=3h23m49s",
-                "offset": 12229
-            },
-            "broadcast_id": "26511018992",
-            "game": "Counter-Strike: Global Offensive",
-            "language": "en",
-            "title": "Tarik watches Moe rage in slowmoe",
-            "views": 55,
+            "broadcast_id": "26520131104",
+            "game": "League of Legends",
+            "language": "zh-tw",
+            "title": "【 Toyz 】直播重新出發　每周二四六晚上 【1019】",
+            "views": 693,
             "duration": 29.999667,
-            "created_at": "2017-10-18T07:05:01Z",
+            "created_at": "2017-10-19T13:07:33Z",
             "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/26511018992-offset-12254-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/26511018992-offset-12254-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/26511018992-offset-12254-preview-86x45.jpg"
+                "medium": "https://clips-media-assets.twitch.tv/26520131104-offset-3788-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/26520131104-offset-3788-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/26520131104-offset-3788-preview-86x45.jpg"
             }
         },
         {
-            "slug": "TastyAntsyYakinikuUnSane",
-            "tracking_id": "139777106",
-            "url": "https://clips.twitch.tv/TastyAntsyYakinikuUnSane?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=TastyAntsyYakinikuUnSane&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=TastyAntsyYakinikuUnSane&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "slug": "CleanAnimatedNoodleANELE",
+            "tracking_id": "140570116",
+            "url": "https://clips.twitch.tv/CleanAnimatedNoodleANELE?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=CleanAnimatedNoodleANELE&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=CleanAnimatedNoodleANELE&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
             "broadcaster": {
-                "id": "36340781",
-                "name": "tarik",
-                "display_name": "tarik",
-                "channel_url": "https://www.twitch.tv/tarik",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f2d1013ce3b2797-profile_image-150x150.jpeg"
+                "id": "131467146",
+                "name": "toyzttv",
+                "display_name": "全國最大的遊戲直播中心",
+                "channel_url": "https://www.twitch.tv/toyzttv",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"
             },
             "curator": {
-                "id": "27094456",
-                "name": "career",
-                "display_name": "Career",
-                "channel_url": "https://www.twitch.tv/career",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/career-profile_image-f57418099cf27982-150x150.jpeg"
+                "id": "62513208",
+                "name": "alreadygogo",
+                "display_name": "AlreadyGOGO",
+                "channel_url": "https://www.twitch.tv/alreadygogo",
+                "logo": null
             },
             "vod": {
-                "id": "182849212",
-                "url": "https://www.twitch.tv/videos/182849212?t=3h4m53s",
-                "offset": 11093
+                "id": "183394809",
+                "url": "https://www.twitch.tv/videos/183394809?t=1h8m19s",
+                "offset": 4099
             },
-            "broadcast_id": "26503667744",
-            "game": "Counter-Strike: Global Offensive",
-            "language": "en",
-            "title": "ada",
+            "broadcast_id": "26520131104",
+            "game": "League of Legends",
+            "language": "zh-tw",
+            "title": "嘴統神",
+            "views": 203,
+            "duration": 60,
+            "created_at": "2017-10-19T13:13:37Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/140570116-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/140570116-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/140570116-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "LovelyMuddySwallowRitzMitz",
+            "tracking_id": "139845621",
+            "url": "https://clips.twitch.tv/LovelyMuddySwallowRitzMitz?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=LovelyMuddySwallowRitzMitz&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=LovelyMuddySwallowRitzMitz&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "131467146",
+                "name": "toyzttv",
+                "display_name": "全國最大的遊戲直播中心",
+                "channel_url": "https://www.twitch.tv/toyzttv",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"
+            },
+            "curator": {
+                "id": "69126927",
+                "name": "gx778653011",
+                "display_name": "桃園先生",
+                "channel_url": "https://www.twitch.tv/gx778653011",
+                "logo": null
+            },
+            "vod": {
+                "id": "182913292",
+                "url": "https://www.twitch.tv/videos/182913292?t=52m48s",
+                "offset": 3168
+            },
+            "broadcast_id": "26505631664",
+            "game": "League of Legends",
+            "language": "zh-tw",
+            "title": "不找國動當教練原因+老狐狸預測",
+            "views": 167,
+            "duration": 29.933984,
+            "created_at": "2017-10-17T13:46:50Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/139845621-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/139845621-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/139845621-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "ArtisticMoralWaffleCmonBruh",
+            "tracking_id": "141421780",
+            "url": "https://clips.twitch.tv/ArtisticMoralWaffleCmonBruh?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=ArtisticMoralWaffleCmonBruh&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=ArtisticMoralWaffleCmonBruh&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "131467146",
+                "name": "toyzttv",
+                "display_name": "全國最大的遊戲直播中心",
+                "channel_url": "https://www.twitch.tv/toyzttv",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"
+            },
+            "curator": {
+                "id": "51552366",
+                "name": "mii2443",
+                "display_name": "mii2443",
+                "channel_url": "https://www.twitch.tv/mii2443",
+                "logo": null
+            },
+            "vod": {
+                "id": "183924070",
+                "url": "https://www.twitch.tv/videos/183924070?t=1h45m18s",
+                "offset": 6318
+            },
+            "broadcast_id": "26536724512",
+            "game": "League of Legends",
+            "language": "zh-tw",
+            "title": "bebe: 5個toyz們會壞掉? A: 不會我用旋轉門",
+            "views": 165,
+            "duration": 40.5,
+            "created_at": "2017-10-21T15:14:58Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/141421780-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/141421780-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/141421780-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "ApatheticTentativeLyrebirdDogFace",
+            "tracking_id": "140569807",
+            "url": "https://clips.twitch.tv/ApatheticTentativeLyrebirdDogFace?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=ApatheticTentativeLyrebirdDogFace&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=ApatheticTentativeLyrebirdDogFace&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "131467146",
+                "name": "toyzttv",
+                "display_name": "全國最大的遊戲直播中心",
+                "channel_url": "https://www.twitch.tv/toyzttv",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"
+            },
+            "curator": {
+                "id": "12233445",
+                "name": "chillion970",
+                "display_name": "齊里恩",
+                "channel_url": "https://www.twitch.tv/chillion970",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/700e8d20-b1fc-4dd7-9720-ae9676162114-profile_image-150x150.png"
+            },
+            "vod": {
+                "id": "183394809",
+                "url": "https://www.twitch.tv/videos/183394809?t=1h7m28s",
+                "offset": 4048
+            },
+            "broadcast_id": "26520131104",
+            "game": "League of Legends",
+            "language": "zh-tw",
+            "title": "獨立思考",
+            "views": 84,
+            "duration": 29.999667,
+            "created_at": "2017-10-19T13:12:13Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/26520131104-offset-4072-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/26520131104-offset-4072-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/26520131104-offset-4072-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "SleepyPlayfulDogAllenHuhu",
+            "tracking_id": "140615887",
+            "url": "https://clips.twitch.tv/SleepyPlayfulDogAllenHuhu?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=SleepyPlayfulDogAllenHuhu&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=SleepyPlayfulDogAllenHuhu&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "131467146",
+                "name": "toyzttv",
+                "display_name": "全國最大的遊戲直播中心",
+                "channel_url": "https://www.twitch.tv/toyzttv",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"
+            },
+            "curator": {
+                "id": "115688875",
+                "name": "tsenggene52",
+                "display_name": "小均爺",
+                "channel_url": "https://www.twitch.tv/tsenggene52",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/9950bd64cd3af8b9-profile_image-150x150.jpeg"
+            },
+            "vod": {
+                "id": "183394809",
+                "url": "https://www.twitch.tv/videos/183394809?t=4h0m6s",
+                "offset": 14406
+            },
+            "broadcast_id": "26520131104",
+            "game": "League of Legends",
+            "language": "zh-tw",
+            "title": "大悲熱",
             "views": 52,
-            "duration": 29.733667,
-            "created_at": "2017-10-17T06:18:16Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/26503667744-offset-11118-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/26503667744-offset-11118-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/26503667744-offset-11118-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "RefinedCuriousBoarFUNgineer",
-            "tracking_id": "140125735",
-            "url": "https://clips.twitch.tv/RefinedCuriousBoarFUNgineer?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=RefinedCuriousBoarFUNgineer&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=RefinedCuriousBoarFUNgineer&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "36340781",
-                "name": "tarik",
-                "display_name": "tarik",
-                "channel_url": "https://www.twitch.tv/tarik",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f2d1013ce3b2797-profile_image-150x150.jpeg"
-            },
-            "curator": {
-                "id": "27146066",
-                "name": "lnxa",
-                "display_name": "Lnxa",
-                "channel_url": "https://www.twitch.tv/lnxa",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/lnxa-profile_image-478a5ff8cc85ef7a-150x150.png"
-            },
-            "vod": {
-                "id": "183097206",
-                "url": "https://www.twitch.tv/videos/183097206?t=1h48m50s",
-                "offset": 6530
-            },
-            "broadcast_id": "26511018992",
-            "game": "Counter-Strike: Global Offensive",
-            "language": "en",
-            "title": "\"fixed\"",
-            "views": 38,
-            "duration": 12.933984,
-            "created_at": "2017-10-18T05:30:19Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/140125735-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/140125735-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/140125735-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "SmoothRamshackleMoonPanicBasket",
-            "tracking_id": "139788565",
-            "url": "https://clips.twitch.tv/SmoothRamshackleMoonPanicBasket?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=SmoothRamshackleMoonPanicBasket&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=SmoothRamshackleMoonPanicBasket&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "36340781",
-                "name": "tarik",
-                "display_name": "tarik",
-                "channel_url": "https://www.twitch.tv/tarik",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f2d1013ce3b2797-profile_image-150x150.jpeg"
-            },
-            "curator": {
-                "id": "45628554",
-                "name": "draqe99",
-                "display_name": "draqe99",
-                "channel_url": "https://www.twitch.tv/draqe99",
-                "logo": null
-            },
-            "vod": {
-                "id": "182849212",
-                "url": "https://www.twitch.tv/videos/182849212?t=4h29m36s",
-                "offset": 16176
-            },
-            "broadcast_id": "26503667744",
-            "game": "Counter-Strike: Global Offensive",
-            "language": "en",
-            "title": "xd",
-            "views": 33,
-            "duration": 28.75,
-            "created_at": "2017-10-17T07:43:00Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/139788565-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/139788565-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/139788565-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "TsundereRealLatteMikeHogu",
-            "tracking_id": "140141596",
-            "url": "https://clips.twitch.tv/TsundereRealLatteMikeHogu?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=TsundereRealLatteMikeHogu&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=TsundereRealLatteMikeHogu&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "36340781",
-                "name": "tarik",
-                "display_name": "tarik",
-                "channel_url": "https://www.twitch.tv/tarik",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f2d1013ce3b2797-profile_image-150x150.jpeg"
-            },
-            "curator": {
-                "id": "39078706",
-                "name": "dynastymagna213",
-                "display_name": "dynastymagna213",
-                "channel_url": "https://www.twitch.tv/dynastymagna213",
-                "logo": null
-            },
-            "vod": {
-                "id": "183097206",
-                "url": "https://www.twitch.tv/videos/183097206?t=3h25m15s",
-                "offset": 12315
-            },
-            "broadcast_id": "26511018992",
-            "game": "Counter-Strike: Global Offensive",
-            "language": "en",
-            "title": "Bang Bang // youtube.com/tarik",
-            "views": 29,
             "duration": 29.999667,
-            "created_at": "2017-10-18T07:06:32Z",
+            "created_at": "2017-10-19T16:04:50Z",
             "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/26511018992-offset-12340-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/26511018992-offset-12340-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/26511018992-offset-12340-preview-86x45.jpg"
+                "medium": "https://clips-media-assets.twitch.tv/26520131104-offset-14430-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/26520131104-offset-14430-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/26520131104-offset-14430-preview-86x45.jpg"
             }
         },
         {
-            "slug": "DoubtfulLongDillStinkyCheese",
-            "tracking_id": "140124516",
-            "url": "https://clips.twitch.tv/DoubtfulLongDillStinkyCheese?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=DoubtfulLongDillStinkyCheese&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=DoubtfulLongDillStinkyCheese&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "slug": "ObedientTriangularEndiveOneHand",
+            "tracking_id": "140570139",
+            "url": "https://clips.twitch.tv/ObedientTriangularEndiveOneHand?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=ObedientTriangularEndiveOneHand&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=ObedientTriangularEndiveOneHand&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
             "broadcaster": {
-                "id": "36340781",
-                "name": "tarik",
-                "display_name": "tarik",
-                "channel_url": "https://www.twitch.tv/tarik",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f2d1013ce3b2797-profile_image-150x150.jpeg"
+                "id": "131467146",
+                "name": "toyzttv",
+                "display_name": "全國最大的遊戲直播中心",
+                "channel_url": "https://www.twitch.tv/toyzttv",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"
             },
             "curator": {
-                "id": "85277436",
-                "name": "shoctordohls",
-                "display_name": "ShoctorDohls",
-                "channel_url": "https://www.twitch.tv/shoctordohls",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/shoctordohls-profile_image-d07057f8b636ea12-150x150.jpeg"
+                "id": "70574851",
+                "name": "shyhs411",
+                "display_name": "ShyHS411",
+                "channel_url": "https://www.twitch.tv/shyhs411",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/b15ab0626765be99-profile_image-150x150.png"
             },
             "vod": {
-                "id": "183097206",
-                "url": "https://www.twitch.tv/videos/183097206?t=1h42m52s",
-                "offset": 6172
+                "id": "183394809",
+                "url": "https://www.twitch.tv/videos/183394809?t=1h9m2s",
+                "offset": 4142
             },
-            "broadcast_id": "26511018992",
-            "game": "Counter-Strike: Global Offensive",
-            "language": "en",
-            "title": "IM ON 1920 BROOOO",
-            "views": 26,
-            "duration": 29.566667,
-            "created_at": "2017-10-18T05:24:02Z",
+            "broadcast_id": "26520131104",
+            "game": "League of Legends",
+            "language": "zh-tw",
+            "title": "小氣仔",
+            "views": 42,
+            "duration": 29.999667,
+            "created_at": "2017-10-19T13:13:43Z",
             "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/26511018992-offset-6196-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/26511018992-offset-6196-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/26511018992-offset-6196-preview-86x45.jpg"
+                "medium": "https://clips-media-assets.twitch.tv/26520131104-offset-4166-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/26520131104-offset-4166-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/26520131104-offset-4166-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "SillyComfortableConsoleFreakinStinkin",
+            "tracking_id": "139938327",
+            "url": "https://clips.twitch.tv/SillyComfortableConsoleFreakinStinkin?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=SillyComfortableConsoleFreakinStinkin&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=SillyComfortableConsoleFreakinStinkin&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "131467146",
+                "name": "toyzttv",
+                "display_name": "全國最大的遊戲直播中心",
+                "channel_url": "https://www.twitch.tv/toyzttv",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"
+            },
+            "curator": {
+                "id": "37204569",
+                "name": "mark1883",
+                "display_name": "Mark1883",
+                "channel_url": "https://www.twitch.tv/mark1883",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/mark1883-profile_image-47c378426997c8ef-150x150.jpeg"
+            },
+            "vod": {
+                "id": "182913292",
+                "url": "https://www.twitch.tv/videos/182913292?t=5h42m3s",
+                "offset": 20523
+            },
+            "broadcast_id": "26505631664",
+            "game": "League of Legends",
+            "language": "zh-tw",
+            "title": "世界冠軍",
+            "views": 34,
+            "duration": 31.25,
+            "created_at": "2017-10-17T18:34:42Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/139938327-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/139938327-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/139938327-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "YawningThankfulCourgetteCharlietheUnicorn",
+            "tracking_id": "140570210",
+            "url": "https://clips.twitch.tv/YawningThankfulCourgetteCharlietheUnicorn?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=YawningThankfulCourgetteCharlietheUnicorn&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=YawningThankfulCourgetteCharlietheUnicorn&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "131467146",
+                "name": "toyzttv",
+                "display_name": "全國最大的遊戲直播中心",
+                "channel_url": "https://www.twitch.tv/toyzttv",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"
+            },
+            "curator": {
+                "id": "154736183",
+                "name": "permanent1120",
+                "display_name": "微小",
+                "channel_url": "https://www.twitch.tv/permanent1120",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/4a2df345da5240ad-profile_image-150x150.jpeg"
+            },
+            "vod": {
+                "id": "183394809",
+                "url": "https://www.twitch.tv/videos/183394809?t=1h9m22s",
+                "offset": 4162
+            },
+            "broadcast_id": "26520131104",
+            "game": "League of Legends",
+            "language": "zh-tw",
+            "title": "合理",
+            "views": 31,
+            "duration": 29,
+            "created_at": "2017-10-19T13:14:02Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/140570210-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/140570210-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/140570210-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "DarlingEsteemedAlmondFutureMan",
+            "tracking_id": "140568808",
+            "url": "https://clips.twitch.tv/DarlingEsteemedAlmondFutureMan?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=DarlingEsteemedAlmondFutureMan&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=DarlingEsteemedAlmondFutureMan&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "131467146",
+                "name": "toyzttv",
+                "display_name": "全國最大的遊戲直播中心",
+                "channel_url": "https://www.twitch.tv/toyzttv",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/toyzttv-profile_image-e9714ba01268fc5a-150x150.png"
+            },
+            "curator": {
+                "id": "49666806",
+                "name": "hks_memoryz",
+                "display_name": "HKs_MemorYz",
+                "channel_url": "https://www.twitch.tv/hks_memoryz",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/hks_memoryz-profile_image-5ff637c149d10bc1-150x150.jpeg"
+            },
+            "vod": {
+                "id": "183394809",
+                "url": "https://www.twitch.tv/videos/183394809?t=1h2m40s",
+                "offset": 3760
+            },
+            "broadcast_id": "26520131104",
+            "game": "League of Legends",
+            "language": "zh-tw",
+            "title": "7777",
+            "views": 27,
+            "duration": 29.999667,
+            "created_at": "2017-10-19T13:07:27Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/26520131104-offset-3784-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/26520131104-offset-3784-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/26520131104-offset-3784-preview-86x45.jpg"
             }
         }
     ],
