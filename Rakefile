@@ -11,12 +11,10 @@ task :spec do
   sh 'ruby spec/twitch_spec.rb'
 end
 
-namespace :vcr do
-  desc 'delete cassette fixtures'
-  task :wipe do
-    sh 'rm spec/fixtures/cassettes/*.yml' do |ok, _|
-      puts(ok ? 'Cassettes deleted' : 'No cassettes found')
-    end
+desc 'delete cassette fixtures'
+task :clean do
+  sh 'rm spec/fixtures/cassettes/*.yml' do |ok, _|
+    puts(ok ? 'Cassettes deleted' : 'No cassettes found')
   end
 end
 
