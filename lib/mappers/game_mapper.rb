@@ -30,7 +30,8 @@ module API
           Entity::Game.new(
             name: @game_name,
             number: number,
-            clips: clips
+            clips: clips,
+            streamers: top_streamers
           )
         end
 
@@ -45,14 +46,16 @@ module API
         def clips
           @clip_mapper.load('game', @game_name)
         end
-        # def top_streamers(num = 3)
-        #   streamers = {}
-        #   num.times do |i|
-        #     iter = @streams_data['streams'][i]['channel']
-        #     streamers[iter['display_name']] = iter['url']
-        #   end
-        #   streamers
-        # end
+
+
+        def top_streamers(num = 3)
+          streamers = {}
+          num.times do |i|
+            iter = @streams_data['streams'][i]['channel']
+            streamers[iter['display_name']] = iter['url']
+          end
+          streamers
+        end
       end
     end
   end

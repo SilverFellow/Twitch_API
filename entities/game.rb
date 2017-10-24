@@ -9,7 +9,7 @@ module API
       attribute :name, Types::Strict::String.optional
       attribute :number, Types::Coercible::Int.optional
       attribute :clips, Types::Strict::Array.member(Clip).optional
-      # attribute :top_streamers, Types::Strict::Hash.optional
+      attribute :streamers, Types::Strict::Hash.optional
     end
   end
 end
