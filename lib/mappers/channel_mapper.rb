@@ -4,7 +4,7 @@ require_relative 'clip_mapper.rb'
 
 module API
   module Twitch
-    # Data Mapper for Twitch channel
+    # Data Mapper for Twitch Channel
     class ChannelMapper
       def initialize(gateway)
         @gateway = gateway
@@ -12,10 +12,10 @@ module API
 
       def load(channel_name)
         channel_data = @gateway.channel_data(channel_name)
-        ChannelMapper.build_entity(channel_name, channel_data)
+        build_entity(channel_name, channel_data)
       end
 
-      def self.build_entity(channel_name, channel_data)
+      def build_entity(channel_name, channel_data)
         DataMapper.new(channel_name, channel_data, @gateway).build_entity
       end
 
@@ -28,20 +28,20 @@ module API
         end
 
         def build_entity
-          Entity::Channel.new(
+          API::Entity::Channel.new(
             live: live,
             name: name,
             title: title,
             game: game,
             viewer: viewer,
-            clips: clip
+            clips: clips
           )
         end
 
         private
 
         def live
-          !@channel_data['streams'].nil?
+          !@channel_data['stream'].nil?
         end
 
         def name

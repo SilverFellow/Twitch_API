@@ -12,11 +12,11 @@ module API
 
       def load(game_name)
         game_data = @gateway.game_data(game_name)
-        game_name = @gateway.get_game_name(game_name)
-        GameMapper.build_entity(game_name, game_data)
+        correct_name = @gateway.get_game_name(game_name)
+        build_entity(correct_name, game_data)
       end
 
-      def self.build_entity(game_data)
+      def build_entity(game_name, game_data)
         DataMapper.new(game_name, game_data, @gateway).build_entity
       end
 
@@ -29,7 +29,7 @@ module API
         end
 
         def build_entity
-          Entity::Game.new(
+          API::Entity::Game.new(
             name: @game_name,
             number: number,
             clips: clips,

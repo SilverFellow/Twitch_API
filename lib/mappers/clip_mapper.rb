@@ -25,7 +25,7 @@ module API
         end
 
         def build_entity
-          Entity::Game.new(
+          API::Entity::Clip.new(
             title: title,
             url: url
           )
