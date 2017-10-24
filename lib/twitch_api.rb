@@ -6,105 +6,98 @@ require_relative 'game.rb'
 require_relative 'channel.rb'
 require 'yaml'
 
-module Twitch
-  # Library for Twitch API
-  module Errors
-    class NotFound < StandardError; end
-    class Unauthorized < StandardError; end
-    class BadRequest < StandardError; end
-  end
-
-  # Library for Twitch Web API
-  class TwitchAPI
-    # Encapsulates API response success and errors
-    class Response
-      HTTP_ERROR = {
-        400 => Errors::BadRequest,
-        401 => Errors::Unauthorized,
-        404 => Errors::NotFound
-      }.freeze
-
-      def initialize(response)
-        @response = response
+module API
+  module Twitch
+    # Gateway class to talk to Twitch API
+    class TwitchGateway
+      module Errors
+        # Not allowed to access resource
+        Unauthorized = Class.new(StandardError)
+        # Requested resource not found
+        NotFound = Class.new(StandardError)
+        # Bad Request
+        BadRequest = Class.new(StandardError)
       end
 
-      def successful?
-        HTTP_ERROR.keys.include?(@response.code) ? false : true
+      # Encapsulates API response success and errors
+      class Response
+        HTTP_ERROR = {
+          400 => Errors::BadRequest,
+          401 => Errors::Unauthorized,
+          404 => Errors::NotFound
+        }.freeze
+
+        def initialize(response)
+          @response = response
+        end
+
+        def successful?
+          HTTP_ERROR.keys.include?(@response.code) ? false : true
+        end
+
+        def response_or_error
+          successful? ? @response : raise(HTTP_ERROR[@response.code])
+        end
       end
 
-      def response_or_error
-        successful? ? @response : raise(HTTP_ERROR[@response.code])
+      def initialize(token)
+        @tw_token = token
       end
-    end
 
-    def initialize(token)
-      @tw_token = token
-    end
+      def channel_data(name)
+        id = get_user_id(name)
+        twitch_url = TwitchGateway.path('streams/' + id)
+        call_twitch_url(twitch_url).parse
+      end
 
-    def user_exist?(name)
-      twitch_url = TwitchAPI.path('users?login=' + name)
-      temp_data = call_twitch_url(twitch_url).parse
-      temp_data['_total'].positive?
-    end
+      def game_data(name)
+        name = get_game_name(name).split(' ').join('%20')
+        twitch_url = TwitchGateway.path('search/streams?query=' + name)
+        call_twitch_url(twitch_url).parse
+      end
 
-    def get_user_id(name)
-      twitch_url = TwitchAPI.path('users?login=' + name)
-      streamer_data = call_twitch_url(twitch_url).parse
+      # query_item: game, channel, language, trending ...
+      def clip_data(query_item, name)
+        twitch_url = TwitchGateway.path("/clips/top?#{query_item}=" + name)
+        call_twitch_url(twitch_url).parse
+      end
 
-      streamer_data['users'][0]['_id']
-    end
+      def self.path(path)
+        'https://api.twitch.tv/kraken/' + path
+      end
 
-    def channel(name)
-      return 'User doesn\'t exist!' unless user_exist?(name)
-      id = get_user_id(name)
-      twitch_url = TwitchAPI.path('streams/' + id)
-      data = call_twitch_url(twitch_url).parse
+      private
 
-      Channel.new(name, data, self)
-    end
+      def call_twitch_url(url)
+        response = HTTP.headers('Accept' => 'application/vnd.twitchtv.v5+json',
+                                'Client-ID' => @tw_token).get(url)
+        Response.new(response).response_or_error
+      end
 
-    def game(name)
-      name = correct_game_name(name).split(' ').join('%20')
-      twitch_url = TwitchAPI.path('search/streams?query=' + name)
-      data = call_twitch_url(twitch_url).parse
+      # get userid by given name, return NULL if user doesn't exist
+      def get_user_id(name)
+        twitch_url = TwitchGateway.path('users?login=' + name)
+        data = call_twitch_url(twitch_url).parse
 
-      Game.new(name, data, self)
-    end
+        data['_total'].positive? ? data['users'][0]['_id'] : NULL
+      end
 
-    # query_item: game, channel, language, trending ...
-    def clip(query_item, name)
-      twitch_url = TwitchAPI.path("/clips/top?#{query_item}=" + name)
-      data = call_twitch_url(twitch_url).parse
+      # get correct(accepted by twitch) name, return NULL if game doesn't exist
+      def get_game_name(name)
+        twitch_url = TwitchGateway.path('search/games?query=' + name)
+        data = call_twitch_url(twitch_url).parse
 
-      Clip.new(query_item, data, self)
-    end
+        !data['games'].nil? ? data['games'][0]['name'] : NULL
+      end
 
-    def correct_game_name(name)
-      twitch_url = TwitchAPI.path('search/games?query=' + name)
-      data = call_twitch_url(twitch_url).parse
+      # def top_game
+      #   twitch_url = TwitchGateway.path('games/top')
+      #   data = call_twitch_url(twitch_url).parse
 
-      data['games'][0]['name']
-    end
-
-    def top_game
-      twitch_url = TwitchAPI.path('games/top')
-      data = call_twitch_url(twitch_url).parse
-
-      top_games = []
-      10.times { |i| top_games << data['top'][i]['game']['name'] }
-      top_games
-    end
-
-    def self.path(path)
-      'https://api.twitch.tv/kraken/' + path
-    end
-
-    private
-
-    def call_twitch_url(url)
-      response = HTTP.headers('Accept' => 'application/vnd.twitchtv.v5+json',
-                              'Client-ID' => @tw_token).get(url)
-      Response.new(response).response_or_error
+      #   top_games = []
+      #   10.times { |i| top_games << data['top'][i]['game']['name'] }
+      #   top_games
+      # end
     end
   end
 end
