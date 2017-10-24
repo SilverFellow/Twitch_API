@@ -10,10 +10,10 @@ module API
 
       def load(channel_name)
         channel_data = @gateway.channel_data(channel_name)
-        ChannelMapper.build_entity(data)
+        ChannelMapper.build_entity(channel_name, channel_data)
       end
 
-      def self.build_entity(channel_data)
+      def self.build_entity(channel_name, channel_data)
         DataMapper.new(channel_name, channel_data).build_entity
 
       # Extracts entity specific elements from data structure
