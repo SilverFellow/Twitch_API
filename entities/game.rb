@@ -1,6 +1,7 @@
 # frozen_string_literal: false
 
 require 'dry-struct'
+require_relative 'clip.rb'
 
 module API
   module Entity

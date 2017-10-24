@@ -1,6 +1,7 @@
 # frozen_string_literal: false
 
 require 'dry-struct'
+require_relative 'clip.rb'
 
 module API
   module Entity
@@ -12,5 +13,6 @@ module API
       attribute :game, Types::Strict::String.optional
       attribute :viewer, Types::Coercible::Int.optional
       attribute :clips, Types::Strict::Array.member(Clip).optional
+    end
   end
 end

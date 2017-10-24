@@ -2,7 +2,7 @@
 
 module API
   module Twitch
-    # Data Mapper for Twitch Game Category 
+    # Data Mapper for Twitch Clips
     class ClipMapper
       def initialize(gateway)
         @gateway = gateway

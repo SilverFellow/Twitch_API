@@ -1,9 +1,6 @@
 # frozen_string_literal: true
 
 require 'http'
-require_relative 'clip.rb'
-require_relative 'game.rb'
-require_relative 'channel.rb'
 require 'yaml'
 
 module API

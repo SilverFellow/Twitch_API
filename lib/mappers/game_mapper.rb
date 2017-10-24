@@ -1,8 +1,10 @@
 # frozen_string_literal: false
 
+require_relative 'clip_mapper.rb'
+
 module API
   module Twitch
-    # Data Mapper for Twitch Game Category 
+    # Data Mapper for Twitch Game Category
     class GameMapper
       def initialize(gateway)
         @gateway = gateway
@@ -47,11 +49,10 @@ module API
           @clip_mapper.load('game', @game_name)
         end
 
-
         def top_streamers(num = 3)
           streamers = {}
           num.times do |i|
-            iter = @streams_data['streams'][i]['channel']
+            iter = @game_data['streams'][i]['channel']
             streamers[iter['display_name']] = iter['url']
           end
           streamers

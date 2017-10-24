@@ -1,8 +1,10 @@
 # frozen_string_literal: false
 
+require_relative 'clip_mapper.rb'
+
 module API
   module Twitch
-    # Data Mapper for Twitch channel 
+    # Data Mapper for Twitch channel
     class ChannelMapper
       def initialize(gateway)
         @gateway = gateway
@@ -40,22 +42,22 @@ module API
 
         def live
           !@channel_data['streams'].nil?
-        end     
-        
+        end
+
         def name
-          live? ? @channel_data['stream']['channel']['display_name'] : @channel_name
+          live ? @channel_data['stream']['channel']['display_name'] : @channel_name
         end
 
         def title
-          live? ? @channel_data['stream']['channel']['status'] : 'offline'
+          live ? @channel_data['stream']['channel']['status'] : 'offline'
         end
 
         def game
-          live? ? @channel_data['stream']['game'] : 'offline'
+          live ? @channel_data['stream']['game'] : 'offline'
         end
 
         def viewer
-          live? ? @channel_data['stream']['viewers'] : 0
+          live ? @channel_data['stream']['viewers'] : 0
         end
 
         def clips
