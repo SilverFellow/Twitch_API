@@ -7,6 +7,7 @@ module API
     # entity for twitch channel
     class Channel < Dry::Struct
       attribute :live, Types::Strict::Bool
+      attribute :name, Types::Strict::String.optional
       attribute :title, Types::Strict::String.optional
       attribute :game, Types::Strict::String.optional
       attribute :viewer, Types::Coercible::Int.optional
