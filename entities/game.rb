@@ -6,13 +6,11 @@ require_relative 'clip.rb'
 module API
   module Entity
     # entity for twitch channel
-    class Channel < Dry::Struct
-      attribute :live, Types::Strict::Bool
+    class Game < Dry::Struct
       attribute :name, Types::Strict::String.optional
-      attribute :title, Types::Strict::String.optional
-      attribute :game, Types::Strict::String.optional
-      attribute :viewer, Types::Coercible::Int.optional
+      attribute :number, Types::Coercible::Int.optional
       attribute :clips, Types::Strict::Array.member(Clip).optional
+      attribute :streamers, Types::Strict::Hash.optional
     end
   end
 end

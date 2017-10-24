@@ -1,57 +1,68 @@
 # frozen_string_literal: false
 
+require_relative 'clip_mapper.rb'
+
 module API
   module Twitch
-    # Data Mapper for Twitch channel 
+    # Data Mapper for Twitch Channel
     class ChannelMapper
       def initialize(gateway)
         @gateway = gateway
       end
 
-      def load(name)
-        channel_data = @gateway.channel_data(name)
-        channel_data.map do |data|
-          DataMapper.build_entity(data)
-        end
+      def load(channel_name)
+        channel_data = @gateway.channel_data(channel_name)
+        build_entity(channel_name, channel_data)
+      end
+
+      def build_entity(channel_name, channel_data)
+        DataMapper.new(channel_name, channel_data, @gateway).build_entity
       end
 
       # Extracts entity specific elements from data structure
       class DataMapper
-        def initialize(channel_data)
+        def initialize(channel_name, channel_data, gateway)
+          @channel_name = channel_name
           @channel_data = channel_data
+          @clip_mapper = ClipMapper.new(gateway)
         end
 
         def build_entity
-          Entity::Channel.new(
+          API::Entity::Channel.new(
             live: live,
+            name: name,
             title: title,
             game: game,
             viewer: viewer,
+            clips: clips
           )
         end
 
         private
 
         def live
-          !@channel_data['streams'].nil?
+          !@channel_data['stream'].nil?
+        end
+
+        def name
+          live ? @channel_data['stream']['channel']['display_name'] : @channel_name
         end
 
         def title
-          live? ? @channel_data['stream']['channel']['status'] : offline_message
+          live ? @channel_data['stream']['channel']['status'] : 'offline'
         end
 
         def game
-          live? ? @channel_data['stream']['game'] : offline_message
+          live ? @channel_data['stream']['game'] : 'offline'
         end
 
         def viewer
-          live? ? @channel_data['stream']['viewers'] : offline_message
+          live ? @channel_data['stream']['viewers'] : 0
         end
 
-        # return most popular clips of this channel
-        # def clips
-        #   @data_source.clip('channel', @name).top_clips
-        # end
+        def clips
+          @clip_mapper.load('channel', @channel_name)
+        end
       end
     end
   end

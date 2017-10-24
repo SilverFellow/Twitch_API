@@ -1,10 +1,8 @@
 # frozen_string_literal: true
 
 require 'http'
-require_relative 'clip.rb'
-require_relative 'game.rb'
-require_relative 'channel.rb'
 require 'yaml'
+require_relative '../init.rb'
 
 module API
   module Twitch
@@ -58,12 +56,21 @@ module API
 
       # query_item: game, channel, language, trending ...
       def clip_data(query_item, name)
+        name = name.split(' ').join('%20') if query_item == 'game'
         twitch_url = TwitchGateway.path("/clips/top?#{query_item}=" + name)
         call_twitch_url(twitch_url).parse
       end
 
       def self.path(path)
         'https://api.twitch.tv/kraken/' + path
+      end
+
+      # get correct(accepted by twitch) name, return NULL if game doesn't exist
+      def get_game_name(name)
+        twitch_url = TwitchGateway.path('search/games?query=' + name)
+        data = call_twitch_url(twitch_url).parse
+
+        !data['games'].nil? ? data['games'][0]['name'] : name
       end
 
       private
@@ -80,14 +87,6 @@ module API
         data = call_twitch_url(twitch_url).parse
 
         data['_total'].positive? ? data['users'][0]['_id'] : NULL
-      end
-
-      # get correct(accepted by twitch) name, return NULL if game doesn't exist
-      def get_game_name(name)
-        twitch_url = TwitchGateway.path('search/games?query=' + name)
-        data = call_twitch_url(twitch_url).parse
-
-        !data['games'].nil? ? data['games'][0]['name'] : NULL
       end
 
       # def top_game
