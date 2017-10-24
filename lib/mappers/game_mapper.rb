@@ -15,19 +15,22 @@ module API
       end
 
       def self.build_entity(game_data)
-        GameMapper.new(game_name, game_data).build_entity
+        DataMapper.new(game_name, game_data, @gateway).build_entity
+      end
 
       # Extracts entity specific elements from data structure
       class DataMapper
-        def initialize(game_name, game_data)
+        def initialize(game_name, game_data, gateway)
           @game_name = game_name
           @game_data = game_data
+          @clip_mapper = ClipMapper.new(gateway)
         end
 
         def build_entity
           Entity::Game.new(
             name: @game_name,
-            number: number
+            number: number,
+            clips: clips
           )
         end
 
@@ -39,11 +42,9 @@ module API
 
         # TODO: popularity
 
-        # return the most popular clips of specific game
-        # def clips
-        #   @data_source.clip('game', @name).top_clips
-        # end
-
+        def clips
+          @clip_mapper.load('game', @game_name)
+        end
         # def top_streamers(num = 3)
         #   streamers = {}
         #   num.times do |i|

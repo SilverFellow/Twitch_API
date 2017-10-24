@@ -14,13 +14,15 @@ module API
       end
 
       def self.build_entity(channel_name, channel_data)
-        DataMapper.new(channel_name, channel_data).build_entity
+        DataMapper.new(channel_name, channel_data, @gateway).build_entity
+      end
 
       # Extracts entity specific elements from data structure
       class DataMapper
-        def initialize(channel_name, channel_data)
+        def initialize(channel_name, channel_data, gateway)
           @channel_name = channel_name
           @channel_data = channel_data
+          @clip_mapper = ClipMapper.new(gateway)
         end
 
         def build_entity
@@ -30,6 +32,7 @@ module API
             title: title,
             game: game,
             viewer: viewer,
+            clips: clip
           )
         end
 
@@ -55,10 +58,9 @@ module API
           live? ? @channel_data['stream']['viewers'] : 0
         end
 
-        # return most popular clips of this channel
-        # def clips
-        #   @data_source.clip('channel', @name).top_clips
-        # end
+        def clips
+          @clip_mapper.load('channel', @channel_name)
+        end
       end
     end
   end

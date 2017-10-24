@@ -11,7 +11,6 @@ module API
       attribute :title, Types::Strict::String.optional
       attribute :game, Types::Strict::String.optional
       attribute :viewer, Types::Coercible::Int.optional
-      attribute :clips, Types::Strict::Hash.optional
-    end
+      attribute :clips, Types::Strict::Array.member(Clip).optional
   end
 end
