@@ -7,8 +7,13 @@ task :default do
 end
 
 desc 'run tests'
-task :spec do
-  sh 'ruby spec/twitch_spec.rb'
+Rake::TestTask.new(:spec) do |t|
+  t.pattern = 'spec/*_spec.rb'
+  t.warning = false
+end
+
+task :console do
+  sh 'pry -r ./spec/test_load_all'
 end
 
 desc 'delete cassette fixtures'
