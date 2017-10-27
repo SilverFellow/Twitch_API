@@ -5,4 +5,4 @@ folders.each do |folder|
   require_relative "#{folder}/init.rb"
 end
 
-#equire_relative 'app.rb'
+require_relative 'app.rb'
