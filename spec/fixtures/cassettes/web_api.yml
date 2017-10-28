@@ -103,7 +103,7 @@ http_interactions:
       - close
     body:
       encoding: UTF-8
-      string: "{\"_total\":467,\"streams\":[{\"_id\":26590124848,\"game\":\"IRL\",\"broadcast_platform\":\"live\",\"community_id\":\"\",\"community_ids\":[],\"viewers\":7859,\"video_height\":480,\"average_fps\":30.3951367781,\"delay\":0,\"created_at\":\"2017-10-28T02:39:43Z\",\"is_playlist\":false,\"stream_type\":\"live\",\"preview\":{\"small\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_mitchjones-80x45.jpg\",\"medium\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_mitchjones-320x180.jpg\",\"large\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_mitchjones-640x360.jpg\",\"template\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_mitchjones-{width}x{height}.jpg\"},\"channel\":{\"mature\":false,\"status\":\"\\u003cMitchjones\\u003e
+      string: "{\"_total\":427,\"streams\":[{\"_id\":26590124848,\"game\":\"IRL\",\"broadcast_platform\":\"live\",\"community_id\":\"\",\"community_ids\":[],\"viewers\":7859,\"video_height\":480,\"average_fps\":30.3951367781,\"delay\":0,\"created_at\":\"2017-10-28T02:39:43Z\",\"is_playlist\":false,\"stream_type\":\"live\",\"preview\":{\"small\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_mitchjones-80x45.jpg\",\"medium\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_mitchjones-320x180.jpg\",\"large\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_mitchjones-640x360.jpg\",\"template\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_mitchjones-{width}x{height}.jpg\"},\"channel\":{\"mature\":false,\"status\":\"\\u003cMitchjones\\u003e
         getting girls on Halloween \",\"broadcaster_language\":\"en\",\"display_name\":\"MitchJones\",\"game\":\"IRL\",\"language\":\"en\",\"_id\":26194208,\"name\":\"mitchjones\",\"created_at\":\"2011-11-17T09:20:52.82689Z\",\"updated_at\":\"2017-10-28T06:03:59.214152Z\",\"partner\":false,\"logo\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/42dfc148727317d6-profile_image-300x300.jpeg\",\"video_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/6f8029f5e573c602-channel_offline_image-1920x1080.png\",\"profile_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/mitchjones-profile_banner-8bda6c47d7e50136-480.jpeg\",\"profile_banner_background_color\":\"\",\"url\":\"https://www.twitch.tv/mitchjones\",\"views\":20000244,\"followers\":281586,\"broadcaster_type\":\"\",\"description\":\"The
         Law\"}},{\"_id\":26590813392,\"game\":\"IRL\",\"broadcast_platform\":\"live\",\"community_id\":\"\",\"community_ids\":[],\"viewers\":3539,\"video_height\":1080,\"average_fps\":60.0100857287,\"delay\":0,\"created_at\":\"2017-10-28T04:31:52Z\",\"is_playlist\":false,\"stream_type\":\"live\",\"preview\":{\"small\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_llilka-80x45.jpg\",\"medium\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_llilka-320x180.jpg\",\"large\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_llilka-640x360.jpg\",\"template\":\"https://static-cdn.jtvnw.net/previews-ttv/live_user_llilka-{width}x{height}.jpg\"},\"channel\":{\"mature\":false,\"status\":\"엑플
         업데이트 1시간걸렸어요 윾 윾\",\"broadcaster_language\":\"ko\",\"display_name\":\"릴카\",\"game\":\"IRL\",\"language\":\"ko\",\"_id\":139635292,\"name\":\"llilka\",\"created_at\":\"2016-11-16T15:32:04.843963Z\",\"updated_at\":\"2017-10-28T06:04:15.616223Z\",\"partner\":false,\"logo\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/f458a2c17775b234-profile_image-300x300.png\",\"video_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/llilka-channel_offline_image-693a91f67cb488cf-1920x1080.jpeg\",\"profile_banner\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/3d98ac79ede3c04a-profile_banner-480.jpeg\",\"profile_banner_background_color\":\"\",\"url\":\"https://www.twitch.tv/llilka\",\"views\":2170836,\"followers\":72554,\"broadcaster_type\":\"\",\"description\":\"스트리머
@@ -477,4 +477,406 @@ http_interactions:
       string: '{"clips":[],"_cursor":""}'
     http_version: 
   recorded_at: Sat, 28 Oct 2017 08:17:41 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/users?login=mobilmobil
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - 8ae67d89897fce5862fa6434e5e976b8
+      X-Ctxlog-Logid:
+      - 1-59f45098-60f73f6341fe65ba54576fab
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Sat, 28 Oct 2017 09:40:40 GMT
+      Content-Length:
+      - '317'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"_total":1,"users":[{"display_name":"老皮","_id":"29518572","name":"mobilmobil","type":"user","bio":"
+        OP Channel ","created_at":"2012-04-04T23:37:06.810161Z","updated_at":"2017-10-28T09:33:48.806705Z","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-300x300.jpeg"}]}'
+    http_version: 
+  recorded_at: Sat, 28 Oct 2017 09:40:40 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/streams/29518572
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - f966441e041ee8d02feb0859b0e33aee
+      X-Ctxlog-Logid:
+      - 1-59f45098-7099d0e5689be8e11862e2d5
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Sat, 28 Oct 2017 09:40:40 GMT
+      Content-Length:
+      - '1300'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"stream":{"_id":26591307808,"game":"Tom Clancy''s Rainbow Six: Siege","broadcast_platform":"live","community_id":"","community_ids":[],"viewers":4012,"video_height":720,"average_fps":60,"delay":0,"created_at":"2017-10-28T06:14:35Z","is_playlist":false,"stream_type":"live","preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_mobilmobil-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_mobilmobil-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_mobilmobil-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_mobilmobil-{width}x{height}.jpg"},"channel":{"mature":true,"status":"【老皮盃】第一屆
+        Rainbows Six:Siege 線上賽 16強","broadcaster_language":"zh","display_name":"老皮","game":"Tom
+        Clancy''s Rainbow Six: Siege","language":"zh-tw","_id":29518572,"name":"mobilmobil","created_at":"2012-04-04T23:37:06.810161Z","updated_at":"2017-10-28T09:33:48.806705Z","partner":true,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-300x300.jpeg","video_banner":null,"profile_banner":null,"profile_banner_background_color":"","url":"https://www.twitch.tv/mobilmobil","views":48076285,"followers":337534,"broadcaster_type":"","description":"
+        OP Channel "}}}'
+    http_version: 
+  recorded_at: Sat, 28 Oct 2017 09:40:40 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken//clips/top?channel=mobilmobil
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - 65dfad7960d5b476778223849d2e4872
+      X-Ctxlog-Logid:
+      - 1-59f45098-653909114ea7613931658f01
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Sat, 28 Oct 2017 09:40:40 GMT
+      Content-Length:
+      - '14878'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"clips":[{"slug":"AmazonianBlithePlumageOneHand","tracking_id":"143601506","url":"https://clips.twitch.tv/AmazonianBlithePlumageOneHand?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=AmazonianBlithePlumageOneHand\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=AmazonianBlithePlumageOneHand\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"29518572","name":"mobilmobil","display_name":"老皮","channel_url":"https://www.twitch.tv/mobilmobil","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-150x150.jpeg"},"curator":{"id":"25604084","name":"k87040200","display_name":"夢特幻","channel_url":"https://www.twitch.tv/k87040200","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/k87040200-profile_image-abb2f71581fd068d-150x150.jpeg"},"vod":{"id":"185391206","url":"https://www.twitch.tv/videos/185391206?t=21m8s","offset":1268},"broadcast_id":"26581467248","game":"Black
+        Desert Online","language":"zh-tw","title":"老皮 集氣台 真4王武 87層 果然87","views":479,"duration":37,"created_at":"2017-10-27T02:28:29Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/143601506-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/143601506-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/143601506-preview-86x45.jpg"}},{"slug":"RealOptimisticJayPeteZarollTie","tracking_id":"142981518","url":"https://clips.twitch.tv/RealOptimisticJayPeteZarollTie?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=RealOptimisticJayPeteZarollTie\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=RealOptimisticJayPeteZarollTie\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"29518572","name":"mobilmobil","display_name":"老皮","channel_url":"https://www.twitch.tv/mobilmobil","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-150x150.jpeg"},"curator":{"id":"96258645","name":"tomking159357","display_name":"tomking159357","channel_url":"https://www.twitch.tv/tomking159357","logo":null},"vod":{"id":"184965960","url":"https://www.twitch.tv/videos/184965960?t=42m43s","offset":2563},"broadcast_id":"26568741536","game":"Forts","language":"zh-tw","title":"【老皮台】激突！","views":446,"duration":30.000667,"created_at":"2017-10-25T13:02:47Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/26568741536-offset-2588-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/26568741536-offset-2588-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/26568741536-offset-2588-preview-86x45.jpg"}},{"slug":"WiseSuspiciousCookieBCouch","tracking_id":"141376761","url":"https://clips.twitch.tv/WiseSuspiciousCookieBCouch?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=WiseSuspiciousCookieBCouch\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=WiseSuspiciousCookieBCouch\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"29518572","name":"mobilmobil","display_name":"老皮","channel_url":"https://www.twitch.tv/mobilmobil","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-150x150.jpeg"},"curator":{"id":"126525996","name":"kisoumaru_","display_name":"kisoumaru_","channel_url":"https://www.twitch.tv/kisoumaru_","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/kisoumaru_-profile_image-30a430e0578880fc-150x150.png"},"vod":{"id":"183642441","url":"https://www.twitch.tv/videos/183642441?t=1h14m50s","offset":4490},"broadcast_id":"26528071616","game":"Talk
+        Shows","language":"zh-tw","title":"存在感點沒有了。","views":334,"duration":34.25,"created_at":"2017-10-21T12:37:27Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/141376761-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/141376761-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/141376761-preview-86x45.jpg"}},{"slug":"CoweringCooperativeMonitorDogFace","tracking_id":"141873058","url":"https://clips.twitch.tv/CoweringCooperativeMonitorDogFace?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=CoweringCooperativeMonitorDogFace\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=CoweringCooperativeMonitorDogFace\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"29518572","name":"mobilmobil","display_name":"老皮","channel_url":"https://www.twitch.tv/mobilmobil","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-150x150.jpeg"},"curator":{"id":"52360949","name":"zxc413652","display_name":"レキ","channel_url":"https://www.twitch.tv/zxc413652","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/zxc413652-profile_image-1b3603b7210ed883-150x150.png"},"vod":null,"broadcast_id":"26107371056","game":"Batman:
+        Arkham Knight","language":"zh-tw","title":"【老皮台】阿卡漢騎士（小丑唱歌www）Part.4","views":175,"duration":60,"created_at":"2017-10-22T14:09:52Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/141873058-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/141873058-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/141873058-preview-86x45.jpg"}},{"slug":"NiceSpicyTrayPipeHype","tracking_id":"142264968","url":"https://clips.twitch.tv/NiceSpicyTrayPipeHype?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=NiceSpicyTrayPipeHype\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=NiceSpicyTrayPipeHype\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"29518572","name":"mobilmobil","display_name":"老皮","channel_url":"https://www.twitch.tv/mobilmobil","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-150x150.jpeg"},"curator":{"id":"25994252","name":"nick129378","display_name":"nick129378","channel_url":"https://www.twitch.tv/nick129378","logo":null},"vod":{"id":"184442666","url":"https://www.twitch.tv/videos/184442666?t=1h15m25s","offset":4525},"broadcast_id":"26553023440","game":"The
+        Evil Within 2","language":"zh-tw","title":"【老皮台】邪靈入侵2 DAY6 大結局","views":167,"duration":28.532667,"created_at":"2017-10-23T13:40:31Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/26553023440-offset-4550-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/26553023440-offset-4550-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/26553023440-offset-4550-preview-86x45.jpg"}},{"slug":"SecretiveZealousFishBudBlast","tracking_id":"143356709","url":"https://clips.twitch.tv/SecretiveZealousFishBudBlast?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=SecretiveZealousFishBudBlast\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=SecretiveZealousFishBudBlast\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"29518572","name":"mobilmobil","display_name":"老皮","channel_url":"https://www.twitch.tv/mobilmobil","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-150x150.jpeg"},"curator":{"id":"74084255","name":"ivan110138","display_name":"伊萬","channel_url":"https://www.twitch.tv/ivan110138","logo":null},"vod":{"id":"185216466","url":"https://www.twitch.tv/videos/185216466?t=2h40m41s","offset":9641},"broadcast_id":"26576274592","game":"Assassin''s
+        Creed: Origins","language":"zh-tw","title":"死前拍遺照","views":154,"duration":45.833984,"created_at":"2017-10-26T14:00:25Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/143356709-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/143356709-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/143356709-preview-86x45.jpg"}},{"slug":"FineTsundereSwallowPeteZaroll","tracking_id":"141594339","url":"https://clips.twitch.tv/FineTsundereSwallowPeteZaroll?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=FineTsundereSwallowPeteZaroll\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=FineTsundereSwallowPeteZaroll\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"29518572","name":"mobilmobil","display_name":"老皮","channel_url":"https://www.twitch.tv/mobilmobil","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-150x150.jpeg"},"curator":{"id":"38274074","name":"apophislee","display_name":"ApophisLee","channel_url":"https://www.twitch.tv/apophislee","logo":null},"vod":{"id":"183642441","url":"https://www.twitch.tv/videos/183642441?t=2h49m13s","offset":10153},"broadcast_id":"26528071616","game":"Talk
+        Shows","language":"zh-tw","title":"色","views":140,"duration":5.083984,"created_at":"2017-10-21T22:13:54Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/141594339-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/141594339-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/141594339-preview-86x45.jpg"}},{"slug":"PopularBloodyWalletTheThing","tracking_id":"141393486","url":"https://clips.twitch.tv/PopularBloodyWalletTheThing?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=PopularBloodyWalletTheThing\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=PopularBloodyWalletTheThing\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"29518572","name":"mobilmobil","display_name":"老皮","channel_url":"https://www.twitch.tv/mobilmobil","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-150x150.jpeg"},"curator":{"id":"57464751","name":"meowcatex","display_name":"文文誠","channel_url":"https://www.twitch.tv/meowcatex","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/meowcatex-profile_image-3fd6f49d84333204-150x150.jpeg"},"vod":{"id":"183863013","url":"https://www.twitch.tv/videos/183863013?t=5h54m30s","offset":21270},"broadcast_id":"26534755184","game":"Tom
+        Clancy''s Rainbow Six: Siege","language":"zh-tw","title":".....","views":79,"duration":30,"created_at":"2017-10-21T13:34:14Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/141393486-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/141393486-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/141393486-preview-86x45.jpg"}},{"slug":"RichImpossibleCardGingerPower","tracking_id":"143253467","url":"https://clips.twitch.tv/RichImpossibleCardGingerPower?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=RichImpossibleCardGingerPower\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=RichImpossibleCardGingerPower\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"29518572","name":"mobilmobil","display_name":"老皮","channel_url":"https://www.twitch.tv/mobilmobil","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-150x150.jpeg"},"curator":{"id":"28535643","name":"imkenta","display_name":"班凱西","channel_url":"https://www.twitch.tv/imkenta","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/imkenta-profile_image-71bc6552bfa9801f-150x150.jpeg"},"vod":{"id":"184965960","url":"https://www.twitch.tv/videos/184965960?t=51m5s","offset":3065},"broadcast_id":"26568741536","game":"Forts","language":"zh-tw","title":"膛炸","views":65,"duration":30.001667,"created_at":"2017-10-26T04:12:52Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/vod-184965960-offset-3088-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/vod-184965960-offset-3088-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/vod-184965960-offset-3088-preview-86x45.jpg"}},{"slug":"PleasantFuriousStinkbugPeteZarollTie","tracking_id":"143005796","url":"https://clips.twitch.tv/PleasantFuriousStinkbugPeteZarollTie?tt_medium=clips_api\u0026tt_content=url","embed_url":"https://clips.twitch.tv/embed?clip=PleasantFuriousStinkbugPeteZarollTie\u0026tt_medium=clips_api\u0026tt_content=embed","embed_html":"\u003ciframe
+        src=''https://clips.twitch.tv/embed?clip=PleasantFuriousStinkbugPeteZarollTie\u0026tt_medium=clips_api\u0026tt_content=embed''
+        width=''640'' height=''360'' frameborder=''0'' scrolling=''no'' allowfullscreen=''true''\u003e\u003c/iframe\u003e","broadcaster":{"id":"29518572","name":"mobilmobil","display_name":"老皮","channel_url":"https://www.twitch.tv/mobilmobil","logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-150x150.jpeg"},"curator":{"id":"158149932","name":"0983225012","display_name":"燒到剩粉","channel_url":"https://www.twitch.tv/0983225012","logo":null},"vod":{"id":"184965960","url":"https://www.twitch.tv/videos/184965960?t=2h21m39s","offset":8499},"broadcast_id":"26568741536","game":"Forts","language":"zh-tw","title":"壓垮駱駝的最後一根稻草","views":61,"duration":23.583984,"created_at":"2017-10-25T14:41:53Z","thumbnails":{"medium":"https://clips-media-assets.twitch.tv/143005796-preview-480x272.jpg","small":"https://clips-media-assets.twitch.tv/143005796-preview-260x147.jpg","tiny":"https://clips-media-assets.twitch.tv/143005796-preview-86x45.jpg"}}],"_cursor":"MTA="}'
+    http_version: 
+  recorded_at: Sat, 28 Oct 2017 09:40:40 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/users?login=boring_channel
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - '0325993c8ca0d8d798e1f98af694a0d2'
+      X-Ctxlog-Logid:
+      - 1-59f450e6-46064c621474cbdb49b4a561
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Sat, 28 Oct 2017 09:41:58 GMT
+      Content-Length:
+      - '220'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"_total":1,"users":[{"display_name":"boring_channel","_id":"77477904","name":"boring_channel","type":"user","bio":null,"created_at":"2014-12-19T00:31:51.892493Z","updated_at":"2017-08-07T13:33:57.747082Z","logo":null}]}'
+    http_version: 
+  recorded_at: Sat, 28 Oct 2017 09:41:58 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/streams/77477904
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '15'
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - 44fe6e363417990f9fe3e8a75d8a4fff
+      X-Ctxlog-Logid:
+      - 1-59f450e6-2f9a66561d5c256e48f5326a
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Sat, 28 Oct 2017 09:41:58 GMT
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"stream":null}'
+    http_version: 
+  recorded_at: Sat, 28 Oct 2017 09:41:58 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken//clips/top?channel=boring_channel
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - c906c87706c15522341572f9251ee1ac
+      X-Ctxlog-Logid:
+      - 1-59f450e6-7a930ebd53cafd994b26a068
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Sat, 28 Oct 2017 09:41:58 GMT
+      Content-Length:
+      - '25'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"clips":[],"_cursor":""}'
+    http_version: 
+  recorded_at: Sat, 28 Oct 2017 09:41:58 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/users?login=khekhkgkskg
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - 14c96fea026d08aaa5fd8275273a1e17
+      X-Ctxlog-Logid:
+      - 1-59f45100-4796c8843ef2466d49ccd65a
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Sat, 28 Oct 2017 09:42:24 GMT
+      Content-Length:
+      - '23'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"_total":0,"users":[]}'
+    http_version: 
+  recorded_at: Sat, 28 Oct 2017 09:42:24 GMT
 recorded_with: VCR 3.0.3
