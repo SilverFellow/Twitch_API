@@ -5,8 +5,8 @@ require_relative 'spec_helper.rb'
 describe 'Tests Twitch library' do
   API_VER = 'api'.freeze
   CASSETTE_FILE = 'web_api'.freeze
-  GAME = JSON.parse(File.read('spec/fixtures/sample/game.json'))
-  CHANNEL = JSON.parse(File.read('spec/fixtures/sample/channel.json'))
+  # GAME = JSON.parse(File.read('spec/fixtures/sample/game.json'))
+  # CHANNEL = JSON.parse(File.read('spec/fixtures/sample/channel.json'))
 
   before do
     VCR.insert_cassette CASSETTE_FILE,

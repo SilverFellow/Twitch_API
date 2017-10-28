@@ -10,8 +10,8 @@ describe 'Tests Twitch library' do
 
   TOKEN = config.token
   # CLIP = JSON.parse(File.read('fixtures/clip.json'))
-  GAME = JSON.parse(File.read('spec/fixtures/sample/game.json'))
-  CHANNEL = JSON.parse(File.read('spec/fixtures/sample/channel.json'))
+  # GAME = JSON.parse(File.read('spec/fixtures/sample/game.json'))
+  # CHANNEL = JSON.parse(File.read('spec/fixtures/sample/channel.json'))
   # CHANNNEL_CLIP = JSON.parse(File.read('spec/fixtures/sample/channel_clip.json'))
   CASSETTE_FILE = 'twitch_api'.freeze
 

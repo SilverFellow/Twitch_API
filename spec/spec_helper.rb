@@ -20,8 +20,8 @@ GAMENAME = 'IRL'.freeze
 # CONFIG = YAML.safe_load(File.read('config/secret.yml'))
 # TOKEN = CONFIG['token']
 # CLIP = JSON.parse(File.read('fixtures/clip.json'))
-# GAME = JSON.parse(File.read('spec/fixtures/sample/game.json'))
-# CHANNEL = JSON.parse(File.read('spec/fixtures/sample/channel.json'))
+ GAME = JSON.parse(File.read('spec/fixtures/sample/game.json'))
+ CHANNEL = JSON.parse(File.read('spec/fixtures/sample/channel.json'))
 # CHANNNEL_CLIP = JSON.parse(File.read('spec/fixtures/sample/channel_clip.json'))
 
 CASSETTES_FOLDER = 'spec/fixtures/cassettes'.freeze

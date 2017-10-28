@@ -505,4 +505,273 @@ http_interactions:
       string: '{"error":"Bad Request","status":400,"message":"Invalid client id specified"}'
     http_version: 
   recorded_at: Sat, 28 Oct 2017 07:25:20 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/users?login=khekhkgkskg
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - 486da0e6895f0a64ef77c70abb7c79ec
+      X-Ctxlog-Logid:
+      - 1-59f45f4c-4b1aa01f6e97deea511247ea
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Sat, 28 Oct 2017 10:43:24 GMT
+      Content-Length:
+      - '23'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"_total":0,"users":[]}'
+    http_version: 
+  recorded_at: Sat, 28 Oct 2017 10:43:24 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/search/games?query=boring_game
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '14'
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - 73bb1dd2b4ab84318421c4d18bcf0ece
+      X-Ctxlog-Logid:
+      - 1-59f45f4c-2074e3e10b99099236ab2f0e
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Sat, 28 Oct 2017 10:43:24 GMT
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"games":null}'
+    http_version: 
+  recorded_at: Sat, 28 Oct 2017 10:43:24 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/search/streams?query=boring_game
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - 124d41b453b20952bd21eb943fe31196
+      X-Ctxlog-Logid:
+      - 1-59f45f4c-32c250375b418ead61305cf0
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Sat, 28 Oct 2017 10:43:25 GMT
+      Content-Length:
+      - '2648'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"_total":2,"streams":[{"_id":26592025136,"game":"Retro","broadcast_platform":"live","community_id":"","community_ids":[],"viewers":4,"video_height":1080,"average_fps":60.0660066007,"delay":0,"created_at":"2017-10-28T09:32:44Z","is_playlist":false,"stream_type":"live","preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_sqb1995-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_sqb1995-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_sqb1995-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_sqb1995-{width}x{height}.jpg"},"channel":{"mature":false,"status":"Hello!
+        Let''s bring those retro games back!","broadcaster_language":"pl","display_name":"SQb1995","game":"Retro","language":"pl","_id":87160863,"name":"sqb1995","created_at":"2015-04-01T15:57:20.008616Z","updated_at":"2017-10-28T10:30:58.856239Z","partner":false,"logo":"https://static-cdn.jtvnw.net/jtv_user_pictures/sqb1995-profile_image-0a835f4225891188-300x300.jpeg","video_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/sqb1995-channel_offline_image-ad642be8cedb2ea8-1920x1080.png","profile_banner":"https://static-cdn.jtvnw.net/jtv_user_pictures/sqb1995-profile_banner-873aace357eb19ca-480.png","profile_banner_background_color":"#ffffff","url":"https://www.twitch.tv/sqb1995","views":9221,"followers":585,"broadcaster_type":"","description":"Hi,
+        i''m playing games for fun. You can enjoy them with me!"}},{"_id":26591476848,"game":"Overwatch","broadcast_platform":"live","community_id":"","community_ids":[],"viewers":3,"video_height":1080,"average_fps":61.5655233069,"delay":0,"created_at":"2017-10-28T06:57:55Z","is_playlist":false,"stream_type":"live","preview":{"small":"https://static-cdn.jtvnw.net/previews-ttv/live_user_doubledsoncam-80x45.jpg","medium":"https://static-cdn.jtvnw.net/previews-ttv/live_user_doubledsoncam-320x180.jpg","large":"https://static-cdn.jtvnw.net/previews-ttv/live_user_doubledsoncam-640x360.jpg","template":"https://static-cdn.jtvnw.net/previews-ttv/live_user_doubledsoncam-{width}x{height}.jpg"},"channel":{"mature":false,"status":"Alt
+        questing for gloves/multi boxing Slayer","broadcaster_language":"en","display_name":"Doubledsoncam","game":"Overwatch","language":"en","_id":77710204,"name":"doubledsoncam","created_at":"2014-12-22T05:37:23.456226Z","updated_at":"2017-10-28T10:32:03.927171Z","partner":false,"logo":null,"video_banner":null,"profile_banner":null,"profile_banner_background_color":"","url":"https://www.twitch.tv/doubledsoncam","views":302,"followers":12,"broadcaster_type":"","description":"talk
+        to me baby what''s wrong?"}}]}'
+    http_version: 
+  recorded_at: Sat, 28 Oct 2017 10:43:25 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/search/games?query=boring_game
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '14'
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - e7392c1858bb67503b4de049095ee0c7
+      X-Ctxlog-Logid:
+      - 1-59f45f4d-566b68686223dd654906cfa3
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Sat, 28 Oct 2017 10:43:25 GMT
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"games":null}'
+    http_version: 
+  recorded_at: Sat, 28 Oct 2017 10:43:25 GMT
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken//clips/top?game=boring_game
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v5+json
+      Client-Id:
+      - "<Twitch_TOKEN>"
+      Connection:
+      - close
+      Host:
+      - api.twitch.tv
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - nginx
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Pragma:
+      - no-cache
+      Twitch-Trace-Id:
+      - 3cccd115841c8662311df24d2232e99d
+      X-Ctxlog-Logid:
+      - 1-59f45f4d-172824e76b36fa8e5e4fbc6b
+      Front-End-Https:
+      - 'on'
+      Timing-Allow-Origin:
+      - https://www.twitch.tv
+      Date:
+      - Sat, 28 Oct 2017 10:43:25 GMT
+      Content-Length:
+      - '25'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"clips":[],"_cursor":""}'
+    http_version: 
+  recorded_at: Sat, 28 Oct 2017 10:43:25 GMT
 recorded_with: VCR 3.0.3
