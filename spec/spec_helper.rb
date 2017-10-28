@@ -15,7 +15,7 @@ require 'webmock'
 
 require_relative 'test_load_all'
 
-CHANNELNAME = 'toyzttv'.freeze
+CHANNELNAME = 'mobilmobil'.freeze
 GAMENAME = 'IRL'.freeze
 # CONFIG = YAML.safe_load(File.read('config/secret.yml'))
 # TOKEN = CONFIG['token']

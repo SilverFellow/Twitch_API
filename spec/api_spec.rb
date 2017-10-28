@@ -3,7 +3,7 @@
 require_relative 'spec_helper.rb'
 
 describe 'Tests Twitch library' do
-  API_VER = 'api/v0.1'.freeze
+  API_VER = 'api'.freeze
   CASSETTE_FILE = 'web_api'.freeze
 
   before do
@@ -18,18 +18,18 @@ describe 'Tests Twitch library' do
 
   describe 'Game information' do
     it 'HAPPY: should provide correct repo attributes' do
-      get "#{API_VER}/repo/#{GAMENAME}"
+      get "#{API_VER}/game/#{GAMENAME}"
       _(last_response.status).must_equal 200
       repo_data = JSON.parse last_response.body
       _(repo_data.size).must_be :>, 0
     end
 
-    # it 'SAD: should raise exception on incorrect repo' do
-    #   get "#{API_VER}/repo/#{GAMENAME}"
-    #   _(last_response.status).must_equal 404
-    #   body = JSON.parse last_response.body
-    #   _(body.keys).must_include 'error'
-    # end
+    it 'SAD: should raise exception on incorrect repo' do
+      get "#{API_VER}/game/boring_game"
+      _(last_response.status).must_equal 404
+      body = JSON.parse last_response.body
+       _(body.keys).must_include 'error'
+    end
   end
 
   describe 'Contributor information' do

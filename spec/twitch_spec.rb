@@ -38,7 +38,7 @@ describe 'Tests Twitch library' do
       api = API::Twitch::TwitchGateway.new(TOKEN)
       game_mapper = API::Twitch::GameMapper.new(api)
       game = game_mapper.load(GAMENAME)
-      _(game.num).must_equal GAME['_total']
+      _(game.number).must_equal GAME['_total']
       _(game.name).must_equal GAME['streams'][0]['game']
     end
     # it 'SAD: should raise exception on incorrect game_name' do
@@ -63,7 +63,7 @@ describe 'Tests Twitch library' do
     end
 
     it 'HAPPY: is channel live?' do
-      _(@channel.live?).must_equal true
+      _(@channel.live).must_equal true
     end
 
     it 'HAPPY: channels title should be correct' do
@@ -71,8 +71,8 @@ describe 'Tests Twitch library' do
       _(@channel.title).must_equal CHANNEL['stream']['channel']['status']
     end
 
-    it 'HAPPY: clips should be three' do
-      _(@channel.clips.count).must_equal 3
+    it 'HAPPY: clips should be ten' do
+      _(@channel.clips.count).must_equal 10
     end
   end
 
@@ -84,12 +84,12 @@ describe 'Tests Twitch library' do
       @game_clip = clip_mapper.load('game', GAMENAME)
     end
 
-    it 'HAPPY: channel_clips should be three' do
-      _(@channel_clip.top_clips.count).must_equal 3
+    it 'HAPPY: channel_clips should be ten' do
+      _(@channel_clip.count).must_equal 10
     end
 
-    it 'HAPPY: game_clips should be three' do
-      _(@game_clip.top_clips.count).must_equal 3
+    it 'HAPPY: game_clips should be ten' do
+      _(@game_clip.count).must_equal 10
     end
   end
 end
