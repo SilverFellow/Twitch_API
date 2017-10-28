@@ -21,6 +21,7 @@ gem 'rake'
 gem 'simplecov'
 gem 'vcr'
 gem 'webmock'
+gem 'rack-test'
 
 # Quality testing gems
 gem 'flog'
