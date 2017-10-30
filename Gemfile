@@ -6,8 +6,8 @@ source 'https://rubygems.org'
 gem 'http'
 
 # Web app related
-gem 'econfig' 
-gem 'puma' 
+gem 'econfig'
+gem 'puma'
 gem 'roda'
 
 # Data gems
@@ -17,11 +17,12 @@ gem 'dry-types'
 # Testing gems
 gem 'minitest'
 gem 'minitest-rg'
+gem 'pry'
+gem 'rack-test'
 gem 'rake'
 gem 'simplecov'
 gem 'vcr'
 gem 'webmock'
-gem 'rack-test'
 
 # Quality testing gems
 gem 'flog'

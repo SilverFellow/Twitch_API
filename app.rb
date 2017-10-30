@@ -19,7 +19,7 @@ module API
       app = Api
       config = Api.config
       gh = Twitch::TwitchGateway.new(config.token)
-      
+
       routing.root do
         { 'message' => "Twitch API v0.1 up in #{app.environment}" }
       end
