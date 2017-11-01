@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
 require 'http'
-require 'yaml'
-require_relative '../init.rb'
 
 module API
   module Twitch
