@@ -25,29 +25,31 @@ module API
       end
 
       routing.on 'api' do
-        routing.on 'game', String do |game_name|
-          game_mapper = Twitch::GameMapper.new(gh)
-          begin
-            game = game_mapper.load(game_name)
-          rescue StandardError
-            routing.halt(404, error: 'game not found')
-          end
-          routing.is do
-            game.to_h
-          end
-        end
-
-        routing.on 'channel', String do |channel_name|
-          channel_mapper = Twitch::ChannelMapper.new(gh)
-
-          begin
-            channel = channel_mapper.load(channel_name)
-          rescue StandardError
-            routing.halt(404, error: 'channel not found')
+        routing.on 'v0.1' do
+          routing.on 'game', String do |game_name|
+            game_mapper = Twitch::GameMapper.new(gh)
+            begin
+              game = game_mapper.load(game_name)
+            rescue StandardError
+              routing.halt(404, error: 'game not found')
+            end
+            routing.is do
+              game.to_h
+            end
           end
 
-          routing.is do
-            channel.to_h
+          routing.on 'channel', String do |channel_name|
+            channel_mapper = Twitch::ChannelMapper.new(gh)
+
+            begin
+              channel = channel_mapper.load(channel_name)
+            rescue StandardError
+              routing.halt(404, error: 'channel not found')
+            end
+
+            routing.is do
+              channel.to_h
+            end
           end
         end
       end
