@@ -10,6 +10,8 @@ gem 'econfig'
 gem 'puma' 
 gem 'roda'
 
+# Database relatedgem 'hirb'gem 'sequel'
+
 # Data gems
 gem 'dry-struct'
 gem 'dry-types'
