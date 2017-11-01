@@ -10,7 +10,9 @@ gem 'econfig'
 gem 'puma' 
 gem 'roda'
 
-# Database relatedgem 'hirb'gem 'sequel'
+# Database related
+gem 'hirb'
+gem 'sequel'
 
 # Data gems
 gem 'dry-struct'
