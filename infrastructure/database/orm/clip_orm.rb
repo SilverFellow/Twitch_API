@@ -4,16 +4,11 @@ module API
   module Database
     # Object-Relational Mapper for Clips
     class ClipOrm < Sequel::Model(:clips)
-      one_to_one :source,
-                 key: :source
+      many_to_one :channel,
+                  class: :'API::Database::ChannelOrm'
 
-      one_to_many :clip_titles,
-                  class: :'API::Database::ClipOrm',
-                  key: :title
-
-      one_to_many :clip_urls,
-                  class: :'API::Database::ClipOrm',
-                  key: :url
+      many_to_one :game,
+                  class: :'API::Database::GameOrm'
 
       plugin :timestamps, update_on_create: true
     end

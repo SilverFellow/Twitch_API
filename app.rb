@@ -2,7 +2,7 @@
 
 require 'roda'
 require 'econfig'
-require_relative 'lib/init.rb'
+require_relative 'init.rb'
 
 module API
   # Web API

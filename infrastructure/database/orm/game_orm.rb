@@ -4,9 +4,6 @@ module API
   module Database
     # Object-Relational Mapper for Games
     class GameOrm < Sequel::Model(:games)
-      one_to_one  :name,
-                  key: :name
-
       one_to_many :clip_titles,
                   class: :'API::Database::ClipOrm',
                   key: :title

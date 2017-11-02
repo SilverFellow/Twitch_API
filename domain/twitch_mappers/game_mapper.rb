@@ -32,19 +32,12 @@ module API
           API::Entity::Game.new(
             id: nil,
             name: @game_name,
-            number: number,
             clips: clips,
             streamers: top_streamers
           )
         end
 
         private
-
-        def number
-          @game_data['_total']
-        end
-
-        # TODO: popularity
 
         def clips
           @clip_mapper.load('game', @game_name)

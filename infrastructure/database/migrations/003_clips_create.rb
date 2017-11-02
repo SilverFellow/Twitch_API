@@ -5,9 +5,11 @@ require 'sequel'
 Sequel.migration do
   change do
     create_table(:clips) do
-      primary_key :title, :url
+      primary_key :id
       
-      Int :views
+      String :title
+      String :url
+      Int :view
       String :source
       String :name
 
