@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
-Dir.glob("#{File.dirname(__FILE__)}/*.rb").each do |file|
-  require file
+files = %w[channels clips games for]
+files.each do |folder|
+  require_relative "#{folder}.rb"
 end
