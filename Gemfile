@@ -32,3 +32,5 @@ gem 'webmock'
 gem 'flog'
 gem 'reek'
 gem 'rubocop'
+
+gem 'sqlite3'
