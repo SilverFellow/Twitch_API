@@ -7,6 +7,7 @@ module API
   module Entity
     # entity for twitch channel
     class Game < Dry::Struct
+      attribute :id, Types::Int.optional
       attribute :name, Types::Strict::String.optional
       attribute :number, Types::Coercible::Int.optional
       attribute :clips, Types::Strict::Array.member(Clip).optional

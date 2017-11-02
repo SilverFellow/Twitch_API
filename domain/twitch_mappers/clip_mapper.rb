@@ -28,6 +28,7 @@ module API
 
         def build_entity
           API::Entity::Clip.new(
+            id: nil,
             title: title,
             url: url,
             view: view,

@@ -71,20 +71,20 @@ module API
         !data['games'].nil? ? data['games'][0]['name'] : name
       end
 
+      # get userid by given name, return NULL if user doesn't exist
+      def get_user_id(name)
+        twitch_url = TwitchGateway.path('users?login=' + name)
+        data = call_twitch_url(twitch_url).parse
+
+        data['_total'].positive? ? data['users'][0]['_id'] : nil
+      end
+
       private
 
       def call_twitch_url(url)
         response = HTTP.headers('Accept' => 'application/vnd.twitchtv.v5+json',
                                 'Client-ID' => @tw_token).get(url)
         Response.new(response).response_or_error
-      end
-
-      # get userid by given name, return NULL if user doesn't exist
-      def get_user_id(name)
-        twitch_url = TwitchGateway.path('users?login=' + name)
-        data = call_twitch_url(twitch_url).parse
-
-        data['_total'].positive? ? data['users'][0]['_id'] : NULL
       end
 
       # def top_game

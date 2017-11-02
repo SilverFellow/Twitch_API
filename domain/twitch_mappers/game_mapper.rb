@@ -30,6 +30,7 @@ module API
 
         def build_entity
           API::Entity::Game.new(
+            id: nil,
             name: @game_name,
             number: number,
             clips: clips,
