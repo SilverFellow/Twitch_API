@@ -31,8 +31,8 @@ module API
         )
 
         entity.clips.each do |clip|
-          stored_clip = Clips.find_or_create(clip.title)
-          clip = Database::Clip.first(id: stored_clip.id)
+          stored_clip = Clips.find_or_create(clip)
+          clip = Database::ClipOrm.first(id: stored_clip.id)
           db_channel.add_clip(clip)
         end
 

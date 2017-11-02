@@ -27,7 +27,7 @@ module API
           name: entity.name
         )
 
-        rebuild_entity(db_collaborator)
+        rebuild_entity(db_clip)
       end
 
       def self.rebuild_entity(db_record)
