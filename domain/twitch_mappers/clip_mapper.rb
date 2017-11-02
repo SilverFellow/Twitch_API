@@ -11,16 +11,18 @@ module API
       def load(type, name)
         clips_data = @gateway.clip_data(type, name)['clips']
         clips_data.map do |clip_data|
-          ClipMapper.build_entity(clip_data)
+          ClipMapper.build_entity(type, name, clip_data)
         end
       end
 
-      def self.build_entity(clip_data)
-        DataMapper.new(clip_data).build_entity
+      def self.build_entity(type, name, clip_data)
+        DataMapper.new(type, name, clip_data).build_entity
       end
       # Extracts entity specific elements from data structure
       class DataMapper
-        def initialize(clip_data)
+        def initialize(type, name, clip_data)
+          @type = type
+          @name = name
           @clip_data = clip_data
         end
 
@@ -28,7 +30,9 @@ module API
           API::Entity::Clip.new(
             title: title,
             url: url,
-            view: view
+            view: view,
+            source: @type,
+            name: @name
           )
         end
 

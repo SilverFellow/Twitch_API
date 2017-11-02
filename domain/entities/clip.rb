@@ -9,6 +9,8 @@ module API
       attribute :title, Types::Strict::String
       attribute :url, Types::Coercible::String
       attribute :view, Types::Coercible::Int
+      attribute :source, Types::Strict::String
+      attribute :name, Types::Strict::String
     end
   end
 end
