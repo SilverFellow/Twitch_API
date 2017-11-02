@@ -27,7 +27,8 @@ module API
         def build_entity
           API::Entity::Clip.new(
             title: title,
-            url: url
+            url: url,
+            view: view
           )
         end
 
@@ -39,6 +40,10 @@ module API
 
         def url
           @clip_data['url']
+        end
+
+        def view
+          @clip_data['views']
         end
       end
     end

@@ -8,6 +8,7 @@ module API
     class Clip < Dry::Struct
       attribute :title, Types::Strict::String
       attribute :url, Types::Coercible::String
+      attribute :view, Types::Coercible::Int
     end
   end
 end
