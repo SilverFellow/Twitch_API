@@ -1,379 +1,383 @@
 {
     "clips": [
         {
-            "slug": "RealOptimisticJayPeteZarollTie",
-            "tracking_id": "142981518",
-            "url": "https://clips.twitch.tv/RealOptimisticJayPeteZarollTie?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=RealOptimisticJayPeteZarollTie&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=RealOptimisticJayPeteZarollTie&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "slug": "PlayfulSaltyOctopusDansGame",
+            "tracking_id": "145446851",
+            "url": "https://clips.twitch.tv/PlayfulSaltyOctopusDansGame?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=PlayfulSaltyOctopusDansGame&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=PlayfulSaltyOctopusDansGame&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
             "broadcaster": {
-                "id": "29518572",
-                "name": "mobilmobil",
-                "display_name": "老皮",
-                "channel_url": "https://www.twitch.tv/mobilmobil",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-150x150.jpeg"
+                "id": "11561802",
+                "name": "godjj",
+                "display_name": "接接",
+                "channel_url": "https://www.twitch.tv/godjj",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/godjj-profile_image-73e3a1dc1807a3ec-150x150.jpeg"
             },
             "curator": {
-                "id": "96258645",
-                "name": "tomking159357",
-                "display_name": "tomking159357",
-                "channel_url": "https://www.twitch.tv/tomking159357",
-                "logo": null
+                "id": "38641023",
+                "name": "kingsiu",
+                "display_name": "勁少",
+                "channel_url": "https://www.twitch.tv/kingsiu",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/015cd514506e8b25-profile_image-150x150.jpeg"
             },
             "vod": {
-                "id": "184965960",
-                "url": "https://www.twitch.tv/videos/184965960?t=42m43s",
-                "offset": 2563
+                "id": "186540256",
+                "url": "https://www.twitch.tv/videos/186540256?t=1h27m38s",
+                "offset": 5258
             },
-            "broadcast_id": "26568741536",
-            "game": "Forts",
+            "broadcast_id": "26617114496",
+            "game": "League of Legends",
             "language": "zh-tw",
-            "title": "【老皮台】激突！",
-            "views": 446,
-            "duration": 30.000667,
-            "created_at": "2017-10-25T13:02:47Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/26568741536-offset-2588-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/26568741536-offset-2588-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/26568741536-offset-2588-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "AmazonianBlithePlumageOneHand",
-            "tracking_id": "143601506",
-            "url": "https://clips.twitch.tv/AmazonianBlithePlumageOneHand?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=AmazonianBlithePlumageOneHand&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=AmazonianBlithePlumageOneHand&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "29518572",
-                "name": "mobilmobil",
-                "display_name": "老皮",
-                "channel_url": "https://www.twitch.tv/mobilmobil",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-150x150.jpeg"
-            },
-            "curator": {
-                "id": "25604084",
-                "name": "k87040200",
-                "display_name": "夢特幻",
-                "channel_url": "https://www.twitch.tv/k87040200",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/k87040200-profile_image-abb2f71581fd068d-150x150.jpeg"
-            },
-            "vod": {
-                "id": "185391206",
-                "url": "https://www.twitch.tv/videos/185391206?t=21m8s",
-                "offset": 1268
-            },
-            "broadcast_id": "26581467248",
-            "game": "Black Desert Online",
-            "language": "zh-tw",
-            "title": "老皮 集氣台 真4王武 87層 果然87",
-            "views": 437,
-            "duration": 37,
-            "created_at": "2017-10-27T02:28:29Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/143601506-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/143601506-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/143601506-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "WiseSuspiciousCookieBCouch",
-            "tracking_id": "141376761",
-            "url": "https://clips.twitch.tv/WiseSuspiciousCookieBCouch?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=WiseSuspiciousCookieBCouch&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=WiseSuspiciousCookieBCouch&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "29518572",
-                "name": "mobilmobil",
-                "display_name": "老皮",
-                "channel_url": "https://www.twitch.tv/mobilmobil",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-150x150.jpeg"
-            },
-            "curator": {
-                "id": "126525996",
-                "name": "kisoumaru_",
-                "display_name": "kisoumaru_",
-                "channel_url": "https://www.twitch.tv/kisoumaru_",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/kisoumaru_-profile_image-30a430e0578880fc-150x150.png"
-            },
-            "vod": {
-                "id": "183642441",
-                "url": "https://www.twitch.tv/videos/183642441?t=1h14m50s",
-                "offset": 4490
-            },
-            "broadcast_id": "26528071616",
-            "game": "Talk Shows",
-            "language": "zh-tw",
-            "title": "存在感點沒有了。",
-            "views": 334,
-            "duration": 34.25,
-            "created_at": "2017-10-21T12:37:27Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/141376761-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/141376761-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/141376761-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "CoweringCooperativeMonitorDogFace",
-            "tracking_id": "141873058",
-            "url": "https://clips.twitch.tv/CoweringCooperativeMonitorDogFace?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=CoweringCooperativeMonitorDogFace&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=CoweringCooperativeMonitorDogFace&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "29518572",
-                "name": "mobilmobil",
-                "display_name": "老皮",
-                "channel_url": "https://www.twitch.tv/mobilmobil",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-150x150.jpeg"
-            },
-            "curator": {
-                "id": "52360949",
-                "name": "zxc413652",
-                "display_name": "レキ",
-                "channel_url": "https://www.twitch.tv/zxc413652",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/zxc413652-profile_image-1b3603b7210ed883-150x150.png"
-            },
-            "vod": null,
-            "broadcast_id": "26107371056",
-            "game": "Batman: Arkham Knight",
-            "language": "zh-tw",
-            "title": "【老皮台】阿卡漢騎士（小丑唱歌www）Part.4",
-            "views": 175,
+            "title": "接接：女朋友要選短髮的",
+            "views": 4138,
             "duration": 60,
-            "created_at": "2017-10-22T14:09:52Z",
+            "created_at": "2017-10-31T15:06:46Z",
             "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/141873058-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/141873058-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/141873058-preview-86x45.jpg"
+                "medium": "https://clips-media-assets.twitch.tv/145446851-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/145446851-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/145446851-preview-86x45.jpg"
             }
         },
         {
-            "slug": "NiceSpicyTrayPipeHype",
-            "tracking_id": "142264968",
-            "url": "https://clips.twitch.tv/NiceSpicyTrayPipeHype?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=NiceSpicyTrayPipeHype&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=NiceSpicyTrayPipeHype&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "slug": "LittlePoisedPotatoDogFace",
+            "tracking_id": "145769279",
+            "url": "https://clips.twitch.tv/LittlePoisedPotatoDogFace?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=LittlePoisedPotatoDogFace&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=LittlePoisedPotatoDogFace&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
             "broadcaster": {
-                "id": "29518572",
-                "name": "mobilmobil",
-                "display_name": "老皮",
-                "channel_url": "https://www.twitch.tv/mobilmobil",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-150x150.jpeg"
+                "id": "11561802",
+                "name": "godjj",
+                "display_name": "接接",
+                "channel_url": "https://www.twitch.tv/godjj",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/godjj-profile_image-73e3a1dc1807a3ec-150x150.jpeg"
             },
             "curator": {
-                "id": "25994252",
-                "name": "nick129378",
-                "display_name": "nick129378",
-                "channel_url": "https://www.twitch.tv/nick129378",
+                "id": "18104643",
+                "name": "qsx469",
+                "display_name": "Qsx469",
+                "channel_url": "https://www.twitch.tv/qsx469",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/qsx469-profile_image-dffbb0a7328d0efb-150x150.jpeg"
+            },
+            "vod": {
+                "id": "186753283",
+                "url": "https://www.twitch.tv/videos/186753283?t=1h50m13s",
+                "offset": 6613
+            },
+            "broadcast_id": "26623402432",
+            "game": "League of Legends",
+            "language": "zh-tw",
+            "title": "感覺我也可以過來支援一下>W0",
+            "views": 459,
+            "duration": 8.2,
+            "created_at": "2017-11-01T10:44:26Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/145769279-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/145769279-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/145769279-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "ColdbloodedFriendlyWasabiBIRB",
+            "tracking_id": "145020251",
+            "url": "https://clips.twitch.tv/ColdbloodedFriendlyWasabiBIRB?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=ColdbloodedFriendlyWasabiBIRB&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=ColdbloodedFriendlyWasabiBIRB&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "11561802",
+                "name": "godjj",
+                "display_name": "接接",
+                "channel_url": "https://www.twitch.tv/godjj",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/godjj-profile_image-73e3a1dc1807a3ec-150x150.jpeg"
+            },
+            "curator": {
+                "id": "30751874",
+                "name": "a030146317",
+                "display_name": "a030146317",
+                "channel_url": "https://www.twitch.tv/a030146317",
                 "logo": null
             },
             "vod": {
-                "id": "184442666",
-                "url": "https://www.twitch.tv/videos/184442666?t=1h15m25s",
-                "offset": 4525
+                "id": "186259018",
+                "url": "https://www.twitch.tv/videos/186259018?t=50m41s",
+                "offset": 3041
             },
-            "broadcast_id": "26553023440",
-            "game": "The Evil Within 2",
+            "broadcast_id": "26608509120",
+            "game": "League of Legends",
             "language": "zh-tw",
-            "title": "【老皮台】邪靈入侵2 DAY6 大結局",
-            "views": 167,
-            "duration": 28.532667,
-            "created_at": "2017-10-23T13:40:31Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/26553023440-offset-4550-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/26553023440-offset-4550-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/26553023440-offset-4550-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "SecretiveZealousFishBudBlast",
-            "tracking_id": "143356709",
-            "url": "https://clips.twitch.tv/SecretiveZealousFishBudBlast?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=SecretiveZealousFishBudBlast&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=SecretiveZealousFishBudBlast&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "29518572",
-                "name": "mobilmobil",
-                "display_name": "老皮",
-                "channel_url": "https://www.twitch.tv/mobilmobil",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-150x150.jpeg"
-            },
-            "curator": {
-                "id": "74084255",
-                "name": "ivan110138",
-                "display_name": "伊萬",
-                "channel_url": "https://www.twitch.tv/ivan110138",
-                "logo": null
-            },
-            "vod": {
-                "id": "185216466",
-                "url": "https://www.twitch.tv/videos/185216466?t=2h40m41s",
-                "offset": 9641
-            },
-            "broadcast_id": "26576274592",
-            "game": "Assassin's Creed: Origins",
-            "language": "zh-tw",
-            "title": "死前拍遺照",
-            "views": 146,
-            "duration": 45.833984,
-            "created_at": "2017-10-26T14:00:25Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/143356709-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/143356709-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/143356709-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "FineTsundereSwallowPeteZaroll",
-            "tracking_id": "141594339",
-            "url": "https://clips.twitch.tv/FineTsundereSwallowPeteZaroll?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=FineTsundereSwallowPeteZaroll&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=FineTsundereSwallowPeteZaroll&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "29518572",
-                "name": "mobilmobil",
-                "display_name": "老皮",
-                "channel_url": "https://www.twitch.tv/mobilmobil",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-150x150.jpeg"
-            },
-            "curator": {
-                "id": "38274074",
-                "name": "apophislee",
-                "display_name": "ApophisLee",
-                "channel_url": "https://www.twitch.tv/apophislee",
-                "logo": null
-            },
-            "vod": {
-                "id": "183642441",
-                "url": "https://www.twitch.tv/videos/183642441?t=2h49m13s",
-                "offset": 10153
-            },
-            "broadcast_id": "26528071616",
-            "game": "Talk Shows",
-            "language": "zh-tw",
-            "title": "色",
-            "views": 140,
-            "duration": 5.083984,
-            "created_at": "2017-10-21T22:13:54Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/141594339-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/141594339-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/141594339-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "PopularBloodyWalletTheThing",
-            "tracking_id": "141393486",
-            "url": "https://clips.twitch.tv/PopularBloodyWalletTheThing?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=PopularBloodyWalletTheThing&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=PopularBloodyWalletTheThing&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "29518572",
-                "name": "mobilmobil",
-                "display_name": "老皮",
-                "channel_url": "https://www.twitch.tv/mobilmobil",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-150x150.jpeg"
-            },
-            "curator": {
-                "id": "57464751",
-                "name": "meowcatex",
-                "display_name": "文文誠",
-                "channel_url": "https://www.twitch.tv/meowcatex",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/meowcatex-profile_image-3fd6f49d84333204-150x150.jpeg"
-            },
-            "vod": {
-                "id": "183863013",
-                "url": "https://www.twitch.tv/videos/183863013?t=5h54m30s",
-                "offset": 21270
-            },
-            "broadcast_id": "26534755184",
-            "game": "Tom Clancy's Rainbow Six: Siege",
-            "language": "zh-tw",
-            "title": ".....",
-            "views": 79,
+            "title": "想念030",
+            "views": 427,
             "duration": 30,
-            "created_at": "2017-10-21T13:34:14Z",
+            "created_at": "2017-10-30T09:08:15Z",
             "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/141393486-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/141393486-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/141393486-preview-86x45.jpg"
+                "medium": "https://clips-media-assets.twitch.tv/145020251-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/145020251-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/145020251-preview-86x45.jpg"
             }
         },
         {
-            "slug": "RichImpossibleCardGingerPower",
-            "tracking_id": "143253467",
-            "url": "https://clips.twitch.tv/RichImpossibleCardGingerPower?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=RichImpossibleCardGingerPower&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=RichImpossibleCardGingerPower&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "slug": "FitInnocentAnt4Head",
+            "tracking_id": "144008141",
+            "url": "https://clips.twitch.tv/FitInnocentAnt4Head?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=FitInnocentAnt4Head&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=FitInnocentAnt4Head&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
             "broadcaster": {
-                "id": "29518572",
-                "name": "mobilmobil",
-                "display_name": "老皮",
-                "channel_url": "https://www.twitch.tv/mobilmobil",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-150x150.jpeg"
+                "id": "11561802",
+                "name": "godjj",
+                "display_name": "接接",
+                "channel_url": "https://www.twitch.tv/godjj",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/godjj-profile_image-73e3a1dc1807a3ec-150x150.jpeg"
             },
             "curator": {
-                "id": "28535643",
-                "name": "imkenta",
-                "display_name": "班凱西",
-                "channel_url": "https://www.twitch.tv/imkenta",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/imkenta-profile_image-71bc6552bfa9801f-150x150.jpeg"
+                "id": "71584990",
+                "name": "peter90620",
+                "display_name": "麻醬麵好吃",
+                "channel_url": "https://www.twitch.tv/peter90620",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/peter90620-profile_image-61ea65a7b94a36d4-150x150.png"
             },
             "vod": {
-                "id": "184965960",
-                "url": "https://www.twitch.tv/videos/184965960?t=51m5s",
-                "offset": 3065
+                "id": "185200216",
+                "url": "https://www.twitch.tv/videos/185200216?t=1h43m47s",
+                "offset": 6227
             },
-            "broadcast_id": "26568741536",
-            "game": "Forts",
+            "broadcast_id": "26575742208",
+            "game": "IRL",
             "language": "zh-tw",
-            "title": "膛炸",
-            "views": 64,
-            "duration": 30.001667,
-            "created_at": "2017-10-26T04:12:52Z",
+            "title": "#1【M.E. GodJJ】RO J黑之亂",
+            "views": 292,
+            "duration": 60,
+            "created_at": "2017-10-28T04:27:19Z",
             "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/vod-184965960-offset-3088-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/vod-184965960-offset-3088-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/vod-184965960-offset-3088-preview-86x45.jpg"
+                "medium": "https://clips-media-assets.twitch.tv/144008141-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/144008141-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/144008141-preview-86x45.jpg"
             }
         },
         {
-            "slug": "PleasantFuriousStinkbugPeteZarollTie",
-            "tracking_id": "143005796",
-            "url": "https://clips.twitch.tv/PleasantFuriousStinkbugPeteZarollTie?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=PleasantFuriousStinkbugPeteZarollTie&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=PleasantFuriousStinkbugPeteZarollTie&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "slug": "BetterMushyIcecreamFunRun",
+            "tracking_id": "145116605",
+            "url": "https://clips.twitch.tv/BetterMushyIcecreamFunRun?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=BetterMushyIcecreamFunRun&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=BetterMushyIcecreamFunRun&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
             "broadcaster": {
-                "id": "29518572",
-                "name": "mobilmobil",
-                "display_name": "老皮",
-                "channel_url": "https://www.twitch.tv/mobilmobil",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/mobilmobil-profile_image-4d0e1a786bfce73d-150x150.jpeg"
+                "id": "11561802",
+                "name": "godjj",
+                "display_name": "接接",
+                "channel_url": "https://www.twitch.tv/godjj",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/godjj-profile_image-73e3a1dc1807a3ec-150x150.jpeg"
             },
             "curator": {
-                "id": "158149932",
-                "name": "0983225012",
-                "display_name": "燒到剩粉",
-                "channel_url": "https://www.twitch.tv/0983225012",
+                "id": "88384039",
+                "name": "webertcool",
+                "display_name": "webertcool",
+                "channel_url": "https://www.twitch.tv/webertcool",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/c0de6c3e-c511-4a5d-8ac8-c2854d344c35-profile_image-150x150.jpg"
+            },
+            "vod": {
+                "id": "186297540",
+                "url": "https://www.twitch.tv/videos/186297540?t=2h59m45s",
+                "offset": 10785
+            },
+            "broadcast_id": "26609776496",
+            "game": "League of Legends",
+            "language": "zh-tw",
+            "title": "今日精華",
+            "views": 203,
+            "duration": 20.433984,
+            "created_at": "2017-10-30T17:05:06Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/145116605-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/145116605-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/145116605-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "CuteCoweringPorcupineThunBeast",
+            "tracking_id": "145765217",
+            "url": "https://clips.twitch.tv/CuteCoweringPorcupineThunBeast?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=CuteCoweringPorcupineThunBeast&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=CuteCoweringPorcupineThunBeast&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "11561802",
+                "name": "godjj",
+                "display_name": "接接",
+                "channel_url": "https://www.twitch.tv/godjj",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/godjj-profile_image-73e3a1dc1807a3ec-150x150.jpeg"
+            },
+            "curator": {
+                "id": "112671728",
+                "name": "zpha",
+                "display_name": "zpha",
+                "channel_url": "https://www.twitch.tv/zpha",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/zpha-profile_image-2b0887493371d040-150x150.png"
+            },
+            "vod": {
+                "id": "186753283",
+                "url": "https://www.twitch.tv/videos/186753283?t=1h21m26s",
+                "offset": 4886
+            },
+            "broadcast_id": "26623402432",
+            "game": "League of Legends",
+            "language": "zh-tw",
+            "title": "怪怪Der J子",
+            "views": 180,
+            "duration": 35.6,
+            "created_at": "2017-11-01T10:15:48Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/145765217-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/145765217-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/145765217-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "OutstandingYawningJalapenoCclamChamp",
+            "tracking_id": "143778240",
+            "url": "https://clips.twitch.tv/OutstandingYawningJalapenoCclamChamp?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=OutstandingYawningJalapenoCclamChamp&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=OutstandingYawningJalapenoCclamChamp&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "11561802",
+                "name": "godjj",
+                "display_name": "接接",
+                "channel_url": "https://www.twitch.tv/godjj",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/godjj-profile_image-73e3a1dc1807a3ec-150x150.jpeg"
+            },
+            "curator": {
+                "id": "147669540",
+                "name": "jn_995",
+                "display_name": "出血量超大",
+                "channel_url": "https://www.twitch.tv/jn_995",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/8fb30c6b4f5d5999-profile_image-150x150.png"
+            },
+            "vod": {
+                "id": "185496524",
+                "url": "https://www.twitch.tv/videos/185496524?t=57m49s",
+                "offset": 3469
+            },
+            "broadcast_id": "26584641664",
+            "game": "League of Legends",
+            "language": "zh-tw",
+            "title": "妮妮 很大 !?",
+            "views": 152,
+            "duration": 15.333984,
+            "created_at": "2017-10-27T16:43:29Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/143778240-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/143778240-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/143778240-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "LuckyRoundAdminDansGame",
+            "tracking_id": "145763460",
+            "url": "https://clips.twitch.tv/LuckyRoundAdminDansGame?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=LuckyRoundAdminDansGame&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=LuckyRoundAdminDansGame&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "11561802",
+                "name": "godjj",
+                "display_name": "接接",
+                "channel_url": "https://www.twitch.tv/godjj",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/godjj-profile_image-73e3a1dc1807a3ec-150x150.jpeg"
+            },
+            "curator": {
+                "id": "95472959",
+                "name": "neoj01",
+                "display_name": "neoJ01",
+                "channel_url": "https://www.twitch.tv/neoj01",
                 "logo": null
             },
             "vod": {
-                "id": "184965960",
-                "url": "https://www.twitch.tv/videos/184965960?t=2h21m39s",
-                "offset": 8499
+                "id": "186753283",
+                "url": "https://www.twitch.tv/videos/186753283?t=1h8m48s",
+                "offset": 4128
             },
-            "broadcast_id": "26568741536",
-            "game": "Forts",
+            "broadcast_id": "26623402432",
+            "game": "League of Legends",
             "language": "zh-tw",
-            "title": "壓垮駱駝的最後一根稻草",
-            "views": 61,
-            "duration": 23.583984,
-            "created_at": "2017-10-25T14:41:53Z",
+            "title": "他一定躲在旁邊要敲我...我貝特一下",
+            "views": 116,
+            "duration": 29.933984,
+            "created_at": "2017-11-01T10:03:04Z",
             "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/143005796-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/143005796-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/143005796-preview-86x45.jpg"
+                "medium": "https://clips-media-assets.twitch.tv/145763460-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/145763460-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/145763460-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "ImpartialFragileMilkYouDontSay",
+            "tracking_id": "145438653",
+            "url": "https://clips.twitch.tv/ImpartialFragileMilkYouDontSay?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=ImpartialFragileMilkYouDontSay&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=ImpartialFragileMilkYouDontSay&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "11561802",
+                "name": "godjj",
+                "display_name": "接接",
+                "channel_url": "https://www.twitch.tv/godjj",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/godjj-profile_image-73e3a1dc1807a3ec-150x150.jpeg"
+            },
+            "curator": {
+                "id": "95472959",
+                "name": "neoj01",
+                "display_name": "neoJ01",
+                "channel_url": "https://www.twitch.tv/neoj01",
+                "logo": null
+            },
+            "vod": {
+                "id": "186540256",
+                "url": "https://www.twitch.tv/videos/186540256?t=58m10s",
+                "offset": 3490
+            },
+            "broadcast_id": "26617114496",
+            "game": "League of Legends",
+            "language": "zh-tw",
+            "title": "JJ預言術 - 如果劫衝出來，我就....",
+            "views": 97,
+            "duration": 19.933984,
+            "created_at": "2017-10-31T14:36:46Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/145438653-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/145438653-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/145438653-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "HelplessGiftedDragonflyRedCoat",
+            "tracking_id": "145029970",
+            "url": "https://clips.twitch.tv/HelplessGiftedDragonflyRedCoat?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=HelplessGiftedDragonflyRedCoat&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=HelplessGiftedDragonflyRedCoat&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "11561802",
+                "name": "godjj",
+                "display_name": "接接",
+                "channel_url": "https://www.twitch.tv/godjj",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/godjj-profile_image-73e3a1dc1807a3ec-150x150.jpeg"
+            },
+            "curator": {
+                "id": "47666509",
+                "name": "ogen6895",
+                "display_name": "ogen6895",
+                "channel_url": "https://www.twitch.tv/ogen6895",
+                "logo": null
+            },
+            "vod": {
+                "id": "186259018",
+                "url": "https://www.twitch.tv/videos/186259018?t=2h13m41s",
+                "offset": 8021
+            },
+            "broadcast_id": "26608509120",
+            "game": "League of Legends",
+            "language": "zh-tw",
+            "title": "-33%",
+            "views": 55,
+            "duration": 29.999333,
+            "created_at": "2017-10-30T10:30:50Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/26608509120-offset-8046-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/26608509120-offset-8046-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/26608509120-offset-8046-preview-86x45.jpg"
             }
         }
     ],

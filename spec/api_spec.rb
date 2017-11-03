@@ -3,7 +3,7 @@
 require_relative 'spec_helper.rb'
 
 describe 'Tests Twitch library' do
-  API_VER = 'api'.freeze
+  API_VER = 'api/v0.1'.freeze
   CASSETTE_FILE = 'web_api'.freeze
   # GAME = JSON.parse(File.read('spec/fixtures/sample/game.json'))
   # CHANNEL = JSON.parse(File.read('spec/fixtures/sample/channel.json'))
@@ -19,61 +19,109 @@ describe 'Tests Twitch library' do
   end
 
   describe 'Game information' do
-    it 'HAPPY: should provide correct game connection' do
-      get "#{API_VER}/game/#{GAMENAME}"
-      _(last_response.status).must_equal 200
-      game_data = JSON.parse last_response.body
-      _(game_data.size).must_be :>, 0
+    before do
+      # DatabaseCleaner.clean
+      Rake::Task['db:reset'].invoke
     end
+    
+    describe "POSTing to create game entities from Twitch" do
+      it 'HAPPY: should provide correct game connection' do
+        post "#{API_VER}/game/#{GAMENAME}"
+        _(last_response.status).must_equal 201
+        _(last_response.header['Location'].size).must_be :>, 0
+        game_data = JSON.parse last_response.body
+        _(game_data.size).must_be :>, 0
+      end
+=begin
+      it 'HAPPY: should provide correct game attributes' do
+        post "#{API_VER}/game/#{GAMENAME}"
+        game_data = JSON.parse last_response.body
+        _(game_data['name']).must_equal GAMENAME
+        _(game_data['number']).must_equal GAME['_total']
+      end
 
-    it 'HAPPY: should provide correct game attributes' do
-      get "#{API_VER}/game/#{GAMENAME}"
-      game_data = JSON.parse last_response.body
-      _(game_data['name']).must_equal GAMENAME
-      _(game_data['number']).must_equal GAME['_total']
+      it 'HAPPY: should provide correct amount of game streamers and clips' do
+        post "#{API_VER}/game/#{GAMENAME}"
+        game_data = JSON.parse last_response.body
+        _(game_data['streamers'].count).must_equal 3
+        _(game_data['clips'].count).must_equal 10
+      end 
+=end
+      it 'SAD: should raise exception on incorrect game' do
+        post "#{API_VER}/game/boring_game"
+        _(last_response.status).must_equal 404
+      end
     end
-
-    it 'HAPPY: should provide correct amount of game streamers and clips' do
-      get "#{API_VER}/game/#{GAMENAME}"
-      game_data = JSON.parse last_response.body
-      _(game_data['streamers'].count).must_equal 3
-      _(game_data['clips'].count).must_equal 10
-    end
-
-    it 'SAD: should raise exception on incorrect game' do
-      get "#{API_VER}/game/boring_game"
-      _(last_response.status).must_equal 404
-      game_data = JSON.parse last_response.body
-       _(game_data.keys).must_include 'error'
-    end
+    
+    describe "GETing database entities" do
+      before do
+        post "#{API_VER}/game/#{GAMENAME}"
+      end
+      
+      it 'HAPPY: should find stored game' do
+        get "#{API_VER}/game/#{GAMENAME}"
+        _(last_response.status).must_equal 200
+        game_data = JSON.parse last_response.body
+        _(game_data.size).must_be :>, 0
+      end
+      
+      it 'SAD: should report error if no database game entity found' do
+        get "#{API_VER}/game/boring_game"
+        _(last_response.status).must_equal 404
+      end
+    end  
   end
 
   describe 'Channel information' do
-    it 'HAPPY: should provide correct channel connection' do
-      get "#{API_VER}/channel/#{CHANNELNAME}"
-      _(last_response.status).must_equal 200
-      game_data = JSON.parse last_response.body
-      _(game_data.size).must_be :>, 0
+    before do
+      # DatabaseCleaner.clean
+      Rake::Task['db:reset'].invoke
     end
 
-    it 'HAPPY: should provide correct channel attributes' do
-      get "#{API_VER}/channel/#{CHANNELNAME}"
-      channel_data = JSON.parse last_response.body
-      _(channel_data['live']).must_equal true
-      _(channel_data['title']).must_equal CHANNEL['stream']['channel']['status']
-    end
+    describe "POSTing to create channel entities from Twitch" do
+      it 'HAPPY: should provide correct channel connection' do
+        post "#{API_VER}/channel/#{CHANNELNAME}"
+        _(last_response.status).must_equal 201
+        _(last_response.header['Location'].size).must_be :>, 0
+        channel_data = JSON.parse last_response.body
+        _(channel_data.size).must_be :>, 0
+      end
+=begin
+      it 'HAPPY: should provide correct channel attributes' do
+        post "#{API_VER}/channel/#{CHANNELNAME}"
+        channel_data = JSON.parse last_response.body
+        _(channel_data['live']).must_equal true
+        _(channel_data['title']).must_equal CHANNEL['stream']['channel']['status']
+      end
 
-    it 'HAPPY: should provide correct amount of channel clips' do
-      get "#{API_VER}/channel/#{CHANNELNAME}"
-      channel_data = JSON.parse last_response.body
-      _(channel_data['clips'].count).must_equal 10
-    end
+      it 'HAPPY: should provide correct amount of channel clips' do
+        post "#{API_VER}/channel/#{CHANNELNAME}"
+        channel_data = JSON.parse last_response.body
+        _(channel_data['clips'].count).must_equal 10
+      end
+=end
+      it 'SAD: should raise exception on incorrect channel' do
+        post "#{API_VER}/channel/khekhkgkskg"
+        _(last_response.status).must_equal 404
+      end
+    end  
 
-    it 'SAD: should raise exception on incorrect channel' do
-      get "#{API_VER}/channel/khekhkgkskg"
-      _(last_response.status).must_equal 404
-      game_data = JSON.parse last_response.body
-       _(game_data.keys).must_include 'error'
+    describe "GETing database entities" do
+      before do
+        post "#{API_VER}/channel/#{CHANNELNAME}"
+      end
+        
+      it 'HAPPY: should find stored channel' do
+        get "#{API_VER}/channel/#{CHANNELNAME}"
+        _(last_response.status).must_equal 200
+        channel_data = JSON.parse last_response.body
+        _(channel_data.size).must_be :>, 0
+      end
+        
+      it 'SAD: should report error if no database channel entity found' do
+        get "#{API_VER}/channel/#{CHANNELNAME}"
+        _(last_response.status).must_equal 404
+      end
     end
   end
 end
