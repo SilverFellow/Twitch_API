@@ -27,29 +27,49 @@ module API
       routing.on 'api' do
         routing.on 'v0.1' do
           routing.on 'game', String do |game_name|
-            game_mapper = Twitch::GameMapper.new(gh)
-            begin
-              game = game_mapper.load(game_name)
-            rescue StandardError
-              routing.halt(404, error: 'game not found')
+            routing.get do 
+            # name = Twitch::TwitchGateway.get_game_name(name)
+              response = Repository::For[Entity::Game].find_unofficial_name(game_name)
+              routing.halt(404, error: 'Repository not found') unless response
+              response.to_h
             end
-            routing.is do
-              game.to_h
+
+            routing.post do 
+              begin
+                game = Twitch::GameMapper.new(gh).load(game_name) 
+              rescue StandardError
+                routing.halt(404, error: "Repo not found") 
+              end
+              stored_game = Repository::For[game.class].find_or_create(game) 
+              response.status = 201
+              response['Location'] = "/api/v0.1/game/#{game_name}" 
+              stored_game.to_h
+              # p stored_game.clips[0].title
+              # p stored_game.channels[0].url
             end
           end
 
           routing.on 'channel', String do |channel_name|
-            channel_mapper = Twitch::ChannelMapper.new(gh)
-
-            begin
-              channel = channel_mapper.load(channel_name)
-            rescue StandardError
-              routing.halt(404, error: 'channel not found')
-            end
-
-            routing.is do
-              channel.to_h
-            end
+            routing.get do 
+              # name = Twitch::TwitchGateway.get_game_name(name)
+                response = Repository::For[Entity::Channel].find_url(channel_name)
+                routing.halt(404, error: 'Repository not found') unless response
+                response.to_h
+              end
+  
+              routing.post do 
+                begin
+                  channel = Twitch::ChannelMapper.new(gh).load(channel_name) 
+                rescue StandardError
+                  routing.halt(404, error: "Repo not found") 
+                end
+                stored_channel = Repository::For[channel.class].find_or_create(channel) 
+                response.status = 201
+                response['Location'] = "/api/v0.1/channel/#{channel_name}" 
+                stored_channel.to_h
+                # p stored_game.clips[0].title
+                # p stored_game.channels[0].url
+              end
           end
         end
       end
