@@ -9,13 +9,13 @@ module API
         rebuild_entity(db_record)
       end
 
-      def self.find_title(title)
-        db_record = Database::ClipOrm.first(title: title)
+      def self.find_url(url)
+        db_record = Database::ClipOrm.first(url: url)
         rebuild_entity(db_record)
       end
 
       def self.find_or_create(entity)
-        find_title(entity.title) || create_from(entity)
+        find_url(entity.url) || create_from(entity)
       end
 
       def self.create_from(entity)

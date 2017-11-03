@@ -10,7 +10,8 @@ Sequel.migration do
       foreign_key :clip_url, :clips
       foreign_key :channel_url, :channels
 
-      String :name
+      String :unofficial_name
+      String :official_name
 
       DateTime :created_at
       DateTime :updated_at

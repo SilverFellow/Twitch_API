@@ -9,18 +9,19 @@ module API
         rebuild_entity(db_record)
       end
 
-      def self.find_name(name)
-        db_record = Database::GameOrm.first(name: name)
+      def self.find_unofficial_name(name)
+        db_record = Database::GameOrm.first(unofficial_name: name)
         rebuild_entity(db_record)
       end
 
       def self.find_or_create(entity)
-        find_name(entity.name) || create_from(entity)
+        find_unofficial_name(entity.unofficial_name) || create_from(entity)
       end
 
       def self.create_from(entity)
         db_game = Database::GameOrm.create(
-          name: entity.name
+          unofficial_name: entity.unofficial_name,
+          official_name: entity.official_name
         )
 
         entity.clips.each do |clip|
@@ -51,7 +52,8 @@ module API
 
         Entity::Game.new(
           id: db_record.id,
-          name: db_record.name,
+          unofficial_name: db_record.unofficial_name,
+          official_name: db_record.official_name,
           clips: clips,
           channels: channels
         )

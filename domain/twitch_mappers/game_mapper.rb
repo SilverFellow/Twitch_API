@@ -10,20 +10,22 @@ module API
         @gateway = gateway
       end
 
-      def load(game_name)
-        game_data = @gateway.game_data(game_name)
-        correct_name = @gateway.get_game_name(game_name)
-        build_entity(correct_name, game_data)
+      def load(unofficial_name)
+        game_data = @gateway.game_data(unofficial_name)
+        # puts game_data['_total']
+        official_name = @gateway.get_game_name(unofficial_name)
+        build_entity(unofficial_name, official_name, game_data)
       end
 
-      def build_entity(game_name, game_data)
-        DataMapper.new(game_name, game_data, @gateway).build_entity
+      def build_entity(unofficial_name, official_name, game_data)
+        DataMapper.new(unofficial_name, official_name, game_data, @gateway).build_entity
       end
 
       # Extracts entity specific elements from data structure
       class DataMapper
-        def initialize(game_name, game_data, gateway)
-          @game_name = game_name
+        def initialize(unofficial_name, official_name, game_data, gateway)
+          @unofficial_name = unofficial_name
+          @official_name = official_name
           @game_data = game_data
           @clip_mapper = ClipMapper.new(gateway)
           @channel_mapper = ChannelMapper.new(gateway)
@@ -32,7 +34,8 @@ module API
         def build_entity
           API::Entity::Game.new(
             id: nil,
-            name: @game_name,
+            unofficial_name: @unofficial_name,
+            official_name: @official_name,
             clips: clips,
             channels: channels
           )
@@ -41,12 +44,14 @@ module API
         private
 
         def clips
-          @clip_mapper.load('game', @game_name)
+          @clip_mapper.load('game', @official_name)
         end
 
         def channels
+          # print @game_data['_total']
           channels = []
           10.times do |i|
+            # puts @game_data['streams'][i]['channel']['name']
             name = @game_data['streams'][i]['channel']['name']
             channels << @channel_mapper.load(name)
           end
