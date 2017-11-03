@@ -27,7 +27,11 @@ module API
       def self.create_from(entity)
         db_channel = Database::ChannelOrm.create(
           url: entity.url,
-          user_id: entity.user_id
+          user_id: entity.user_id,
+          live: entity.live,
+          title: entity.title,
+          game: entity.game,
+          viewer: entity.viewer
         )
 
         entity.clips.each do |clip|
@@ -50,6 +54,10 @@ module API
           id: db_record.id,
           url: db_record.url,
           user_id: db_record.user_id,
+          live: db_record.live,
+          title: db_record.title,
+          game: db_record.game,
+          viewer: db_record.viewer,
           clips: clips
         )
       end

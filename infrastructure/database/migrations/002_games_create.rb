@@ -8,6 +8,7 @@ Sequel.migration do
       primary_key :id
       foreign_key :clip_title, :clips
       foreign_key :clip_url, :clips
+      foreign_key :channel_url, :channels
 
       String :name
 

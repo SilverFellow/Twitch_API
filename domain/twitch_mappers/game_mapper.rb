@@ -26,6 +26,7 @@ module API
           @game_name = game_name
           @game_data = game_data
           @clip_mapper = ClipMapper.new(gateway)
+          @channel_mapper = ChannelMapper.new(gateway)
         end
 
         def build_entity
@@ -33,7 +34,7 @@ module API
             id: nil,
             name: @game_name,
             clips: clips,
-            streamers: top_streamers
+            channels: channels
           )
         end
 
@@ -43,13 +44,14 @@ module API
           @clip_mapper.load('game', @game_name)
         end
 
-        def top_streamers(num = 3)
-          streamers = {}
-          num.times do |i|
-            iter = @game_data['streams'][i]['channel']
-            streamers[iter['display_name']] = iter['url']
+        def channels
+          channels = []
+          10.times do |i|
+            name = @game_data['streams'][i]['channel']['name']
+            channels << @channel_mapper.load(name)
           end
-          streamers
+
+          channels
         end
       end
     end

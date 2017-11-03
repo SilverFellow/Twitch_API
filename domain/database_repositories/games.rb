@@ -24,12 +24,18 @@ module API
         )
 
         entity.clips.each do |clip|
-          stored_clip = Clips.find_or_create(clip.title)
-          clip = Database::Clip.first(id: stored_clip.id)
-          db_channel.add_clip(clip)
+          stored_clip = Clips.find_or_create(clip)
+          clip = Database::ClipOrm.first(id: stored_clip.id)
+          db_game.add_clip(clip)
         end
 
-        rebuild_entity(db_channel)
+        entity.channels.each do |channel|
+          stored_channel = Channels.find_or_create(channel)
+          channel = Database::ChannelOrm.first(id: stored_channel.id)
+          db_game.add_channel(channel)
+        end
+
+        rebuild_entity(db_game)
       end
 
       def self.rebuild_entity(db_record)
@@ -39,10 +45,15 @@ module API
           Clips.rebuild_entity(clip)
         end
 
+        channels = db_record.channels.map do |channel|
+          Channels.rebuild_entity(channel)
+        end
+
         Entity::Game.new(
           id: db_record.id,
           name: db_record.name,
-          clips: clips
+          clips: clips,
+          channels: channels
         )
       end
     end

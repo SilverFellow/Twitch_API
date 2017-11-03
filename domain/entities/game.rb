@@ -2,15 +2,16 @@
 
 require 'dry-struct'
 require_relative 'clip.rb'
+require_relative 'channel.rb'
 
 module API
   module Entity
-    # entity for twitch channel
+    # entity for twitch game category
     class Game < Dry::Struct
       attribute :id, Types::Int.optional
-      attribute :name, Types::Strict::String.optional
+      attribute :name, Types::Strict::String
       attribute :clips, Types::Strict::Array.member(Clip).optional
-      attribute :streamers, Types::Strict::Hash.optional
+      attribute :channels, Types::Strict::Array.member(Channel).optional
     end
   end
 end
