@@ -20,10 +20,14 @@ describe 'Tests Twitch library' do
 
   describe 'Game information' do
     before do
-      # DatabaseCleaner.clean
-      Rake::Task['db:reset'].invoke
+      app.DB[:games_clips].delete
+      app.DB[:channels_clips].delete
+      app.DB[:games_channels].delete
+      app.DB[:clips].delete
+      app.DB[:channels].delete
+      app.DB[:games].delete
     end
-    
+
     describe "POSTing to create game entities from Twitch" do
       it 'HAPPY: should provide correct game connection' do
         post "#{API_VER}/game/#{GAMENAME}"
@@ -32,49 +36,44 @@ describe 'Tests Twitch library' do
         game_data = JSON.parse last_response.body
         _(game_data.size).must_be :>, 0
       end
-=begin
-      it 'HAPPY: should provide correct game attributes' do
-        post "#{API_VER}/game/#{GAMENAME}"
-        game_data = JSON.parse last_response.body
-        _(game_data['name']).must_equal GAMENAME
-        _(game_data['number']).must_equal GAME['_total']
-      end
 
-      it 'HAPPY: should provide correct amount of game streamers and clips' do
-        post "#{API_VER}/game/#{GAMENAME}"
-        game_data = JSON.parse last_response.body
-        _(game_data['streamers'].count).must_equal 3
-        _(game_data['clips'].count).must_equal 10
-      end 
-=end
       it 'SAD: should raise exception on incorrect game' do
         post "#{API_VER}/game/boring_game"
         _(last_response.status).must_equal 404
       end
     end
-    
+
     describe "GETing database entities" do
       before do
         post "#{API_VER}/game/#{GAMENAME}"
       end
-      
+
       it 'HAPPY: should find stored game' do
         get "#{API_VER}/game/#{GAMENAME}"
         _(last_response.status).must_equal 200
         game_data = JSON.parse last_response.body
         _(game_data.size).must_be :>, 0
       end
-      
+
       it 'SAD: should report error if no database game entity found' do
         get "#{API_VER}/game/boring_game"
         _(last_response.status).must_equal 404
       end
-    end  
+    end
   end
 
   describe 'Channel information' do
     before do
-      # DatabaseCleaner.clean
+      # Rake::Task['db:reset'].invoke
+      app.DB[:games_clips].delete
+      app.DB[:channels_clips].delete
+      app.DB[:games_channels].delete
+      app.DB[:clips].delete
+      app.DB[:channels].delete
+      app.DB[:games].delete
+    end
+
+    after do
       Rake::Task['db:reset'].invoke
     end
 
@@ -86,40 +85,28 @@ describe 'Tests Twitch library' do
         channel_data = JSON.parse last_response.body
         _(channel_data.size).must_be :>, 0
       end
-=begin
-      it 'HAPPY: should provide correct channel attributes' do
-        post "#{API_VER}/channel/#{CHANNELNAME}"
-        channel_data = JSON.parse last_response.body
-        _(channel_data['live']).must_equal true
-        _(channel_data['title']).must_equal CHANNEL['stream']['channel']['status']
-      end
 
-      it 'HAPPY: should provide correct amount of channel clips' do
-        post "#{API_VER}/channel/#{CHANNELNAME}"
-        channel_data = JSON.parse last_response.body
-        _(channel_data['clips'].count).must_equal 10
-      end
-=end
       it 'SAD: should raise exception on incorrect channel' do
         post "#{API_VER}/channel/khekhkgkskg"
         _(last_response.status).must_equal 404
       end
-    end  
+    end
 
     describe "GETing database entities" do
       before do
         post "#{API_VER}/channel/#{CHANNELNAME}"
       end
-        
+
       it 'HAPPY: should find stored channel' do
+        # post "#{API_VER}/channel/#{CHANNELNAME}"
         get "#{API_VER}/channel/#{CHANNELNAME}"
         _(last_response.status).must_equal 200
         channel_data = JSON.parse last_response.body
         _(channel_data.size).must_be :>, 0
       end
-        
+
       it 'SAD: should report error if no database channel entity found' do
-        get "#{API_VER}/channel/#{CHANNELNAME}"
+        get "#{API_VER}/channel/noscuhchannella"
         _(last_response.status).must_equal 404
       end
     end
