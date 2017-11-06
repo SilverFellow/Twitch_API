@@ -1,383 +1,383 @@
 {
     "clips": [
         {
-            "slug": "ResoluteKathishCormorantOneHand",
-            "tracking_id": "143809859",
-            "url": "https://clips.twitch.tv/ResoluteKathishCormorantOneHand?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=ResoluteKathishCormorantOneHand&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=ResoluteKathishCormorantOneHand&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "slug": "VivaciousPlumpBadgerBIRB",
+            "tracking_id": "145215868",
+            "url": "https://clips.twitch.tv/VivaciousPlumpBadgerBIRB?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=VivaciousPlumpBadgerBIRB&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=VivaciousPlumpBadgerBIRB&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
             "broadcaster": {
-                "id": "26301881",
-                "name": "sodapoppin",
-                "display_name": "sodapoppin",
-                "channel_url": "https://www.twitch.tv/sodapoppin",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/sodapoppin-profile_image-10049b6200f90c14-150x150.png"
+                "id": "53736426",
+                "name": "tntreigns",
+                "display_name": "TnTReigns",
+                "channel_url": "https://www.twitch.tv/tntreigns",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/tntreigns-profile_image-b708c1377cf93cf2-150x150.png"
             },
             "curator": {
-                "id": "66287069",
-                "name": "bamastreamsupporter_",
-                "display_name": "BamaStreamSupporter_",
-                "channel_url": "https://www.twitch.tv/bamastreamsupporter_",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/6217b388c4917a20-profile_image-150x150.png"
+                "id": "112442528",
+                "name": "imzeb",
+                "display_name": "ImZeb",
+                "channel_url": "https://www.twitch.tv/imzeb",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/imzeb-profile_image-b76ecf4e200e88c9-150x150.jpeg"
             },
             "vod": {
-                "id": "185538618",
-                "url": "https://www.twitch.tv/videos/185538618?t=49m0s",
-                "offset": 2940
+                "id": "186371812",
+                "url": "https://www.twitch.tv/videos/186371812?t=1h23m13s",
+                "offset": 4993
             },
-            "broadcast_id": "26585938560",
-            "game": "IRL",
+            "broadcast_id": "26612058976",
+            "game": "H1Z1",
             "language": "en",
-            "title": "Soda Life Kappa",
-            "views": 101944,
+            "title": "LUL",
+            "views": 34458,
+            "duration": 43,
+            "created_at": "2017-10-30T21:31:15Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/145215868-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/145215868-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/145215868-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "AwkwardConsiderateFerretSSSsss",
+            "tracking_id": "145631891",
+            "url": "https://clips.twitch.tv/AwkwardConsiderateFerretSSSsss?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=AwkwardConsiderateFerretSSSsss&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=AwkwardConsiderateFerretSSSsss&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "84680836",
+                "name": "yungllama",
+                "display_name": "yungllama",
+                "channel_url": "https://www.twitch.tv/yungllama",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/c534c169e7c48d78-profile_image-150x150.png"
+            },
+            "curator": {
+                "id": "109938591",
+                "name": "e_v_i_a_n",
+                "display_name": "e_v_i_a_n",
+                "channel_url": "https://www.twitch.tv/e_v_i_a_n",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/9f0d997ece509c08-profile_image-150x150.jpeg"
+            },
+            "vod": {
+                "id": "186652715",
+                "url": "https://www.twitch.tv/videos/186652715?t=54m32s",
+                "offset": 3272
+            },
+            "broadcast_id": "26620498160",
+            "game": "H1Z1",
+            "language": "en",
+            "title": "@evianH1Z1",
+            "views": 25101,
+            "duration": 60,
+            "created_at": "2017-10-31T23:25:15Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/145631891-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/145631891-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/145631891-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "AbstemiousTameQueleaHeyGuys",
+            "tracking_id": "144406521",
+            "url": "https://clips.twitch.tv/AbstemiousTameQueleaHeyGuys?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=AbstemiousTameQueleaHeyGuys&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=AbstemiousTameQueleaHeyGuys&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "31688366",
+                "name": "symfuhny",
+                "display_name": "Symfuhny",
+                "channel_url": "https://www.twitch.tv/symfuhny",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/2ae652b0b5b0d230-profile_image-150x150.png"
+            },
+            "curator": {
+                "id": "50821963",
+                "name": "killertuning",
+                "display_name": "KillerTuning",
+                "channel_url": "https://www.twitch.tv/killertuning",
+                "logo": null
+            },
+            "vod": {
+                "id": "185882899",
+                "url": "https://www.twitch.tv/videos/185882899?t=2h28m33s",
+                "offset": 8913
+            },
+            "broadcast_id": "26596701824",
+            "game": "H1Z1",
+            "language": "en",
+            "title": "Yo I'm just letting you know you are dead",
+            "views": 8605,
+            "duration": 29.933984,
+            "created_at": "2017-10-28T23:53:34Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/144406521-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/144406521-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/144406521-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "FlirtyAmusedKimchiKappa",
+            "tracking_id": "144927600",
+            "url": "https://clips.twitch.tv/FlirtyAmusedKimchiKappa?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=FlirtyAmusedKimchiKappa&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=FlirtyAmusedKimchiKappa&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "101936909",
+                "name": "stormen",
+                "display_name": "stormen",
+                "channel_url": "https://www.twitch.tv/stormen",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/a902865d18dd4063-profile_image-150x150.jpeg"
+            },
+            "curator": {
+                "id": "68189366",
+                "name": "couchon",
+                "display_name": "Couchon",
+                "channel_url": "https://www.twitch.tv/couchon",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/couchon-profile_image-c96129bd1340d1b4-150x150.png"
+            },
+            "vod": {
+                "id": "186138793",
+                "url": "https://www.twitch.tv/videos/186138793?t=4h24m48s",
+                "offset": 15888
+            },
+            "broadcast_id": "26604831728",
+            "game": "H1Z1",
+            "language": "en",
+            "title": "Stormens thoughts on the new AR recoil",
+            "views": 6112,
+            "duration": 60,
+            "created_at": "2017-10-30T00:50:24Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/144927600-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/144927600-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/144927600-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "AliveGoldenClintWutFace",
+            "tracking_id": "144479374",
+            "url": "https://clips.twitch.tv/AliveGoldenClintWutFace?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=AliveGoldenClintWutFace&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=AliveGoldenClintWutFace&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "77250404",
+                "name": "swaggerleetv",
+                "display_name": "SwaggerLeeTV",
+                "channel_url": "https://www.twitch.tv/swaggerleetv",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/b2cd896367287bde-profile_image-150x150.png"
+            },
+            "curator": {
+                "id": "77250404",
+                "name": "swaggerleetv",
+                "display_name": "SwaggerLeeTV",
+                "channel_url": "https://www.twitch.tv/swaggerleetv",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/b2cd896367287bde-profile_image-150x150.png"
+            },
+            "vod": {
+                "id": "185897368",
+                "url": "https://www.twitch.tv/videos/185897368?t=6h12m50s",
+                "offset": 22370
+            },
+            "broadcast_id": "26597152976",
+            "game": "H1Z1",
+            "language": "en",
+            "title": "20 k win",
+            "views": 5541,
             "duration": 29.999667,
-            "created_at": "2017-10-27T18:08:23Z",
+            "created_at": "2017-10-29T04:42:51Z",
             "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/26585938560-offset-2964-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/26585938560-offset-2964-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/26585938560-offset-2964-preview-86x45.jpg"
+                "medium": "https://clips-media-assets.twitch.tv/vod-185897368-offset-22396-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/vod-185897368-offset-22396-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/vod-185897368-offset-22396-preview-86x45.jpg"
             }
         },
         {
-            "slug": "ColorfulDarlingGoldfishPastaThat",
-            "tracking_id": "141548769",
-            "url": "https://clips.twitch.tv/ColorfulDarlingGoldfishPastaThat?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=ColorfulDarlingGoldfishPastaThat&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=ColorfulDarlingGoldfishPastaThat&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "slug": "CovertSparklyBubbleteaHeyGirl",
+            "tracking_id": "144277420",
+            "url": "https://clips.twitch.tv/CovertSparklyBubbleteaHeyGirl?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=CovertSparklyBubbleteaHeyGirl&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=CovertSparklyBubbleteaHeyGirl&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
             "broadcaster": {
-                "id": "13435802",
-                "name": "manfightsfat",
-                "display_name": "manfightsfat",
-                "channel_url": "https://www.twitch.tv/manfightsfat",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/89cecb4c1f9b77c2-profile_image-150x150.jpeg"
+                "id": "154076676",
+                "name": "ceice_",
+                "display_name": "Ceice_",
+                "channel_url": "https://www.twitch.tv/ceice_",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/cde72722dca7945d-profile_image-150x150.png"
             },
             "curator": {
-                "id": "121861100",
-                "name": "bakinsodahtv",
-                "display_name": "bakinsodahtv",
-                "channel_url": "https://www.twitch.tv/bakinsodahtv",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/bakinsodahtv-profile_image-b1181cd737ac8cd0-150x150.jpeg"
+                "id": "131212085",
+                "name": "xsyms",
+                "display_name": "xSyms",
+                "channel_url": "https://www.twitch.tv/xsyms",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/1c2de0b0203e82f6-profile_image-150x150.png"
             },
             "vod": {
-                "id": "184004410",
-                "url": "https://www.twitch.tv/videos/184004410?t=1h22m42s",
-                "offset": 4962
+                "id": "185826700",
+                "url": "https://www.twitch.tv/videos/185826700?t=32m18s",
+                "offset": 1938
             },
-            "broadcast_id": "26539254080",
-            "game": "IRL",
-            "language": "de",
-            "title": "this dude is smoking",
-            "views": 84538,
-            "duration": 5.5,
-            "created_at": "2017-10-21T20:32:44Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/141548769-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/141548769-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/141548769-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "AbrasiveStrangeLyrebirdTheThing",
-            "tracking_id": "141762830",
-            "url": "https://clips.twitch.tv/AbrasiveStrangeLyrebirdTheThing?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=AbrasiveStrangeLyrebirdTheThing&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=AbrasiveStrangeLyrebirdTheThing&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "26194208",
-                "name": "mitchjones",
-                "display_name": "MitchJones",
-                "channel_url": "https://www.twitch.tv/mitchjones",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/42dfc148727317d6-profile_image-150x150.jpeg"
-            },
-            "curator": {
-                "id": "41939017",
-                "name": "didums22",
-                "display_name": "Didums22",
-                "channel_url": "https://www.twitch.tv/didums22",
-                "logo": null
-            },
-            "vod": {
-                "id": "184119525",
-                "url": "https://www.twitch.tv/videos/184119525?t=3h44m33s",
-                "offset": 13473
-            },
-            "broadcast_id": "26542858560",
-            "game": "IRL",
+            "broadcast_id": "26594949520",
+            "game": "H1Z1",
             "language": "en",
-            "title": "Self-cuck Jones runs away from hot girl",
-            "views": 62323,
-            "duration": 30.339011,
-            "created_at": "2017-10-22T07:56:05Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/vod-184119525-offset-13496-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/vod-184119525-offset-13496-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/vod-184119525-offset-13496-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "KnottyImpartialPanFunRun",
-            "tracking_id": "143671069",
-            "url": "https://clips.twitch.tv/KnottyImpartialPanFunRun?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=KnottyImpartialPanFunRun&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=KnottyImpartialPanFunRun&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "71190292",
-                "name": "trainwreckstv",
-                "display_name": "Trainwreckstv",
-                "channel_url": "https://www.twitch.tv/trainwreckstv",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/trainwreckstv-profile_image-59bcd375acd53205-150x150.png"
-            },
-            "curator": {
-                "id": "41143136",
-                "name": "poskii",
-                "display_name": "Poskii",
-                "channel_url": "https://www.twitch.tv/poskii",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/poskii-profile_image-a77236604c9361e0-150x150.png"
-            },
-            "vod": {
-                "id": "185447249",
-                "url": "https://www.twitch.tv/videos/185447249?t=1h59m17s",
-                "offset": 7157
-            },
-            "broadcast_id": "26583083216",
-            "game": "IRL",
-            "language": "en",
-            "title": "Mitch Gets a Call",
-            "views": 53910,
-            "duration": 53.833984,
-            "created_at": "2017-10-27T08:57:02Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/143671069-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/143671069-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/143671069-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "PreciousAmorphousOcelotPanicBasket",
-            "tracking_id": "143349272",
-            "url": "https://clips.twitch.tv/PreciousAmorphousOcelotPanicBasket?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=PreciousAmorphousOcelotPanicBasket&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=PreciousAmorphousOcelotPanicBasket&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "44203572",
-                "name": "rinlinlin",
-                "display_name": "rinlinlin",
-                "channel_url": "https://www.twitch.tv/rinlinlin",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/rinlinlin-profile_image-901041460b0764bc-150x150.png"
-            },
-            "curator": {
-                "id": "66476690",
-                "name": "fake__h",
-                "display_name": "fake__h",
-                "channel_url": "https://www.twitch.tv/fake__h",
-                "logo": null
-            },
-            "vod": {
-                "id": "185212602",
-                "url": "https://www.twitch.tv/videos/185212602?t=2h44m49s",
-                "offset": 9889
-            },
-            "broadcast_id": "26576150736",
-            "game": "IRL",
-            "language": "en",
-            "title": "how to NOT get girls",
-            "views": 48537,
-            "duration": 17.184,
-            "created_at": "2017-10-26T13:30:33Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/143349272-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/143349272-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/143349272-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "CautiousBlazingTubersMVGame",
-            "tracking_id": "141738570",
-            "url": "https://clips.twitch.tv/CautiousBlazingTubersMVGame?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=CautiousBlazingTubersMVGame&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=CautiousBlazingTubersMVGame&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "26194208",
-                "name": "mitchjones",
-                "display_name": "MitchJones",
-                "channel_url": "https://www.twitch.tv/mitchjones",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/42dfc148727317d6-profile_image-150x150.jpeg"
-            },
-            "curator": {
-                "id": "23291717",
-                "name": "shadowslit",
-                "display_name": "ShadowSlit",
-                "channel_url": "https://www.twitch.tv/shadowslit",
-                "logo": null
-            },
-            "vod": {
-                "id": "184119525",
-                "url": "https://www.twitch.tv/videos/184119525?t=2h14m35s",
-                "offset": 8075
-            },
-            "broadcast_id": "26542858560",
-            "game": "IRL",
-            "language": "en",
-            "title": "Mitch meets a MILF",
-            "views": 46956,
-            "duration": 35.005,
-            "created_at": "2017-10-22T05:53:57Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/141738570-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/141738570-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/141738570-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "SpotlessAcceptableGrouseRickroll",
-            "tracking_id": "142620975",
-            "url": "https://clips.twitch.tv/SpotlessAcceptableGrouseRickroll?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=SpotlessAcceptableGrouseRickroll&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=SpotlessAcceptableGrouseRickroll&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "73215756",
-                "name": "leclumsyfox",
-                "display_name": "LeClumsyFox",
-                "channel_url": "https://www.twitch.tv/leclumsyfox",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/cee243b8c3aa3cac-profile_image-150x150.jpeg"
-            },
-            "curator": {
-                "id": "29809623",
-                "name": "lareqq",
-                "display_name": "lareqq",
-                "channel_url": "https://www.twitch.tv/lareqq",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/lareqq-profile_image-6cb7d0e51034cd2d-150x150.jpeg"
-            },
-            "vod": {
-                "id": "184697046",
-                "url": "https://www.twitch.tv/videos/184697046?t=11m52s",
-                "offset": 712
-            },
-            "broadcast_id": "26560715824",
-            "game": "IRL",
-            "language": "en",
-            "title": "clumsyfoxy",
-            "views": 46276,
+            "title": "61 YEAR OLD WINS HER FIRST H1 GAME!",
+            "views": 5380,
             "duration": 60,
-            "created_at": "2017-10-24T13:48:49Z",
+            "created_at": "2017-10-28T18:25:14Z",
             "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/142620975-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/142620975-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/142620975-preview-86x45.jpg"
+                "medium": "https://clips-media-assets.twitch.tv/144277420-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/144277420-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/144277420-preview-86x45.jpg"
             }
         },
         {
-            "slug": "CrackyDarkKumquatMoreCowbell",
-            "tracking_id": "141721954",
-            "url": "https://clips.twitch.tv/CrackyDarkKumquatMoreCowbell?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=CrackyDarkKumquatMoreCowbell&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=CrackyDarkKumquatMoreCowbell&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "slug": "ClumsyCrowdedStrawberryTBTacoRight",
+            "tracking_id": "145882181",
+            "url": "https://clips.twitch.tv/ClumsyCrowdedStrawberryTBTacoRight?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=ClumsyCrowdedStrawberryTBTacoRight&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=ClumsyCrowdedStrawberryTBTacoRight&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
             "broadcaster": {
-                "id": "26194208",
-                "name": "mitchjones",
-                "display_name": "MitchJones",
-                "channel_url": "https://www.twitch.tv/mitchjones",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/42dfc148727317d6-profile_image-150x150.jpeg"
+                "id": "85943836",
+                "name": "eryctriceps",
+                "display_name": "ErycTriceps",
+                "channel_url": "https://www.twitch.tv/eryctriceps",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/3cf1bb250af067de-profile_image-150x150.jpeg"
             },
             "curator": {
-                "id": "41379043",
-                "name": "xsolarityx",
-                "display_name": "xsolarityx",
-                "channel_url": "https://www.twitch.tv/xsolarityx",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/b64a251d92042b44-profile_image-150x150.jpeg"
-            },
-            "vod": {
-                "id": "184119525",
-                "url": "https://www.twitch.tv/videos/184119525?t=1h2m49s",
-                "offset": 3769
-            },
-            "broadcast_id": "26542858560",
-            "game": "IRL",
-            "language": "en",
-            "title": "Rip Mitch Selfie Stick 2017",
-            "views": 44009,
-            "duration": 30.312011,
-            "created_at": "2017-10-22T04:42:04Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/26542858560-offset-3794-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/26542858560-offset-3794-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/26542858560-offset-3794-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "FilthyShakingTapirKappa",
-            "tracking_id": "143265552",
-            "url": "https://clips.twitch.tv/FilthyShakingTapirKappa?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=FilthyShakingTapirKappa&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=FilthyShakingTapirKappa&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "26194208",
-                "name": "mitchjones",
-                "display_name": "MitchJones",
-                "channel_url": "https://www.twitch.tv/mitchjones",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/42dfc148727317d6-profile_image-150x150.jpeg"
-            },
-            "curator": {
-                "id": "80495314",
-                "name": "stooboot",
-                "display_name": "Stooboot",
-                "channel_url": "https://www.twitch.tv/stooboot",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/stooboot-profile_image-50f8f813f3b42209-150x150.png"
-            },
-            "vod": {
-                "id": "185152063",
-                "url": "https://www.twitch.tv/videos/185152063?t=2h46m59s",
-                "offset": 10019
-            },
-            "broadcast_id": "26574355232",
-            "game": "IRL",
-            "language": "en",
-            "title": "Cloakzy Going in on E Girl",
-            "views": 43394,
-            "duration": 57.183984,
-            "created_at": "2017-10-26T05:14:04Z",
-            "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/143265552-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/143265552-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/143265552-preview-86x45.jpg"
-            }
-        },
-        {
-            "slug": "MotionlessEnthusiasticPlumDuDudu",
-            "tracking_id": "141321230",
-            "url": "https://clips.twitch.tv/MotionlessEnthusiasticPlumDuDudu?tt_medium=clips_api&tt_content=url",
-            "embed_url": "https://clips.twitch.tv/embed?clip=MotionlessEnthusiasticPlumDuDudu&tt_medium=clips_api&tt_content=embed",
-            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=MotionlessEnthusiasticPlumDuDudu&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
-            "broadcaster": {
-                "id": "162485847",
-                "name": "grubtruckers",
-                "display_name": "GrubTruckers",
-                "channel_url": "https://www.twitch.tv/grubtruckers",
-                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/8f95a0e5b970a3d7-profile_image-150x150.png"
-            },
-            "curator": {
-                "id": "48487321",
-                "name": "indecisivespaz",
-                "display_name": "IndecisiveSpaz",
-                "channel_url": "https://www.twitch.tv/indecisivespaz",
+                "id": "147226077",
+                "name": "shazb3d",
+                "display_name": "shazb3d",
+                "channel_url": "https://www.twitch.tv/shazb3d",
                 "logo": null
             },
             "vod": {
-                "id": "183866164",
-                "url": "https://www.twitch.tv/videos/183866164?t=3h30m45s",
-                "offset": 12645
+                "id": "186793912",
+                "url": "https://www.twitch.tv/videos/186793912?t=3h57m52s",
+                "offset": 14272
             },
-            "broadcast_id": "26534852656",
-            "game": "IRL",
+            "broadcast_id": "26624708544",
+            "game": "H1Z1",
             "language": "en",
-            "title": "Don't touch my son!",
-            "views": 42610,
-            "duration": 60,
-            "created_at": "2017-10-21T09:35:59Z",
+            "title": "\"You don't wanna do this, trust me\" - ErycTriceps",
+            "views": 5061,
+            "duration": 19,
+            "created_at": "2017-11-01T18:27:10Z",
             "thumbnails": {
-                "medium": "https://clips-media-assets.twitch.tv/141321230-preview-480x272.jpg",
-                "small": "https://clips-media-assets.twitch.tv/141321230-preview-260x147.jpg",
-                "tiny": "https://clips-media-assets.twitch.tv/141321230-preview-86x45.jpg"
+                "medium": "https://clips-media-assets.twitch.tv/145882181-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/145882181-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/145882181-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "TrappedSlipperySkirretCurseLit",
+            "tracking_id": "143961516",
+            "url": "https://clips.twitch.tv/TrappedSlipperySkirretCurseLit?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=TrappedSlipperySkirretCurseLit&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=TrappedSlipperySkirretCurseLit&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "101936909",
+                "name": "stormen",
+                "display_name": "stormen",
+                "channel_url": "https://www.twitch.tv/stormen",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/a902865d18dd4063-profile_image-150x150.jpeg"
+            },
+            "curator": {
+                "id": "31549299",
+                "name": "shinejae",
+                "display_name": "エステティック",
+                "channel_url": "https://www.twitch.tv/shinejae",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/3d3eb3b447dcc9c2-profile_image-150x150.jpeg"
+            },
+            "vod": {
+                "id": "185621291",
+                "url": "https://www.twitch.tv/videos/185621291?t=2h31m44s",
+                "offset": 9104
+            },
+            "broadcast_id": "26588509216",
+            "game": "H1Z1",
+            "language": "en",
+            "title": "LOL",
+            "views": 4554,
+            "duration": 60,
+            "created_at": "2017-10-28T01:24:05Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/143961516-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/143961516-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/143961516-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "AmericanBovineKiwiUWot",
+            "tracking_id": "145634024",
+            "url": "https://clips.twitch.tv/AmericanBovineKiwiUWot?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=AmericanBovineKiwiUWot&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=AmericanBovineKiwiUWot&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "111518512",
+                "name": "tthump",
+                "display_name": "TTHump",
+                "channel_url": "https://www.twitch.tv/tthump",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/tthump-profile_image-72be91649a0d360e-150x150.png"
+            },
+            "curator": {
+                "id": "156858815",
+                "name": "stuartw27",
+                "display_name": "StuartW27",
+                "channel_url": "https://www.twitch.tv/stuartw27",
+                "logo": null
+            },
+            "vod": {
+                "id": "186631729",
+                "url": "https://www.twitch.tv/videos/186631729?t=2h32m56s",
+                "offset": 9176
+            },
+            "broadcast_id": "26619871664",
+            "game": "H1Z1",
+            "language": "en",
+            "title": "TTHump >>",
+            "views": 3838,
+            "duration": 41.433984,
+            "created_at": "2017-10-31T23:31:55Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/145634024-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/145634024-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/145634024-preview-86x45.jpg"
+            }
+        },
+        {
+            "slug": "MushyShinyCormorantBrainSlug",
+            "tracking_id": "145183032",
+            "url": "https://clips.twitch.tv/MushyShinyCormorantBrainSlug?tt_medium=clips_api&tt_content=url",
+            "embed_url": "https://clips.twitch.tv/embed?clip=MushyShinyCormorantBrainSlug&tt_medium=clips_api&tt_content=embed",
+            "embed_html": "<iframe src='https://clips.twitch.tv/embed?clip=MushyShinyCormorantBrainSlug&tt_medium=clips_api&tt_content=embed' width='640' height='360' frameborder='0' scrolling='no' allowfullscreen='true'></iframe>",
+            "broadcaster": {
+                "id": "111518512",
+                "name": "tthump",
+                "display_name": "TTHump",
+                "channel_url": "https://www.twitch.tv/tthump",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/tthump-profile_image-72be91649a0d360e-150x150.png"
+            },
+            "curator": {
+                "id": "147178795",
+                "name": "honorrage",
+                "display_name": "HonorRage",
+                "channel_url": "https://www.twitch.tv/honorrage",
+                "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/honorrage-profile_image-0b543e0a911fd027-150x150.jpeg"
+            },
+            "vod": {
+                "id": "186340055",
+                "url": "https://www.twitch.tv/videos/186340055?t=2h12m4s",
+                "offset": 7924
+            },
+            "broadcast_id": "26611101776",
+            "game": "H1Z1",
+            "language": "en",
+            "title": "LUL",
+            "views": 3380,
+            "duration": 29.999667,
+            "created_at": "2017-10-30T20:09:59Z",
+            "thumbnails": {
+                "medium": "https://clips-media-assets.twitch.tv/26611101776-offset-7948-preview-480x272.jpg",
+                "small": "https://clips-media-assets.twitch.tv/26611101776-offset-7948-preview-260x147.jpg",
+                "tiny": "https://clips-media-assets.twitch.tv/26611101776-offset-7948-preview-86x45.jpg"
             }
         }
     ],

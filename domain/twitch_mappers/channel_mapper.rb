@@ -12,25 +12,29 @@ module API
 
       def load(channel_name)
         channel_data = @gateway.channel_data(channel_name)
-        build_entity(channel_name, channel_data)
+        user_id = @gateway.get_user_id(channel_name)
+        build_entity(channel_name, user_id, channel_data)
       end
 
-      def build_entity(channel_name, channel_data)
-        DataMapper.new(channel_name, channel_data, @gateway).build_entity
+      def build_entity(channel_name, user_id, channel_data)
+        DataMapper.new(channel_name, user_id, channel_data, @gateway).build_entity
       end
 
       # Extracts entity specific elements from data structure
       class DataMapper
-        def initialize(channel_name, channel_data, gateway)
+        def initialize(channel_name, user_id, channel_data, gateway)
           @channel_name = channel_name
+          @user_id = user_id
           @channel_data = channel_data
           @clip_mapper = ClipMapper.new(gateway)
         end
 
         def build_entity
           API::Entity::Channel.new(
+            id: nil,
+            url: 'https://go.twitch.tv/' + @channel_name,
+            user_id: @user_id,
             live: live,
-            name: name,
             title: title,
             game: game,
             viewer: viewer,
@@ -42,10 +46,6 @@ module API
 
         def live
           !@channel_data['stream'].nil?
-        end
-
-        def name
-          live ? @channel_data['stream']['channel']['display_name'] : @channel_name
         end
 
         def title

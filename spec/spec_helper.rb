@@ -15,8 +15,11 @@ require 'webmock'
 
 require_relative 'test_load_all'
 
-CHANNELNAME = 'mobilmobil'.freeze
-GAMENAME = 'IRL'.freeze
+load 'Rakefile'
+Rake::Task['db:reset'].invoke
+
+CHANNELNAME = 'godjj'.freeze
+GAMENAME = 'H1Z1'.freeze
 # CONFIG = YAML.safe_load(File.read('config/secret.yml'))
 # TOKEN = CONFIG['token']
 # CLIP = JSON.parse(File.read('fixtures/clip.json'))

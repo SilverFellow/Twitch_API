@@ -38,8 +38,8 @@ describe 'Tests Twitch library' do
       api = API::Twitch::TwitchGateway.new(TOKEN)
       game_mapper = API::Twitch::GameMapper.new(api)
       game = game_mapper.load(GAMENAME)
-      _(game.number).must_equal GAME['_total']
-      _(game.name).must_equal GAME['streams'][0]['game']
+    # _(game.number).must_equal GAME['_total']
+      _(game.official_name).must_equal GAME['streams'][0]['game']
     end
     # it 'SAD: should raise exception on incorrect game_name' do
     #   proc do
