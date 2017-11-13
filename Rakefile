@@ -70,7 +70,7 @@ namespace :db do
   end
 
   desc 'Reset all database tables'
-  task reset: [:drop, :migrate]
+  task reset: %i[drop migrate]
 
   desc 'Delete dev or test database file'
   task :wipe do

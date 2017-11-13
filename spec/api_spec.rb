@@ -39,7 +39,7 @@ describe 'Tests Twitch library' do
 
       it 'SAD: should raise exception on incorrect game' do
         post "#{API_VER}/game/boring_game"
-        _(last_response.status).must_equal 404
+        _(last_response.status).must_equal 400
       end
     end
 
@@ -88,7 +88,7 @@ describe 'Tests Twitch library' do
 
       it 'SAD: should raise exception on incorrect channel' do
         post "#{API_VER}/channel/khekhkgkskg"
-        _(last_response.status).must_equal 404
+        _(last_response.status).must_equal 400
       end
     end
 

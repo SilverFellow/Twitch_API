@@ -9,7 +9,7 @@ Sequel.migration do
       foreign_key :clip_title, :clips
       foreign_key :clip_url, :clips
 
-      String :url 
+      String :url
       Integer :user_id, unique: true
       Bool :live, null: true
       String :title, null: true
