@@ -13,7 +13,7 @@ module API
       if response
         Right(Result.new(:ok, response))
       else
-        Left(Result.new(:not_found, 'Could not find stored git repository'))
+        Left(Result.new(:not_found, 'Could not find stored channel data'))
       end
     end
   end

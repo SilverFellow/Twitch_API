@@ -14,7 +14,7 @@ module API
                                .load(input[:channel_name])
       Right(channel)
     rescue StandardError
-      Left(Result.new(:bad_request, 'Remote git repository not found'))
+      Left(Result.new(:bad_request, 'Channel not found'))
     end
 
     def check_if_channel_already_loaded(input)

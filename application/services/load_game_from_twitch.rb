@@ -15,7 +15,7 @@ module API
                                .load(input[:game_name])
       Right(game)
     rescue StandardError
-      Left(Result.new(:bad_request, 'Remote git repository not found'))
+      Left(Result.new(:bad_request, 'Game not found'))
     end
 
     def check_if_game_already_loaded(input)
