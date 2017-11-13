@@ -13,7 +13,6 @@ module API
     property :title
     property :game
     property :viewer
-    collection :clips, extend: ClipRepresenter
-    
+    collection :clips, extend: ClipRepresenter    
   end
 end

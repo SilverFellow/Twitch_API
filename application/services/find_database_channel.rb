@@ -10,7 +10,6 @@ module API
 
     def self.call(input)
       response = Repository::For[Entity::Channel].find_url(input[:channel_name])
-      
       if response
         Right(Result.new(:ok, response))
       else
