@@ -8,7 +8,7 @@ end
 
 desc 'run tests'
 Rake::TestTask.new(:spec) do |t|
-  t.pattern = 'spec/*_spec.rb'
+  t.pattern = 'spec/api_spec.rb'
   t.warning = false
 end
 
