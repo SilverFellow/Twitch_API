@@ -8,20 +8,8 @@ describe 'Tests Twitch library' do
   Econfig.env = 'development'
   Econfig.root = '.'
 
-  TOKEN = config.token
-  # CLIP = JSON.parse(File.read('fixtures/clip.json'))
-  # GAME = JSON.parse(File.read('spec/fixtures/sample/game.json'))
-  # CHANNEL = JSON.parse(File.read('spec/fixtures/sample/channel.json'))
-  # CHANNNEL_CLIP = JSON.parse(File.read('spec/fixtures/sample/channel_clip.json'))
+  TOKEN = config.TWITCH_TOKEN
   CASSETTE_FILE = 'twitch_api'.freeze
-
-  # VCR.configure do |c|
-  #   c.cassette_library_dir = CASSETTES_FOLDER
-  #   c.hook_into :webmock
-
-  #   c.filter_sensitive_data('<Twitch_TOKEN>') { TOKEN }
-  #   c.filter_sensitive_data('<Twitch_TOKEN_ESC>') { CGI.escape(TOKEN) }
-  # end
 
   before do
     VCR.insert_cassette CASSETTE_FILE,
@@ -38,7 +26,7 @@ describe 'Tests Twitch library' do
       api = API::Twitch::TwitchGateway.new(TOKEN)
       game_mapper = API::Twitch::GameMapper.new(api)
       game = game_mapper.load(GAMENAME)
-    # _(game.number).must_equal GAME['_total']
+      # _(game.number).must_equal GAME['_total']
       _(game.official_name).must_equal GAME['streams'][0]['game']
     end
     # it 'SAD: should raise exception on incorrect game_name' do

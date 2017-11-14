@@ -12,6 +12,11 @@ Rake::TestTask.new(:spec) do |t|
   t.warning = false
 end
 
+desc 'rerun tests'
+task :respec do
+  sh "rerun -c 'rake spec' --ignore 'coverage/*'"
+end
+
 task :console do
   sh 'pry -r ./spec/test_load_all'
 end
@@ -24,14 +29,13 @@ task :rmvcr do
 end
 
 namespace :quality do
-  # TODO: need to update
-  CODE = 'lib/'
+  CODE = '**/*.rb'
 
   desc 'run all quality checks'
   task all: %i[rubocop reek flog]
 
   task :rubocop do
-    sh 'rubocop'
+    sh "rubocop #{CODE}"
   end
 
   task :reek do
@@ -79,7 +83,7 @@ namespace :db do
       return
     end
 
-    FileUtils.rm(app.config.db_filename)
-    puts "Deleted #{app.config.db_filename}"
+    FileUtils.rm(app.config.DB_FILENAME)
+    puts "Deleted #{app.config.DB_FILENAME}"
   end
 end

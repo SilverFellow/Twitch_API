@@ -28,7 +28,7 @@ describe 'Tests Twitch library' do
       app.DB[:games].delete
     end
 
-    describe "POSTing to create game entities from Twitch" do
+    describe 'POSTing to create game entities from Twitch' do
       it 'HAPPY: should provide correct game connection' do
         post "#{API_VER}/game/#{GAMENAME}"
         _(last_response.status).must_equal 201
@@ -92,7 +92,7 @@ describe 'Tests Twitch library' do
       end
     end
 
-    describe "GETing database entities" do
+    describe 'GETing database entities' do
       before do
         post "#{API_VER}/channel/#{CHANNELNAME}"
       end

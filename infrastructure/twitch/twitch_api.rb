@@ -37,7 +37,7 @@ module API
       end
 
       def initialize(token)
-        @tw_token = token
+        @TWITCH_TOKEN = token
       end
 
       def channel_data(name)
@@ -83,7 +83,7 @@ module API
 
       def call_twitch_url(url)
         response = HTTP.headers('Accept' => 'application/vnd.twitchtv.v5+json',
-                                'Client-ID' => @tw_token).get(url)
+                                'Client-ID' => @TWITCH_TOKEN).get(url)
         Response.new(response).response_or_error
       end
 
