@@ -2,7 +2,7 @@
 
 require_relative 'clip_mapper.rb'
 
-module API
+module LoyalFan
   module Twitch
     # Data Mapper for Twitch Game Category
     class GameMapper
@@ -32,7 +32,7 @@ module API
         end
 
         def build_entity
-          API::Entity::Game.new(
+          LoyalFan::Entity::Game.new(
             id: nil,
             unofficial_name: @unofficial_name,
             official_name: @official_name,

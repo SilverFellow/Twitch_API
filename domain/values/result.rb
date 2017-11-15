@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-module API
+module LoyalFan
   Result = Struct.new :code, :message
 end

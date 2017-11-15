@@ -3,7 +3,7 @@
 require 'dry-struct'
 require_relative 'clip.rb'
 
-module API
+module LoyalFan
   module Entity
     # entity for twitch channel
     class Channel < Dry::Struct

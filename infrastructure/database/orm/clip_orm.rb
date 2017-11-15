@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module API
+module LoyalFan
   module Database
     # Object-Relational Mapper for Clips
     class ClipOrm < Sequel::Model(:clips)

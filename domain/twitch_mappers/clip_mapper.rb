@@ -1,6 +1,6 @@
 # frozen_string_literal: false
 
-module API
+module LoyalFan
   module Twitch
     # Data Mapper for Twitch Clips
     class ClipMapper
@@ -27,7 +27,7 @@ module API
         end
 
         def build_entity
-          API::Entity::Clip.new(
+          LoyalFan::Entity::Clip.new(
             id: nil,
             title: title,
             url: url,

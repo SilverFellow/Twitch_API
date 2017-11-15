@@ -3,7 +3,7 @@
 require 'roda'
 require 'econfig'
 
-module API
+module LoyalFan
   # Configuration for the API
   class Api < Roda
     plugin :environments

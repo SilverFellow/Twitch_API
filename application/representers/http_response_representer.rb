@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module API
+module LoyalFan
   # Representer for HTTP response information
   # Usage:
   #   result = Result.new(:not_found, 'resource not found')

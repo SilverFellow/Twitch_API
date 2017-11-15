@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
-module API
+module LoyalFan
   module Database
     # Object-Relational Mapper for Games
     class GameOrm < Sequel::Model(:games)
       many_to_many :clips,
-                   class: :'API::Database::ClipOrm',
+                   class: :'LoyalFan::Database::ClipOrm',
                    join_table: :games_clips,
                    left_key: :game_id, right_key: :clip_id
 
       many_to_many :channels,
-                   class: :'API::Database::ChannelOrm',
+                   class: :'LoyalFan::Database::ChannelOrm',
                    join_table: :games_channels,
                    left_key: :game_id, right_key: :channel_id
 

@@ -4,7 +4,7 @@ require 'roda'
 require 'econfig'
 require_relative 'init.rb'
 
-module API
+module LoyalFan
   # Web API
   class Api < Roda
     plugin :environments
@@ -21,7 +21,8 @@ module API
       gh = Twitch::TwitchGateway.new(config.TWITCH_TOKEN)
 
       routing.root do
-        { 'message' => "Twitch API v0.1 up in #{app.environment}" }
+        message = "Twitch API v0.1 up in #{app.environment} mode"
+        HttpResponseRepresenter.new(Result.new(:ok, message)).to_json
       end
 
       routing.on 'api' do

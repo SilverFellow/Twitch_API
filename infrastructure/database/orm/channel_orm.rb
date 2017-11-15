@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-module API
+module LoyalFan
   module Database
     # Object-Relational Mapper for Channels
     class ChannelOrm < Sequel::Model(:channels)
       many_to_many :clips,
-                   class: :'API::Database::ClipOrm',
+                   class: :'LoyalFan::Database::ClipOrm',
                    join_table: :channels_clips,
                    left_key: :channel_id, right_key: :clip_id
 

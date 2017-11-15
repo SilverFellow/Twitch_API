@@ -2,7 +2,7 @@
 
 require_relative 'clip_mapper.rb'
 
-module API
+module LoyalFan
   module Twitch
     # Data Mapper for Twitch Channel
     class ChannelMapper
@@ -30,7 +30,7 @@ module API
         end
 
         def build_entity
-          API::Entity::Channel.new(
+          LoyalFan::Entity::Channel.new(
             id: nil,
             url: 'https://go.twitch.tv/' + @channel_name,
             user_id: @user_id,

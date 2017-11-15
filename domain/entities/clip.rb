@@ -2,7 +2,7 @@
 
 require 'dry-struct'
 
-module API
+module LoyalFan
   module Entity
     # entity for twitch clip
     class Clip < Dry::Struct

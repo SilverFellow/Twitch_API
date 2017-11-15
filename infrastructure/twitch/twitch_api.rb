@@ -2,7 +2,7 @@
 
 require 'http'
 
-module API
+module LoyalFan
   module Twitch
     # Gateway class to talk to Twitch API
     class TwitchGateway

@@ -52,7 +52,7 @@ namespace :db do
   require 'sequel' # TODO: remove after create orm
 
   Sequel.extension :migration
-  app = API::Api
+  app = LoyalFan::Api
 
   desc 'Run migrations'
   task :migrate do

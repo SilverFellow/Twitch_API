@@ -2,7 +2,7 @@
 
 require 'dry-monads'
 
-module API
+module LoyalFan
   #   result = FindDatabaseRepo.call(ownername: 'soumyaray', reponame: 'YPBT-app')
   #   result.success?
   module FindDatabaseChannel

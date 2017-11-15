@@ -2,7 +2,7 @@
 
 require 'dry-types'
 
-module API
+module LoyalFan
   module Entity
     # Add dry types to Entity module
     module Types

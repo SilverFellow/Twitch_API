@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module API
+module LoyalFan
   module Repository
     For = {
       Entity::Channel  => Channels,

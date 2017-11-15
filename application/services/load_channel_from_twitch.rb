@@ -2,7 +2,7 @@
 
 require 'dry/transaction'
 
-module API
+module LoyalFan
   # Helper class to serialize steps of loading channel information from twitch
   class LoadChannelFromTwitch
     include Dry::Transaction

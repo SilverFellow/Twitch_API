@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-# module API
+# module LoyalFan
 #   module Database
 #     ORM = {
-#       API::Entity::Channel => ChannelOrm,
-#       API::Entity::Game => GameOrm,
-#       API::Entity::Clip => ClipOrm
+#       LoyalFan::Entity::Channel => ChannelOrm,
+#       LoyalFan::Entity::Game => GameOrm,
+#       LoyalFan::Entity::Clip => ClipOrm
 #     }.freeze
 #   end
 # end
