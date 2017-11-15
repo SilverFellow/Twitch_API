@@ -4,6 +4,7 @@ require_relative 'channel_representer'
 require_relative 'clip_representer'
 
 module API
+  # Representer for Twitch game category information
   class GameRepresenter < Roar::Decorator
     include Roar::JSON
 

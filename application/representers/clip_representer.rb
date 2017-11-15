@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 module API
+  # Representer for Twitch clips information
   class ClipRepresenter < Roar::Decorator
     include Roar::JSON
 

@@ -7,8 +7,8 @@ Sequel.migration do
     create_table(:channels_clips) do
       foreign_key :channel_id, :channels
       foreign_key :clip_id, :clips
-      primary_key [:channel_id, :clip_id]
-      index [:channel_id, :clip_id]
+      primary_key %i[channel_id clip_id]
+      index %i[channel_id clip_id]
     end
   end
 end

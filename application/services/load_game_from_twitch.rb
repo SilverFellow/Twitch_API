@@ -3,6 +3,7 @@
 require 'dry/transaction'
 
 module API
+  # Helper class to serialize steps of loading game information from twitch
   class LoadGameFromTwitch
     include Dry::Transaction
 

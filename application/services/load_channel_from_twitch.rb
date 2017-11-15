@@ -3,6 +3,7 @@
 require 'dry/transaction'
 
 module API
+  # Helper class to serialize steps of loading channel information from twitch
   class LoadChannelFromTwitch
     include Dry::Transaction
     step :get_channel_from_twitch
@@ -11,7 +12,7 @@ module API
 
     def get_channel_from_twitch(input)
       channel = Twitch::ChannelMapper.new(input[:config])
-                               .load(input[:channel_name])
+                                     .load(input[:channel_name])
       Right(channel)
     rescue StandardError
       Left(Result.new(:bad_request, 'Channel not found'))

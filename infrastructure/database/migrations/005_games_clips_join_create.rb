@@ -7,8 +7,8 @@ Sequel.migration do
     create_table(:games_clips) do
       foreign_key :game_id, :games
       foreign_key :clip_id, :clips
-      primary_key [:game_id, :clip_id]
-      index [:game_id, :clip_id]
+      primary_key %i[game_id clip_id]
+      index %i[game_id clip_id]
     end
   end
 end

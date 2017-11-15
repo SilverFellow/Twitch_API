@@ -8,6 +8,12 @@ Metrics/BlockLength:
     - spec/**/*
     - application/app.rb
 
+Metrics/LineLength:
+  Max: 100
+
+Metrics/MethodLength:
+  Max: 15
+
 Security/YAMLLoad:
   Enabled: true
   Exclude:

@@ -43,7 +43,7 @@ describe 'Tests Twitch library' do
       end
     end
 
-    describe "GETing database entities" do
+    describe 'GETing database entities' do
       before do
         post "#{API_VER}/game/#{GAMENAME}"
       end
@@ -77,7 +77,7 @@ describe 'Tests Twitch library' do
       Rake::Task['db:reset'].invoke
     end
 
-    describe "POSTing to create channel entities from Twitch" do
+    describe 'POSTing to create channel entities from Twitch' do
       it 'HAPPY: should provide correct channel connection' do
         post "#{API_VER}/channel/#{CHANNELNAME}"
         _(last_response.status).must_equal 201

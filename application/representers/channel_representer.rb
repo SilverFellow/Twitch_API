@@ -3,6 +3,7 @@
 require_relative 'clip_representer'
 
 module API
+  # Representer for Twitch channel information
   class ChannelRepresenter < Roar::Decorator
     include Roar::JSON
 
