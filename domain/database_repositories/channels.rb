@@ -27,11 +27,13 @@ module LoyalFan
       def self.create_from(entity)
         db_channel = Database::ChannelOrm.create(
           url: entity.url,
+          name: entity.name,
           user_id: entity.user_id,
           live: entity.live,
           title: entity.title,
           game: entity.game,
-          viewer: entity.viewer
+          viewer: entity.viewer,
+          logo: entity.logo
         )
 
         entity.clips.each do |clip|
@@ -53,11 +55,13 @@ module LoyalFan
         Entity::Channel.new(
           id: db_record.id,
           url: db_record.url,
+          name: db_record.name,
           user_id: db_record.user_id,
           live: db_record.live,
           title: db_record.title,
           game: db_record.game,
           viewer: db_record.viewer,
+          logo: db_record.logo,
           clips: clips
         )
       end

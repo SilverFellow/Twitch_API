@@ -11,20 +11,20 @@ module LoyalFan
       end
 
       def load(channel_name)
-        channel_data = @gateway.channel_data(channel_name)
-        user_id = @gateway.get_user_id(channel_name)
-        build_entity(channel_name, user_id, channel_data)
+        channel_property = @gateway.get_channel_property(channel_name)
+        channel_data = @gateway.channel_data(channel_property.first)
+        build_entity(channel_name, channel_property, channel_data)
       end
 
-      def build_entity(channel_name, user_id, channel_data)
-        DataMapper.new(channel_name, user_id, channel_data, @gateway).build_entity
+      def build_entity(channel_name, channel_property, channel_data)
+        DataMapper.new(channel_name, channel_property, channel_data, @gateway).build_entity
       end
 
       # Extracts entity specific elements from data structure
       class DataMapper
-        def initialize(channel_name, user_id, channel_data, gateway)
+        def initialize(channel_name, channel_property, channel_data, gateway)
           @channel_name = channel_name
-          @user_id = user_id
+          @channel_property = channel_property
           @channel_data = channel_data
           @clip_mapper = ClipMapper.new(gateway)
         end
@@ -33,31 +33,37 @@ module LoyalFan
           LoyalFan::Entity::Channel.new(
             id: nil,
             url: 'https://go.twitch.tv/' + @channel_name,
-            user_id: @user_id,
+            user_id: @channel_property.first,
+            name: @channel_property[1],
             live: live,
             title: title,
             game: game,
             viewer: viewer,
+            logo: @channel_property[2],
             clips: clips
           )
         end
 
         private
 
+        def stream
+          @channel_data['stream']
+        end
+
         def live
-          !@channel_data['stream'].nil?
+          !stream.nil?
         end
 
         def title
-          live ? @channel_data['stream']['channel']['status'] : 'offline'
+          live ? stream['channel']['status'] : 'offline'
         end
 
         def game
-          live ? @channel_data['stream']['game'] : 'offline'
+          live ? stream['game'] : 'offline'
         end
 
         def viewer
-          live ? @channel_data['stream']['viewers'] : 0
+          live ? stream['viewers'] : 0
         end
 
         def clips

@@ -40,8 +40,8 @@ module LoyalFan
         @TWITCH_TOKEN = token
       end
 
-      def channel_data(name)
-        id = get_user_id(name)
+      def channel_data(id)
+        # id = get_user_id(name)
         twitch_url = TwitchGateway.path('streams/' + id)
         call_twitch_url(twitch_url).parse
       end
@@ -67,16 +67,21 @@ module LoyalFan
       def get_game_name(name)
         twitch_url = TwitchGateway.path('search/games?query=' + name)
         data = call_twitch_url(twitch_url).parse
+        game = data['games']
 
-        !data['games'].nil? ? data['games'][0]['name'] : name
+        game.nil? ? game[0]['name'] : name
       end
 
       # get userid by given name, return NULL if user doesn't exist
-      def get_user_id(name)
+      def get_channel_property(name)
         twitch_url = TwitchGateway.path('users?login=' + name)
         data = call_twitch_url(twitch_url).parse
+        exist = data['_total'].positive?
+        user = data['users'][0]
 
-        data['_total'].positive? ? data['users'][0]['_id'] : nil
+        ret = []
+        ret << user['_id'] << user['display_name'] << user['logo'] if exist
+        ret
       end
 
       private
@@ -86,15 +91,6 @@ module LoyalFan
                                 'Client-ID' => @TWITCH_TOKEN).get(url)
         Response.new(response).response_or_error
       end
-
-      # def top_game
-      #   twitch_url = TwitchGateway.path('games/top')
-      #   data = call_twitch_url(twitch_url).parse
-
-      #   top_games = []
-      #   10.times { |i| top_games << data['top'][i]['game']['name'] }
-      #   top_games
-      # end
     end
   end
 end

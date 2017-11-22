@@ -9,11 +9,13 @@ module LoyalFan
 
     property :id
     property :url
+    property :name
     property :user_id
     property :live
     property :title
     property :game
     property :viewer
+    property :logo
     collection :clips, extend: ClipRepresenter
   end
 end
