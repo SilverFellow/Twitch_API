@@ -52,7 +52,6 @@ module LoyalFan
         call_twitch_url(twitch_url).parse
       end
 
-      # query_item: game, channel, language, trending ...
       def clip_data(query_item, name)
         name = name.split(' ').join('%20') if query_item == 'game'
         twitch_url = TwitchGateway.path("/clips/top?#{query_item}=" + name)
@@ -74,14 +73,14 @@ module LoyalFan
 
       # get userid by given name, return NULL if user doesn't exist
       def get_channel_property(name)
+        ret = []
         twitch_url = TwitchGateway.path('users?login=' + name)
         data = call_twitch_url(twitch_url).parse
-        exist = data['_total'].positive?
+        # Assume user know what they're doing.
+        # exist = data['_total'].positive?
         user = data['users'][0]
 
-        ret = []
-        ret << user['_id'] << user['display_name'] << user['logo'] if exist
-        ret
+        ret << user['_id'] << user['display_name'] << user['logo']
       end
 
       private

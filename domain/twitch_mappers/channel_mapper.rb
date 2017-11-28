@@ -35,10 +35,10 @@ module LoyalFan
             url: 'https://go.twitch.tv/' + @channel_name,
             user_id: @channel_property.first,
             name: @channel_property[1],
-            live: live,
-            title: title,
-            game: game,
-            viewer: viewer,
+            #live: live,
+            #title: title,
+            #game: game,
+            #viewer: viewer,
             logo: @channel_property[2],
             clips: clips
           )
