@@ -15,13 +15,17 @@ module LoyalFan
         rebuild_entity(db_record)
       end
 
-      def self.find_userid(user_id)
-        db_record = Database::ChannelOrm.first(user_id: user_id)
-        rebuild_entity(db_record)
+      def self.db_exist?(url)
+        Database::ChannelOrm.first(url: url) != nil
       end
 
-      def self.find_or_create(entity)
-        find_url(entity.url) || create_from(entity)
+      # def self.find_userid(user_id)
+      #   db_record = Database::ChannelOrm.first(user_id: user_id)
+      #   rebuild_entity(db_record)
+      # end
+
+      def self.update_or_create(entity)
+        db_exist?(entity.url) ? update(entity) : create_from(entity)
       end
 
       def self.create_from(entity)
@@ -29,10 +33,10 @@ module LoyalFan
           url: entity.url,
           name: entity.name,
           user_id: entity.user_id,
-          # live: entity.live,
-          # title: entity.title,
-          # game: entity.game,
-          # viewer: entity.viewer,
+          live: entity.live,
+          title: entity.title,
+          game: entity.game,
+          viewer: entity.viewer,
           logo: entity.logo
         )
 
@@ -57,13 +61,23 @@ module LoyalFan
           url: db_record.url,
           name: db_record.name,
           user_id: db_record.user_id,
-          # live: db_record.live,
-          # title: db_record.title,
-          # game: db_record.game,
-          # viewer: db_record.viewer,
+          live: db_record.live,
+          title: db_record.title,
+          game: db_record.game,
+          viewer: db_record.viewer,
           logo: db_record.logo,
           clips: clips
         )
+      end
+
+      def self.update(entity)
+        Api::DB[:channels].where(url: entity.url).update(
+          live: entity.live,
+          title: entity.title,
+          game: entity.game,
+          viewer: entity.viewer
+        )
+        entity
       end
     end
   end

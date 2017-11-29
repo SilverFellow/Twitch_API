@@ -10,6 +10,7 @@ Sequel.migration do
       String :title
       String :url
       Int :view
+      String :preview
       String :source
       String :name
 

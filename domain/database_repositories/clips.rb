@@ -23,6 +23,7 @@ module LoyalFan
           title: entity.title,
           url: entity.url,
           view: entity.view,
+          preview: entity.preview,
           source: entity.source,
           name: entity.name
         )
@@ -38,6 +39,7 @@ module LoyalFan
           title: db_record.title,
           url: db_record.url,
           view: db_record.view,
+          preview: db_record.preview,
           source: db_record.source,
           name: db_record.name
         )

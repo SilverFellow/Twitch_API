@@ -10,6 +10,7 @@ module LoyalFan
       attribute :title, Types::Strict::String
       attribute :url, Types::Coercible::String
       attribute :view, Types::Coercible::Int
+      attribute :preview, Types::Strict::String
       attribute :source, Types::Strict::String
       attribute :name, Types::Strict::String
     end

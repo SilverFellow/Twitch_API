@@ -32,6 +32,7 @@ module LoyalFan
             title: title,
             url: url,
             view: view,
+            preview: preview,
             source: @type,
             name: @name
           )
@@ -49,6 +50,10 @@ module LoyalFan
 
         def view
           @clip_data['views']
+        end
+
+        def preview
+          @clip_data['thumbnails']['small']
         end
       end
     end
