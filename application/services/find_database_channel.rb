@@ -3,7 +3,7 @@
 require 'dry-monads'
 
 module LoyalFan
-  #   result = FindDatabaseRepo.call(ownername: 'soumyaray', reponame: 'YPBT-app')
+  #   result = FindDatabaseChannel.call(channel_name: 'xxx')
   #   result.success?
   module FindDatabaseChannel
     extend Dry::Monads::Either::Mixin
