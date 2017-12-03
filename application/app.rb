@@ -27,37 +27,37 @@ module LoyalFan
 
       routing.on 'api' do
         routing.on 'v0.1' do
-          routing.on 'game', String do |game_name|
-            routing.get do
-              find_result = FindDatabaseGame.call(
-                game_name: game_name
-              )
+          # routing.on 'game', String do |game_name|
+          #   routing.get do
+          #     find_result = FindDatabaseGame.call(
+          #       game_name: game_name
+          #     )
 
-              http_response = HttpResponseRepresenter.new(find_result.value)
-              response.status = http_response.http_code
-              if find_result.success?
-                GameRepresenter.new(find_result.value.message).to_json
-              else
-                http_response.to_json
-              end
-            end
+          #     http_response = HttpResponseRepresenter.new(find_result.value)
+          #     response.status = http_response.http_code
+          #     if find_result.success?
+          #       GameRepresenter.new(find_result.value.message).to_json
+          #     else
+          #       http_response.to_json
+          #     end
+          #   end
 
-            routing.post do
-              service_result = LoadGameFromTwitch.new.call(
-                config: gh,
-                game_name: game_name
-              )
+          #   routing.post do
+          #     service_result = LoadGameFromTwitch.new.call(
+          #       config: gh,
+          #       game_name: game_name
+          #     )
 
-              http_response = HttpResponseRepresenter.new(service_result.value)
-              response.status = http_response.http_code
-              if service_result.success?
-                response['Location'] = "/api/v0.1/game/#{game_name}"
-                GameRepresenter.new(service_result.value.message).to_json
-              else
-                http_response.to_json
-              end
-            end
-          end
+          #     http_response = HttpResponseRepresenter.new(service_result.value)
+          #     response.status = http_response.http_code
+          #     if service_result.success?
+          #       response['Location'] = "/api/v0.1/game/#{game_name}"
+          #       GameRepresenter.new(service_result.value.message).to_json
+          #     else
+          #       http_response.to_json
+          #     end
+          #   end
+          # end
 
           routing.on 'channel', String do |channel_name|
             routing.get do

@@ -18,49 +18,49 @@ describe 'Tests Twitch library' do
     VCR.eject_cassette
   end
 
-  describe 'Game information' do
-    before do
-      app.DB[:games_clips].delete
-      app.DB[:channels_clips].delete
-      app.DB[:games_channels].delete
-      app.DB[:clips].delete
-      app.DB[:channels].delete
-      app.DB[:games].delete
-    end
+  # describe 'Game information' do
+  #   before do
+  #     app.DB[:games_clips].delete
+  #     app.DB[:channels_clips].delete
+  #     app.DB[:games_channels].delete
+  #     app.DB[:clips].delete
+  #     app.DB[:channels].delete
+  #     app.DB[:games].delete
+  #   end
 
-    describe 'POSTing to create game entities from Twitch' do
-      it 'HAPPY: should provide correct game connection' do
-        post "#{API_VER}/game/#{GAMENAME}"
-        _(last_response.status).must_equal 201
-        _(last_response.header['Location'].size).must_be :>, 0
-        game_data = JSON.parse last_response.body
-        _(game_data.size).must_be :>, 0
-      end
+  #   describe 'POSTing to create game entities from Twitch' do
+  #     it 'HAPPY: should provide correct game connection' do
+  #       post "#{API_VER}/game/#{GAMENAME}"
+  #       _(last_response.status).must_equal 201
+  #       _(last_response.header['Location'].size).must_be :>, 0
+  #       game_data = JSON.parse last_response.body
+  #       _(game_data.size).must_be :>, 0
+  #     end
 
-      it 'SAD: should raise exception on incorrect game' do
-        post "#{API_VER}/game/boring_game"
-        _(last_response.status).must_equal 400
-      end
-    end
+  #     it 'SAD: should raise exception on incorrect game' do
+  #       post "#{API_VER}/game/boring_game"
+  #       _(last_response.status).must_equal 400
+  #     end
+  #   end
 
-    describe 'GETing database entities' do
-      before do
-        post "#{API_VER}/game/#{GAMENAME}"
-      end
+  #   describe 'GETing database entities' do
+  #     before do
+  #       post "#{API_VER}/game/#{GAMENAME}"
+  #     end
 
-      it 'HAPPY: should find stored game' do
-        get "#{API_VER}/game/#{GAMENAME}"
-        _(last_response.status).must_equal 200
-        game_data = JSON.parse last_response.body
-        _(game_data.size).must_be :>, 0
-      end
+  #     it 'HAPPY: should find stored game' do
+  #       get "#{API_VER}/game/#{GAMENAME}"
+  #       _(last_response.status).must_equal 200
+  #       game_data = JSON.parse last_response.body
+  #       _(game_data.size).must_be :>, 0
+  #     end
 
-      it 'SAD: should report error if no database game entity found' do
-        get "#{API_VER}/game/boring_game"
-        _(last_response.status).must_equal 404
-      end
-    end
-  end
+  #     it 'SAD: should report error if no database game entity found' do
+  #       get "#{API_VER}/game/boring_game"
+  #       _(last_response.status).must_equal 404
+  #     end
+  #   end
+  # end
 
   describe 'Channel information' do
     before do

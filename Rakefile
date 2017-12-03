@@ -6,6 +6,12 @@ task :default do
   puts `rake -T`
 end
 
+# Configuration only -- not for direct calls
+task :config do
+  require_relative 'config/environment.rb' # load config info
+  @app = LoyalFan::Api
+end
+
 desc 'run tests'
 Rake::TestTask.new(:spec) do |t|
   t.pattern = 'spec/api_spec.rb'
@@ -13,12 +19,23 @@ Rake::TestTask.new(:spec) do |t|
 end
 
 desc 'rerun tests'
-task :respec do
+task :respec => :config do
   sh "rerun -c 'rake spec' --ignore 'coverage/*'"
 end
 
+desc 'run application console (pry)'
 task :console do
   sh 'pry -r ./spec/test_load_all'
+end
+
+namespace :run do
+  task :dev => :config do
+    sh "rerun -c 'RACK_ENV=test rackup -p 3030' --ignore 'coverage/*'"
+  end
+
+  task :test => :config do
+    sh "rerun -c 'RACK_ENV=test rackup -p 3000' --ignore 'coverage/*'"
+  end
 end
 
 desc 'delete cassette fixtures'

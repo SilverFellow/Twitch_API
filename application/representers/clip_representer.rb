@@ -9,6 +9,7 @@ module LoyalFan
     property :title
     property :url
     property :view
+    property :preview
     property :source
     property :name
   end
