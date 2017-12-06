@@ -13,7 +13,7 @@ module LoyalFan
     plugin :multi_route
 
     require_relative 'channel'
-    
+
     extend Econfig::Shortcut
     Econfig.env = environment.to_s
     Econfig.root = '.'

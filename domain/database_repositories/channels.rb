@@ -98,13 +98,13 @@ module LoyalFan
       end
 
       def self.update(entity)
-        Database::ChannelOrm.where(url: entity.url).update(
+        db_channel = Database::ChannelOrm.first(url: entity.url).update(
           live: entity.live,
           title: entity.title,
           game: entity.game,
           viewer: entity.viewer
         )
-        entity
+        rebuild_entity(db_channel)
       end
     end
   end
