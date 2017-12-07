@@ -47,7 +47,7 @@ module LoyalFan
       end
 
       def game_data(name)
-        name = get_game_name(name).split(' ').join('%20')
+        name = name.split(' ').join('%20')
         twitch_url = TwitchGateway.path('search/streams?query=' + name)
         call_twitch_url(twitch_url).parse
       end
@@ -60,15 +60,6 @@ module LoyalFan
 
       def self.path(path)
         'https://api.twitch.tv/kraken/' + path
-      end
-
-      # try to get correct(accepted by twitch) name
-      def get_game_name(name)
-        twitch_url = TwitchGateway.path('search/games?query=' + name)
-        data = call_twitch_url(twitch_url).parse
-        game = data['games']
-
-        game.nil? ? game[0]['name'] : name
       end
 
       # get some information about streamer: [id, name, logo_url]

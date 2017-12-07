@@ -1,30 +1,34 @@
 # frozen_string_literal: true
 
 require 'roda'
-require 'econfig'
-# require_relative 'init.rb'
 
 module LoyalFan
   # Web API
   class Api < Roda
-    plugin :environments
-    plugin :json
-    plugin :halt
+    plugin :all_verbs
     plugin :multi_route
 
     require_relative 'channel'
 
-    extend Econfig::Shortcut
-    Econfig.env = environment.to_s
-    Econfig.root = '.'
+    def represent_response(result, representer_class)
+      http_response = HttpResponseRepresenter.new(result.value)
+      response.status = http_response.http_code
+      if result.success?
+        yield if block_given?
+        representer_class.new(result.value.message).to_json
+      else
+        http_response.to_json
+      end
+    end
 
     route do |routing|
-      app = Api
-      config = Api.config
-      gh = Twitch::TwitchGateway.new(config.TWITCH_TOKEN)
+      response['Content-Type'] = 'application/json'
+      # app = Api
+      # config = Api.config
+      # gh = Twitch::TwitchGateway.new(config.TWITCH_TOKEN)
 
       routing.root do
-        message = "Twitch API v0.1 up in #{app.environment} mode"
+        message = "Twitch API v0.1 up in #{Api.environment} mode"
         HttpResponseRepresenter.new(Result.new(:ok, message)).to_json
       end
 

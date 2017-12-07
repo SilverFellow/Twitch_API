@@ -24,7 +24,7 @@ module LoyalFan
       Right(Result.new(:created, stored_channel))
     rescue StandardError => e
       puts e.to_s
-      Left(Result.new(:internal_error, 'Could not store channel to remote repository'))
+      Left(Result.new(:internal_error, 'Could not store(update) channel to database'))
     end
 
     # def check_if_channel_already_loaded(input)
