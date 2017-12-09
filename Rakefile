@@ -48,14 +48,19 @@ end
 
 namespace :worker do
   namespace :run do
+    desc 'Run the background worker in production mode'
+    task :production => :config do
+      sh 'RACK_ENV=production bundle exec shoryuken -r ./workers/worker.rb -C ./workers/shoryuken.yml'
+    end
+
     desc 'Run the background worker in development mode'
     task :development => :config do
       sh 'RACK_ENV=development bundle exec shoryuken -r ./workers/worker.rb -C ./workers/shoryuken.yml'
     end
 
-    desc 'Run the background worker in production mode'
-    task :production => :config do
-      sh 'RACK_ENV=production bundle exec shoryuken -r ./workers/worker.rb -C ./workers/shoryuken.yml'
+    desc 'Run the background worker in testing mode'
+    task :test => :config do
+      sh 'RACK_ENV=development bundle exec shoryuken -r ./workers/worker.rb -C ./workers/shoryuken_test.yml'
     end
   end
 end
