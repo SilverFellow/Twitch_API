@@ -13,7 +13,7 @@ module LoyalFan
       routing.on String do |channel_name|
         routing.get do
           find_result = FindDatabaseChannel.call(
-            channel_name: channel_name
+            token: Api.config.TWITCH_TOKEN, channel_name: channel_name
           )
 
           represent_response(find_result, ChannelRepresenter)
@@ -21,7 +21,7 @@ module LoyalFan
 
         routing.post do
           load_result = LoadChannelFromTwitch.new.call(
-            config: gw, channel_name: channel_name
+            gateway: gw, channel_name: channel_name
           )
 
           represent_response(load_result, ChannelRepresenter) do

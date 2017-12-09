@@ -12,7 +12,7 @@ module LoyalFan
     # step :store_channel_in_repository
 
     def get_channel_from_twitch(input)
-      channel = Twitch::ChannelMapper.new(input[:config])
+      channel = Twitch::ChannelMapper.new(input[:gateway])
                                      .load(input[:channel_name])
       Right(channel)
     rescue StandardError
