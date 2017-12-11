@@ -28,6 +28,7 @@ class StreamerSuggestWorker
     puts '==============================='
     gw = LoyalFan::Twitch::TwitchGateway.new(request['token'])
     game = LoyalFan::Twitch::GameMapper.new(gw).load(request['name'])
+    puts "Worker job finished."
     # puts game
 
   end
