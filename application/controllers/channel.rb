@@ -10,6 +10,7 @@ module LoyalFan
     plugin :environments
     plugin :json
     plugin :halt
+    plugin :all_verbs
 
     extend Econfig::Shortcut
     Econfig.env = environment.to_s
@@ -46,6 +47,17 @@ module LoyalFan
             response['Location'] = "/api/v0.1/channel/#{channel_name}"
             ChannelRepresenter.new(service_result.value.message).to_json
           else
+            http_response.to_json
+          end
+        end
+
+        app.configure :development, :test do
+          routing.delete do
+            %i[channels clips].each do |table|
+              app.DB[table].delete
+            end
+            http_response = HttpResponseRepresenter.new(Result.new(:ok, 'deleted tables'))
+            response.status = http_response.http_code
             http_response.to_json
           end
         end

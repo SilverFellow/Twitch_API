@@ -23,6 +23,18 @@ task :respec => :config do
   sh "rerun -c 'rake spec' --ignore 'coverage/*'"
 end
 
+=begin
+namespace :run do
+  task :dev do
+    sh 'rerun -c "rackup -p 3030"'
+  end
+
+  task :app_test do
+    sh 'RACK_ENV=test rackup -p 3000'
+  end
+end
+=end
+
 desc 'run application console (pry)'
 task :console do
   sh 'pry -r ./spec/test_load_all'
@@ -33,7 +45,7 @@ namespace :run do
     sh "rerun -c 'RACK_ENV=test rackup -p 3030' --ignore 'coverage/*'"
   end
 
-  task :test => :config do
+  task :app_test => :config do
     sh "rerun -c 'RACK_ENV=test rackup -p 3000' --ignore 'coverage/*'"
   end
 end

@@ -10,6 +10,7 @@ gem 'http'
 gem 'econfig'
 gem 'pry' # to run console in production
 gem 'puma'
+gem 'rack-test'
 gem 'rake' # to run migrations in production
 gem 'roda'
 
