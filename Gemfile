@@ -14,6 +14,7 @@ gem 'shoryuken', '~> 3'
 gem 'econfig'
 gem 'pry' # to run console in production
 gem 'puma'
+gem 'rack-test' # to diagnose routes in production
 gem 'rake' # to run migrations in production
 gem 'roda'
 
