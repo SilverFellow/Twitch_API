@@ -6,7 +6,6 @@ module LoyalFan
     plugin :all_verbs
 
     route('channel') do |routing|
-      
       gw = Twitch::TwitchGateway.new(Api.config.TWITCH_TOKEN)
 
       # #{API_ROOT}/channel/:channel_name

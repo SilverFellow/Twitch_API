@@ -104,7 +104,8 @@ module LoyalFan
           game: entity.game,
           viewer: entity.viewer
         )
-        rebuild_entity(db_channel)
+        # rebuild_entity(db_channel)
+        db_channel
       end
     end
   end
