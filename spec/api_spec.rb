@@ -97,10 +97,10 @@ describe 'Tests Twitch library' do
         post "#{API_VER}/channel/#{CHANNELNAME}"
       end
 
-      it 'HAPPY: should find stored channel' do
+      it 'HAPPY: should find stored channel and report game data is being processed' do
         # post "#{API_VER}/channel/#{CHANNELNAME}"
         get "#{API_VER}/channel/#{CHANNELNAME}"
-        _(last_response.status).must_equal 200
+        _(last_response.status).must_equal 202
         channel_data = JSON.parse last_response.body
         _(channel_data.size).must_be :>, 0
       end

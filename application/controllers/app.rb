@@ -13,9 +13,11 @@ module LoyalFan
     def represent_response(result, representer_class)
       http_response = HttpResponseRepresenter.new(result.value)
       response.status = http_response.http_code
+      message = result.value.message
+      message = message[:response] if message.is_a?(Hash)
       if result.success?
         yield if block_given?
-        representer_class.new(result.value.message).to_json
+        representer_class.new(message).to_json
       else
         http_response.to_json
       end
