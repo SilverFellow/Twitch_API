@@ -22,15 +22,16 @@ class StreamerSuggestWorker
 
   def perform(_sqs_msg, worker_request)
     request = JSON.parse(worker_request)
-    puts request.class
-    puts "Token = #{request['token']}"
+    # puts "Token = #{request['token']}"
     puts "Name = #{request['name']}"
     puts '==============================='
     gw = LoyalFan::Twitch::TwitchGateway.new(request['token'])
     game = LoyalFan::Twitch::GameMapper.new(gw).load(request['name'])
+    game_json = LoyalFan::GameRepresenter.new(game).to_json
+    # puts game_json
+    publish(request['id'], game_json)
+    puts '==============================='
     puts 'Worker job finished.'
-    publish(request['id'], game)
-    # puts game
   end
 
   private
