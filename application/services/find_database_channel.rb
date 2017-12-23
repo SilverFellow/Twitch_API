@@ -13,7 +13,7 @@ module LoyalFan
       if response
         msg = { token: input[:token], name: response.game }
         StreamerSuggestWorker.perform_async(msg.to_json)
-        Right(Result.new(:ok, response))
+        Right(Result.new(:processing, { response: response, id: input[:id] }))
       else
         Left(Result.new(:not_found, 'Could not find stored channel data'))
       end

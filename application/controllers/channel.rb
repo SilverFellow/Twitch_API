@@ -11,8 +11,13 @@ module LoyalFan
       # #{API_ROOT}/channel/:channel_name
       routing.on String do |channel_name|
         routing.get do
+
+          request_id = [request.env, Time.now.to_f].hash
+
           find_result = FindDatabaseChannel.call(
-            token: Api.config.TWITCH_TOKEN, channel_name: channel_name
+            token: Api.config.TWITCH_TOKEN,
+            channel_name: channel_name,
+            id: request_id
           )
 
           represent_response(find_result, ChannelRepresenter)

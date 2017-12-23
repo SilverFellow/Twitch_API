@@ -8,6 +8,7 @@ gem 'http'
 
 # Worker gems
 gem 'aws-sdk-sqs', '~> 1'
+gem 'faye', '~> 1'
 gem 'shoryuken', '~> 3'
 
 # Web app related
@@ -37,7 +38,6 @@ gem 'dry-transaction'
 group :test do
   gem 'minitest'
   gem 'minitest-rg'
-  gem 'rack-test'
   gem 'simplecov'
   gem 'vcr'
   gem 'webmock'

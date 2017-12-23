@@ -28,8 +28,22 @@ class StreamerSuggestWorker
     puts '==============================='
     gw = LoyalFan::Twitch::TwitchGateway.new(request['token'])
     game = LoyalFan::Twitch::GameMapper.new(gw).load(request['name'])
-    puts "Worker job finished."
+    puts 'Worker job finished.'
+    publish(request['id'], game)
     # puts game
+  end
 
+  private
+
+  def publish(channel, message)
+    puts 'Posting suggest streamer data'
+    HTTP.headers(content_type: 'application/json')
+        .post(
+          "#{StreamerSuggestWorker.config.API_URL}/faye",
+          body: {
+            channel: "/#{channel}",
+            data: message
+          }.to_json
+        )
   end
 end
