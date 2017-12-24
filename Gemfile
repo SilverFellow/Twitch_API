@@ -6,10 +6,16 @@ ruby '2.4.2'
 # Networking gems
 gem 'http'
 
+# Worker gems
+gem 'aws-sdk-sqs', '~> 1'
+gem 'faye', '~> 1'
+gem 'shoryuken', '~> 3'
+
 # Web app related
 gem 'econfig'
 gem 'pry' # to run console in production
 gem 'puma'
+gem 'rack-test' # to diagnose routes in production
 gem 'rake' # to run migrations in production
 gem 'roda'
 
@@ -32,7 +38,6 @@ gem 'dry-transaction'
 group :test do
   gem 'minitest'
   gem 'minitest-rg'
-  gem 'rack-test'
   gem 'simplecov'
   gem 'vcr'
   gem 'webmock'
