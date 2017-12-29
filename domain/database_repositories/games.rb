@@ -9,26 +9,21 @@ module LoyalFan
         rebuild_entity(db_record)
       end
 
-      def self.find_unofficial_name(name)
-        db_record = Database::GameOrm.first(unofficial_name: name)
+      def self.find_name(name)
+        db_record = Database::GameOrm.first(name: name)
         rebuild_entity(db_record)
       end
 
       def self.find_or_create(entity)
-        find_unofficial_name(entity.unofficial_name) || create_from(entity)
+        find_name(entity.name) || create_from(entity)
       end
 
       def self.create_from(entity)
         db_game = Database::GameOrm.create(
-          unofficial_name: entity.unofficial_name,
-          official_name: entity.official_name
+          name: entity.name
         )
 
-        entity.clips.each do |clip|
-          stored_clip = Clips.find_or_create(clip)
-          clip = Database::ClipOrm.first(id: stored_clip.id)
-          db_game.add_clip(clip)
-        end
+        entity.clips.each { |clip| Clips.update_or_create(db_game, clip) }
 
         entity.channels.each do |channel|
           stored_channel = Channels.find_or_create(channel)

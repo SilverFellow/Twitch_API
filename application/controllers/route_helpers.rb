@@ -13,6 +13,7 @@ module LoyalFan
       http_response = HttpResponseRepresenter.new(result.value)
       response.status = http_response.http_code
       message = result.value.message
+      # we do this because of parallel worker .
       message = message[:response] if message.is_a?(Hash)
       if result.success?
         yield if block_given?

@@ -36,11 +36,7 @@ module LoyalFan
           logo: entity.logo
         )
 
-        entity.clips.each do |clip|
-          stored_clip = Clips.find_or_create(clip)
-          clip = Database::ClipOrm.first(id: stored_clip.id)
-          db_channel.add_clip(clip)
-        end
+        entity.clips.each { |clip| Clips.update_or_create(db_channel, clip) }
 
         rebuild_entity(db_channel)
       end
@@ -67,14 +63,16 @@ module LoyalFan
       end
 
       def self.update(entity)
-        db_channel = Database::ChannelOrm.first(url: entity.url).update(
+        Database::ChannelOrm.first(url: entity.url).update(
           live: entity.live,
           title: entity.title,
           game: entity.game,
           viewer: entity.viewer
         )
-        # rebuild_entity(db_channel)
-        entity
+        db_channel = Database::ChannelOrm.first(url: entity.url)
+        entity.clips.each { |clip| Clips.update_or_create(db_channel, clip) }
+
+        rebuild_entity(db_channel)
       end
     end
   end
