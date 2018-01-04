@@ -14,7 +14,21 @@ module LoyalFan
       if response
         msg = { token: input[:token], name: response.game }
         StreamerSuggestWorker.perform_async(msg.to_json)
-        Right(Result.new(:processing, { response: response, id: input[:id] }))
+
+        channel_with_id = LoyalFan::Entity::Channel.new(
+          id: input[:id],
+          url: response.url,
+          user_id: response.user_id,
+          name: response.name,
+          live: response.live,
+          title: response.title,
+          game: response.game,
+          viewer: response.viewer,
+          logo: response.logo,
+          clips: response.clips
+        )
+
+        Right(Result.new(:processing, channel_with_id))
       else
         Left(Result.new(:not_found, 'Could not find stored channel data'))
       end

@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 module LoyalFan
+  # Web API
   class Api < Roda
     # Represent HTTP response for result
     # Parameters:
@@ -14,7 +15,7 @@ module LoyalFan
       response.status = http_response.http_code
       message = result.value.message
       # we do this because of parallel worker .
-      message = message[:response] if message.is_a?(Hash)
+      # message = message[:response] if message.is_a?(Hash)
       if result.success?
         yield if block_given?
         success_representer.new(message).to_json
