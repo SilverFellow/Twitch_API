@@ -16,7 +16,7 @@ module LoyalFan
 
           find_result = FindDatabaseChannel.call(
             token: Api.config.TWITCH_TOKEN,
-            channel_name: channel_name,
+            channel: channel_name,
             id: request_id
           )
 
@@ -25,7 +25,9 @@ module LoyalFan
 
         routing.post do
           load_result = LoadChannelFromTwitch.new.call(
-            gateway: gw, channel_name: channel_name
+            config: Api.config,
+            gateway: gw,
+            channel: channel_name
           )
 
           represent_response(load_result, ChannelRepresenter) do

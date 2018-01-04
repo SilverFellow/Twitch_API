@@ -9,7 +9,8 @@ module LoyalFan
     extend Dry::Monads::Either::Mixin
 
     def self.call(input)
-      response = Repository::For[Entity::Channel].find_url(input[:channel_name])
+      # Note: response is an entity object.
+      response = Repository::For[Entity::Channel].find_url(input[:channel])
       if response
         msg = { token: input[:token], name: response.game }
         StreamerSuggestWorker.perform_async(msg.to_json)

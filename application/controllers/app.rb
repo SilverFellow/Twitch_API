@@ -12,6 +12,11 @@ module LoyalFan
     require_relative 'channel'
 
     route do |routing|
+      app = Api
+      ENV['AWS_ACCESS_KEY_ID'] = app.config.AWS_ACCESS_KEY_ID
+      ENV['AWS_SECRET_ACCESS_KEY'] = app.config.AWS_SECRET_ACCESS_KEY
+      ENV['AWS_REGION'] = app.config.AWS_REGION
+      
       response['Content-Type'] = 'application/json'
 
       routing.root do
