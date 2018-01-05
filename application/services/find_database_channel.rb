@@ -12,7 +12,7 @@ module LoyalFan
       # Note: response is an entity object.
       response = Repository::For[Entity::Channel].find_url(input[:channel])
       if response
-        msg = { token: input[:token], name: response.game }
+        msg = { token: input[:token], id: input[:id], name: response.game }
         StreamerSuggestWorker.perform_async(msg.to_json)
 
         channel_with_id = LoyalFan::Entity::Channel.new(
