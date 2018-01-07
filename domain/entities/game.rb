@@ -14,18 +14,18 @@ module LoyalFan
       attribute :channels, Types::Strict::Array.member(Channel).optional
 
       def build_dedup_game(exc)
-        ret = LoyalFan::Entity::Game.new(
+        LoyalFan::Entity::Game.new(
           id: nil,
-          name: self.name,
-          clips: self.clips,
-          channels: dedup_channel(self.channels, exc)
+          name: name,
+          clips: clips,
+          channels: dedup_channel(channels, exc)
         )
       end
-  
+
       def dedup_channel(channels, exc)
         new_channels = []
         channels.each do |channel|
-          new_channels << channel if !channel.name.eql?(exc)
+          new_channels << channel unless channel.name.eql?(exc)
         end
         new_channels
       end
