@@ -68,6 +68,8 @@ module LoyalFan
           # game: entity.game,
           viewer: entity.viewer
         )
+        Database::ChannelOrm.first(url: entity.url).update(game: entity.game) if entity.live
+        
         db_channel = Database::ChannelOrm.first(url: entity.url)
         entity.clips.each { |clip| Clips.update_or_create(db_channel, clip) }
 
