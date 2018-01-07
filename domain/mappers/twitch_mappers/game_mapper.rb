@@ -46,6 +46,7 @@ module LoyalFan
         def channels
           channels = []
           5.times do |i|
+            break unless @game_data['streams'][i]
             name = @game_data['streams'][i]['channel']['name']
             channels << @channel_mapper.load(name)
           end

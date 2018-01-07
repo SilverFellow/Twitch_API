@@ -29,7 +29,7 @@ module LoyalFan
     end
 
     private
-    
+
     def notify_listeners(message, config)
       # ENV['AWS_REGION'] = config.AWS_REGION
       scheduled_queue = Messaging::Queue.new(config.SCHEDULED_QUEUE_URL)

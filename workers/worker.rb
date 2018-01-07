@@ -23,13 +23,15 @@ class StreamerSuggestWorker
   def perform(_sqs_msg, worker_request)
     request = JSON.parse(worker_request)
     # puts "Token = #{request['token']}"
-    publish(request['id'], 'Worker activating....\n')
+    # puts "ID = #{request['id']}"
+    # puts "Channel = #{request['channel']}"
+    # puts "Game = #{request['game']}"
 
-    puts "Name = #{request['name']}"
     puts '==============================='
     gw = LoyalFan::Twitch::TwitchGateway.new(request['token'])
-    game = LoyalFan::Twitch::GameMapper.new(gw).load(request['name'])
-    game_json = LoyalFan::GameRepresenter.new(game).to_json
+    game = LoyalFan::Twitch::GameMapper.new(gw).load(request['game'])
+    new_game = game.build_dedup_game(request['channel'])
+    game_json = LoyalFan::GameRepresenter.new(new_game).to_json
     puts game_json
     publish(request['id'], game_json)
     puts '==============================='

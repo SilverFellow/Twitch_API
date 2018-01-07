@@ -55,7 +55,7 @@ namespace :worker do
 
     desc 'Run the background worker in development mode'
     task :dev => :config do
-      sh 'RACK_ENV=development bundle exec shoryuken -r ./workers/worker.rb -C ./workers/shoryuken.yml'
+      sh 'RACK_ENV=development bundle exec shoryuken -r ./workers/worker.rb -C ./workers/shoryuken_test.yml'
     end
 
     desc 'Run the background worker in testing mode'
